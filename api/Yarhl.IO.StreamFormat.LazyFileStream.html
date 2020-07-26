@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class LazyFileStream
+   | SceneGate Yarhl </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class LazyFileStream
+   | SceneGate Yarhl ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Yarhl.IO.StreamFormat.LazyFileStream">
+  
+  
+  <h1 id="Yarhl_IO_StreamFormat_LazyFileStream" data-uid="Yarhl.IO.StreamFormat.LazyFileStream" class="text-break">Class LazyFileStream
+  </h1>
+  <div class="markdown level0 summary"><p>Open file for reading or writing on the first operation (lazily).</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html">StreamWrapper</a></div>
+    <div class="level2"><span class="xref">LazyFileStream</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Yarhl.IO.IStream.html">IStream</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_BaseStream">StreamWrapper.BaseStream</a>
+    </div>
+    <div>
+      <a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_LockObj">StreamWrapper.LockObj</a>
+    </div>
+    <div>
+      <a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Position">StreamWrapper.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Disposed">StreamWrapper.Disposed</a>
+    </div>
+    <div>
+      <a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Dispose">StreamWrapper.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Dispose_System_Boolean_">StreamWrapper.Dispose(Boolean)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Yarhl.IO.StreamFormat.html">Yarhl.IO.StreamFormat</a></h6>
+  <h6><strong>Assembly</strong>: Yarhl.dll</h6>
+  <h5 id="Yarhl_IO_StreamFormat_LazyFileStream_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class LazyFileStream : StreamWrapper, IStream, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream__ctor_System_String_Yarhl_IO_FileOpenMode_.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream.%23ctor(System.String%2CYarhl.IO.FileOpenMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L41">View Source</a>
+  </span>
+  <a id="Yarhl_IO_StreamFormat_LazyFileStream__ctor_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.#ctor*"></a>
+  <h4 id="Yarhl_IO_StreamFormat_LazyFileStream__ctor_System_String_Yarhl_IO_FileOpenMode_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.#ctor(System.String,Yarhl.IO.FileOpenMode)">LazyFileStream(String, FileOpenMode)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Yarhl.IO.StreamFormat.LazyFileStream.html">LazyFileStream</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LazyFileStream(string path, FileOpenMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Path to the file.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Yarhl.IO.FileOpenMode.html">FileOpenMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Mode to open the file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream_Length.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L55">View Source</a>
+  </span>
+  <a id="Yarhl_IO_StreamFormat_LazyFileStream_Length_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.Length*"></a>
+  <h4 id="Yarhl_IO_StreamFormat_LazyFileStream_Length" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.Length">Length</h4>
+  <div class="markdown level1 summary"><p>Gets the length of this stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long Length { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Length">StreamWrapper.Length</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream_Read_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream.Read(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L80">View Source</a>
+  </span>
+  <a id="Yarhl_IO_StreamFormat_LazyFileStream_Read_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.Read*"></a>
+  <h4 id="Yarhl_IO_StreamFormat_LazyFileStream_Read_System_Byte___System_Int32_System_Int32_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.Read(System.Byte[],System.Int32,System.Int32)">Read(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Reads from the stream to the buffer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Read(byte[] buffer, int index, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Buffer to copy data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index to start copying in buffer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of bytes to read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The number of bytes read.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Read_System_Byte___System_Int32_System_Int32_">StreamWrapper.Read(Byte[], Int32, Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream_ReadByte.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream.ReadByte%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L96">View Source</a>
+  </span>
+  <a id="Yarhl_IO_StreamFormat_LazyFileStream_ReadByte_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.ReadByte*"></a>
+  <h4 id="Yarhl_IO_StreamFormat_LazyFileStream_ReadByte" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.ReadByte">ReadByte()</h4>
+  <div class="markdown level1 summary"><p>Reads the next byte.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte ReadByte()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><p>The next byte.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_ReadByte">StreamWrapper.ReadByte()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream_SetLength_System_Int64_.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream.SetLength(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L61">View Source</a>
+  </span>
+  <a id="Yarhl_IO_StreamFormat_LazyFileStream_SetLength_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.SetLength*"></a>
+  <h4 id="Yarhl_IO_StreamFormat_LazyFileStream_SetLength_System_Int64_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.SetLength(System.Int64)">SetLength(Int64)</h4>
+  <div class="markdown level1 summary"><p>Sets the length of the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetLength(long length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The new length of the stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_SetLength_System_Int64_">StreamWrapper.SetLength(Int64)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream_Write_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream.Write(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L114">View Source</a>
+  </span>
+  <a id="Yarhl_IO_StreamFormat_LazyFileStream_Write_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.Write*"></a>
+  <h4 id="Yarhl_IO_StreamFormat_LazyFileStream_Write_System_Byte___System_Int32_System_Int32_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.Write(System.Byte[],System.Int32,System.Int32)">Write(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes the a portion of the buffer to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Write(byte[] buffer, int index, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Buffer to write.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>Index in the buffer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Bytes to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Write_System_Byte___System_Int32_System_Int32_">StreamWrapper.Write(Byte[], Int32, Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream_WriteByte_System_Byte_.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream.WriteByte(System.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L130">View Source</a>
+  </span>
+  <a id="Yarhl_IO_StreamFormat_LazyFileStream_WriteByte_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.WriteByte*"></a>
+  <h4 id="Yarhl_IO_StreamFormat_LazyFileStream_WriteByte_System_Byte_" data-uid="Yarhl.IO.StreamFormat.LazyFileStream.WriteByte(System.Byte)">WriteByte(Byte)</h4>
+  <div class="markdown level1 summary"><p>Writes a byte.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WriteByte(byte data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Byte value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_WriteByte_System_Byte_">StreamWrapper.WriteByte(Byte)</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Yarhl.IO.IStream.html">IStream</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_StreamFormat_LazyFileStream.md&amp;value=---%0Auid%3A%20Yarhl.IO.StreamFormat.LazyFileStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/StreamFormat/LazyFileStream.cs/#L28" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 2018 SceneGate
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -5,11 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Yarhl
-   | SceneGate Yarhl </title>
+    <title>Cookbook | SceneGate Yarhl </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Yarhl
-   | SceneGate Yarhl ">
+    <meta name="title" content="Cookbook | SceneGate Yarhl ">
     <meta name="generator" content="docfx 2.51.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -68,18 +66,86 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Yarhl">
-  
-  <h1 id="Yarhl" data-uid="Yarhl" class="text-break">Namespace Yarhl
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="Yarhl.PluginManager.html">PluginManager</a></h4>
-      <section><p>Plugin manager.</p>
-</section>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="cookbook">Cookbook</h1>
+
+<h2 id="io">IO</h2>
+<h3 id="padding">Padding</h3>
+<pre><code class="lang-csharp">// Add 0s until position is divisible by 0x4
+filesWriter.WritePadding(0x00, 0x4);
+
+// Add 0s until position is divisible by 0x10
+myDataWriter.WritePadding(0x00, 0x10);
+</code></pre>
+<h2 id="filesystem">FileSystem</h2>
+<h3 id="using-converters-with-parameters">Using converters with parameters</h3>
+<pre><code class="lang-csharp">public class ConverterWithParameter :
+        IInitializer&lt;int&gt;,
+        IConverter&lt;BinaryFormat, Po&gt;,
+        IConverter&lt;Po, BinaryFormat&gt;
+    {
+
+        public int Parameter { get; set; }
+
+        public void Initialize(int param)
+        {
+            Parameter = param;
+        }
+
+        public Po Convert(BinaryFormat source)
+        {
+            // Converter
+        }
+
+        public BinaryFormat Convert(Po source)
+        {
+            // Converter
+        }
+    }
+</code></pre>
+<p>Then you can use <code>TransformWith&lt;ConverterWithParameter, int&gt;(3)</code>.</p>
+<p>You can use a custom class too:</p>
+<pre><code class="lang-csharp">public class ConverterWithParameter :
+    IInitializer&lt;MyClass&gt;,
+    IConverter&lt;BinaryFormat, Po&gt;,
+    IConverter&lt;Po, BinaryFormat&gt;
+
+TransformWith&lt;ConverterWithParameter, MyClass&gt;(myClassInstance)
+</code></pre>
+<h3 id="creating-directory-structure">Creating directory structure</h3>
+<pre><code class="lang-csharp">Node root = new Node(&quot;root&quot;);
+
+string path = &quot;/parent1/parent2/&quot;;
+Node child = new Node(&quot;child&quot;);
+
+// This will create /root/parent1/parent2/child
+NodeFactory.CreateContainersForChild(root, path, child);
+</code></pre>
+<h3 id="iterating-children-nodes">Iterating children nodes</h3>
+<pre><code class="lang-csharp">foreach (Node node in Navigator.IterateNodes(source.Root)) {
+    if (!node.IsContainer) {
+        //This is your child, take care of him
+    }
+}
+</code></pre>
+<h3 id="find-a-node">Find a node</h3>
+<pre><code class="lang-csharp">// You can use full paths (starting with '/') or relative paths.
+Navigator.SearchNode(nodeParent, &quot;Child/SubChild&quot;);
+</code></pre>
+<p>### Deleting nodes</p>
+<pre><code class="lang-csharp">var parent = new Node(&quot;Parent&quot;);
+var child1 = new Node(&quot;Child1&quot;);
+var child2 = new Node(&quot;Child2&quot;);
+node.Add(child1);
+node.Add(child2);
+
+// If you remove passing a reference, the node is removed but it is NOT disposed
+node.Remove(child1);
+
+// If you remove passing a name (you don't have the reference),
+// the node is removed AND disposed.
+node.Remove(&quot;Child2&quot;);
+</code></pre>
 </article>
           </div>
           
@@ -87,6 +153,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/docs/articles/Cookbook.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

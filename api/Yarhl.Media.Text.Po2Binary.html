@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Po2Binary
    | SceneGate Yarhl ">
-    <meta name="generator" content="docfx 2.40.7.0">
+    <meta name="generator" content="docfx 2.51.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,74 +83,23 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Yarhl.FileFormat.IConverter-2.html">IConverter</a>&lt;<a class="xref" href="Yarhl.Media.Text.Po.html">Po</a>, <a class="xref" href="Yarhl.FileFormat.BinaryFormat.html">BinaryFormat</a>&gt;</div>
-    <div><a class="xref" href="Yarhl.FileFormat.IConverter-2.html">IConverter</a>&lt;<a class="xref" href="Yarhl.FileFormat.BinaryFormat.html">BinaryFormat</a>, <a class="xref" href="Yarhl.Media.Text.Po.html">Po</a>&gt;</div>
+    <div><a class="xref" href="Yarhl.FileFormat.IConverter-2.html">IConverter</a>&lt;<a class="xref" href="Yarhl.Media.Text.Po.html">Po</a>, <a class="xref" href="Yarhl.IO.BinaryFormat.html">BinaryFormat</a>&gt;</div>
     <div><a class="xref" href="Yarhl.FileFormat.IConverter.html">IConverter</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Yarhl.Media.Text.html">Yarhl.Media.Text</a></h6>
   <h6><strong>Assembly</strong>: Yarhl.Media.dll</h6>
   <h5 id="Yarhl_Media_Text_Po2Binary_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Po2Binary : IConverter&lt;Po, BinaryFormat&gt;, IConverter&lt;BinaryFormat, Po&gt;, IConverter</code></pre>
+    <pre><code class="lang-csharp hljs">public class Po2Binary : object, IConverter&lt;Po, BinaryFormat&gt;, IConverter</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Yarhl/new/master/docs/apidoc/new?filename=Yarhl_Media_Text_Po2Binary_Convert_Yarhl_FileFormat_BinaryFormat_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.Po2Binary.Convert(Yarhl.FileFormat.BinaryFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_Po2Binary_Convert_Yarhl_Media_Text_Po_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.Po2Binary.Convert(Yarhl.Media.Text.Po)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/master/src/Yarhl.Media/Text/Po2Binary.cs/#L68">View Source</a>
-  </span>
-  <a id="Yarhl_Media_Text_Po2Binary_Convert_" data-uid="Yarhl.Media.Text.Po2Binary.Convert*"></a>
-  <h4 id="Yarhl_Media_Text_Po2Binary_Convert_Yarhl_FileFormat_BinaryFormat_" data-uid="Yarhl.Media.Text.Po2Binary.Convert(Yarhl.FileFormat.BinaryFormat)">Convert(BinaryFormat)</h4>
-  <div class="markdown level1 summary"><p>Convert the specified Binary stream into a PO object.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Po Convert(BinaryFormat source)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Yarhl.FileFormat.BinaryFormat.html">BinaryFormat</a></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source binary stream.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Yarhl.Media.Text.Po.html">Po</a></td>
-        <td><p>The converted PO object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Yarhl/new/master/docs/apidoc/new?filename=Yarhl_Media_Text_Po2Binary_Convert_Yarhl_Media_Text_Po_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.Po2Binary.Convert(Yarhl.Media.Text.Po)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/master/src/Yarhl.Media/Text/Po2Binary.cs/#L44">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl.Media/Text/Po2Binary.cs/#L36">View Source</a>
   </span>
   <a id="Yarhl_Media_Text_Po2Binary_Convert_" data-uid="Yarhl.Media.Text.Po2Binary.Convert*"></a>
   <h4 id="Yarhl_Media_Text_Po2Binary_Convert_Yarhl_Media_Text_Po_" data-uid="Yarhl.Media.Text.Po2Binary.Convert(Yarhl.Media.Text.Po)">Convert(Po)</h4>
@@ -189,16 +138,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Yarhl.FileFormat.BinaryFormat.html">BinaryFormat</a></td>
+        <td><a class="xref" href="Yarhl.IO.BinaryFormat.html">BinaryFormat</a></td>
         <td><p>The converted stream.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Yarhl.FileFormat.IConverter-2.html">IConverter&lt;TSrc, TDst&gt;</a>
-  </div>
   <div>
       <a class="xref" href="Yarhl.FileFormat.IConverter-2.html">IConverter&lt;TSrc, TDst&gt;</a>
   </div>
@@ -213,10 +159,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/new/master/docs/apidoc/new?filename=Yarhl_Media_Text_Po2Binary.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.Po2Binary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_Po2Binary.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.Po2Binary%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/blob/master/src/Yarhl.Media/Text/Po2Binary.cs/#L35" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl.Media/Text/Po2Binary.cs/#L29" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -235,7 +181,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 2018 SceneGate Team
+            Copyright (c) 2018 SceneGate
             
           </div>
         </div>

@@ -19,69 +19,6 @@ references:
   commentId: N:Yarhl.FileFormat
   fullName: Yarhl.FileFormat
   nameWithType: Yarhl.FileFormat
-- uid: Yarhl.FileFormat.BinaryFormat
-  name: BinaryFormat
-  href: api/Yarhl.FileFormat.BinaryFormat.html
-  commentId: T:Yarhl.FileFormat.BinaryFormat
-  fullName: Yarhl.FileFormat.BinaryFormat
-  nameWithType: BinaryFormat
-- uid: Yarhl.FileFormat.BinaryFormat.#ctor
-  name: BinaryFormat()
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat__ctor
-  commentId: M:Yarhl.FileFormat.BinaryFormat.#ctor
-  fullName: Yarhl.FileFormat.BinaryFormat.BinaryFormat()
-  nameWithType: BinaryFormat.BinaryFormat()
-- uid: Yarhl.FileFormat.BinaryFormat.#ctor(System.String)
-  name: BinaryFormat(String)
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat__ctor_System_String_
-  commentId: M:Yarhl.FileFormat.BinaryFormat.#ctor(System.String)
-  fullName: Yarhl.FileFormat.BinaryFormat.BinaryFormat(System.String)
-  nameWithType: BinaryFormat.BinaryFormat(String)
-- uid: Yarhl.FileFormat.BinaryFormat.#ctor(Yarhl.IO.DataStream)
-  name: BinaryFormat(DataStream)
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat__ctor_Yarhl_IO_DataStream_
-  commentId: M:Yarhl.FileFormat.BinaryFormat.#ctor(Yarhl.IO.DataStream)
-  fullName: Yarhl.FileFormat.BinaryFormat.BinaryFormat(Yarhl.IO.DataStream)
-  nameWithType: BinaryFormat.BinaryFormat(DataStream)
-- uid: Yarhl.FileFormat.BinaryFormat.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
-  name: BinaryFormat(DataStream, Int64, Int64)
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat__ctor_Yarhl_IO_DataStream_System_Int64_System_Int64_
-  commentId: M:Yarhl.FileFormat.BinaryFormat.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
-  fullName: Yarhl.FileFormat.BinaryFormat.BinaryFormat(Yarhl.IO.DataStream, System.Int64, System.Int64)
-  nameWithType: BinaryFormat.BinaryFormat(DataStream, Int64, Int64)
-- uid: Yarhl.FileFormat.BinaryFormat.#ctor*
-  name: BinaryFormat
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat__ctor_
-  commentId: Overload:Yarhl.FileFormat.BinaryFormat.#ctor
-  isSpec: "True"
-  fullName: Yarhl.FileFormat.BinaryFormat.BinaryFormat
-  nameWithType: BinaryFormat.BinaryFormat
-- uid: Yarhl.FileFormat.BinaryFormat.Dispose(System.Boolean)
-  name: Dispose(Boolean)
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat_Dispose_System_Boolean_
-  commentId: M:Yarhl.FileFormat.BinaryFormat.Dispose(System.Boolean)
-  fullName: Yarhl.FileFormat.BinaryFormat.Dispose(System.Boolean)
-  nameWithType: BinaryFormat.Dispose(Boolean)
-- uid: Yarhl.FileFormat.BinaryFormat.Dispose*
-  name: Dispose
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat_Dispose_
-  commentId: Overload:Yarhl.FileFormat.BinaryFormat.Dispose
-  isSpec: "True"
-  fullName: Yarhl.FileFormat.BinaryFormat.Dispose
-  nameWithType: BinaryFormat.Dispose
-- uid: Yarhl.FileFormat.BinaryFormat.Stream
-  name: Stream
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat_Stream
-  commentId: P:Yarhl.FileFormat.BinaryFormat.Stream
-  fullName: Yarhl.FileFormat.BinaryFormat.Stream
-  nameWithType: BinaryFormat.Stream
-- uid: Yarhl.FileFormat.BinaryFormat.Stream*
-  name: Stream
-  href: api/Yarhl.FileFormat.BinaryFormat.html#Yarhl_FileFormat_BinaryFormat_Stream_
-  commentId: Overload:Yarhl.FileFormat.BinaryFormat.Stream
-  isSpec: "True"
-  fullName: Yarhl.FileFormat.BinaryFormat.Stream
-  nameWithType: BinaryFormat.Stream
 - uid: Yarhl.FileFormat.ConverterMetadata
   name: ConverterMetadata
   href: api/Yarhl.FileFormat.ConverterMetadata.html
@@ -185,145 +122,71 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileFormat.ConverterMetadata.Type
   nameWithType: ConverterMetadata.Type
-- uid: Yarhl.FileFormat.Format
-  name: Format
-  href: api/Yarhl.FileFormat.Format.html
-  commentId: T:Yarhl.FileFormat.Format
-  fullName: Yarhl.FileFormat.Format
-  nameWithType: Format
-- uid: Yarhl.FileFormat.Format.ConvertTo(System.Type)
-  name: ConvertTo(Type)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertTo_System_Type_
-  commentId: M:Yarhl.FileFormat.Format.ConvertTo(System.Type)
-  fullName: Yarhl.FileFormat.Format.ConvertTo(System.Type)
-  nameWithType: Format.ConvertTo(Type)
-- uid: Yarhl.FileFormat.Format.ConvertTo(System.Type,System.Object)
-  name: ConvertTo(Type, Object)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertTo_System_Type_System_Object_
-  commentId: M:Yarhl.FileFormat.Format.ConvertTo(System.Type,System.Object)
-  fullName: Yarhl.FileFormat.Format.ConvertTo(System.Type, System.Object)
-  nameWithType: Format.ConvertTo(Type, Object)
-- uid: Yarhl.FileFormat.Format.ConvertTo*
-  name: ConvertTo
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertTo_
-  commentId: Overload:Yarhl.FileFormat.Format.ConvertTo
+- uid: Yarhl.FileFormat.ConvertFormat
+  name: ConvertFormat
+  href: api/Yarhl.FileFormat.ConvertFormat.html
+  commentId: T:Yarhl.FileFormat.ConvertFormat
+  fullName: Yarhl.FileFormat.ConvertFormat
+  nameWithType: ConvertFormat
+- uid: Yarhl.FileFormat.ConvertFormat.To(System.Type,System.Object)
+  name: To(Type, Object)
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_To_System_Type_System_Object_
+  commentId: M:Yarhl.FileFormat.ConvertFormat.To(System.Type,System.Object)
+  fullName: Yarhl.FileFormat.ConvertFormat.To(System.Type, System.Object)
+  nameWithType: ConvertFormat.To(Type, Object)
+- uid: Yarhl.FileFormat.ConvertFormat.To*
+  name: To
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_To_
+  commentId: Overload:Yarhl.FileFormat.ConvertFormat.To
   isSpec: "True"
-  fullName: Yarhl.FileFormat.Format.ConvertTo
-  nameWithType: Format.ConvertTo
-- uid: Yarhl.FileFormat.Format.ConvertTo``1
-  name: ConvertTo<TDst>()
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertTo__1
-  commentId: M:Yarhl.FileFormat.Format.ConvertTo``1
-  name.vb: ConvertTo(Of TDst)()
-  fullName: Yarhl.FileFormat.Format.ConvertTo<TDst>()
-  fullName.vb: Yarhl.FileFormat.Format.ConvertTo(Of TDst)()
-  nameWithType: Format.ConvertTo<TDst>()
-  nameWithType.vb: Format.ConvertTo(Of TDst)()
-- uid: Yarhl.FileFormat.Format.ConvertTo``1(System.Object)
-  name: ConvertTo<TDst>(Object)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertTo__1_System_Object_
-  commentId: M:Yarhl.FileFormat.Format.ConvertTo``1(System.Object)
-  name.vb: ConvertTo(Of TDst)(Object)
-  fullName: Yarhl.FileFormat.Format.ConvertTo<TDst>(System.Object)
-  fullName.vb: Yarhl.FileFormat.Format.ConvertTo(Of TDst)(System.Object)
-  nameWithType: Format.ConvertTo<TDst>(Object)
-  nameWithType.vb: Format.ConvertTo(Of TDst)(Object)
-- uid: Yarhl.FileFormat.Format.ConvertTo``2(``1)
-  name: ConvertTo<TDst, TSrc>(TSrc)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertTo__2___1_
-  commentId: M:Yarhl.FileFormat.Format.ConvertTo``2(``1)
-  name.vb: ConvertTo(Of TDst, TSrc)(TSrc)
-  fullName: Yarhl.FileFormat.Format.ConvertTo<TDst, TSrc>(TSrc)
-  fullName.vb: Yarhl.FileFormat.Format.ConvertTo(Of TDst, TSrc)(TSrc)
-  nameWithType: Format.ConvertTo<TDst, TSrc>(TSrc)
-  nameWithType.vb: Format.ConvertTo(Of TDst, TSrc)(TSrc)
-- uid: Yarhl.FileFormat.Format.ConvertWith(System.Object,System.Object,System.Type)
-  name: ConvertWith(Object, Object, Type)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertWith_System_Object_System_Object_System_Type_
-  commentId: M:Yarhl.FileFormat.Format.ConvertWith(System.Object,System.Object,System.Type)
-  fullName: Yarhl.FileFormat.Format.ConvertWith(System.Object, System.Object, System.Type)
-  nameWithType: Format.ConvertWith(Object, Object, Type)
-- uid: Yarhl.FileFormat.Format.ConvertWith(System.Object,System.Type)
-  name: ConvertWith(Object, Type)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertWith_System_Object_System_Type_
-  commentId: M:Yarhl.FileFormat.Format.ConvertWith(System.Object,System.Type)
-  fullName: Yarhl.FileFormat.Format.ConvertWith(System.Object, System.Type)
-  nameWithType: Format.ConvertWith(Object, Type)
-- uid: Yarhl.FileFormat.Format.ConvertWith*
-  name: ConvertWith
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertWith_
-  commentId: Overload:Yarhl.FileFormat.Format.ConvertWith
+  fullName: Yarhl.FileFormat.ConvertFormat.To
+  nameWithType: ConvertFormat.To
+- uid: Yarhl.FileFormat.ConvertFormat.To``1(System.Object)
+  name: To<TDst>(Object)
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_To__1_System_Object_
+  commentId: M:Yarhl.FileFormat.ConvertFormat.To``1(System.Object)
+  name.vb: To(Of TDst)(Object)
+  fullName: Yarhl.FileFormat.ConvertFormat.To<TDst>(System.Object)
+  fullName.vb: Yarhl.FileFormat.ConvertFormat.To(Of TDst)(System.Object)
+  nameWithType: ConvertFormat.To<TDst>(Object)
+  nameWithType.vb: ConvertFormat.To(Of TDst)(Object)
+- uid: Yarhl.FileFormat.ConvertFormat.With(System.Type,System.Object)
+  name: With(Type, Object)
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_With_System_Type_System_Object_
+  commentId: M:Yarhl.FileFormat.ConvertFormat.With(System.Type,System.Object)
+  fullName: Yarhl.FileFormat.ConvertFormat.With(System.Type, System.Object)
+  nameWithType: ConvertFormat.With(Type, Object)
+- uid: Yarhl.FileFormat.ConvertFormat.With(Yarhl.FileFormat.IConverter,System.Object)
+  name: With(IConverter, Object)
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_With_Yarhl_FileFormat_IConverter_System_Object_
+  commentId: M:Yarhl.FileFormat.ConvertFormat.With(Yarhl.FileFormat.IConverter,System.Object)
+  fullName: Yarhl.FileFormat.ConvertFormat.With(Yarhl.FileFormat.IConverter, System.Object)
+  nameWithType: ConvertFormat.With(IConverter, Object)
+- uid: Yarhl.FileFormat.ConvertFormat.With*
+  name: With
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_With_
+  commentId: Overload:Yarhl.FileFormat.ConvertFormat.With
   isSpec: "True"
-  fullName: Yarhl.FileFormat.Format.ConvertWith
-  nameWithType: Format.ConvertWith
-- uid: Yarhl.FileFormat.Format.ConvertWith``2(Yarhl.FileFormat.IConverter{``0,``1})
-  name: ConvertWith<TSrc, TDst>(IConverter<TSrc, TDst>)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertWith__2_Yarhl_FileFormat_IConverter___0___1__
-  commentId: M:Yarhl.FileFormat.Format.ConvertWith``2(Yarhl.FileFormat.IConverter{``0,``1})
-  name.vb: ConvertWith(Of TSrc, TDst)(IConverter(Of TSrc, TDst))
-  fullName: Yarhl.FileFormat.Format.ConvertWith<TSrc, TDst>(Yarhl.FileFormat.IConverter<TSrc, TDst>)
-  fullName.vb: Yarhl.FileFormat.Format.ConvertWith(Of TSrc, TDst)(Yarhl.FileFormat.IConverter(Of TSrc, TDst))
-  nameWithType: Format.ConvertWith<TSrc, TDst>(IConverter<TSrc, TDst>)
-  nameWithType.vb: Format.ConvertWith(Of TSrc, TDst)(IConverter(Of TSrc, TDst))
-- uid: Yarhl.FileFormat.Format.ConvertWith``2(Yarhl.FileFormat.IConverter{``0,``1},``0)
-  name: ConvertWith<TSrc, TDst>(IConverter<TSrc, TDst>, TSrc)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertWith__2_Yarhl_FileFormat_IConverter___0___1____0_
-  commentId: M:Yarhl.FileFormat.Format.ConvertWith``2(Yarhl.FileFormat.IConverter{``0,``1},``0)
-  name.vb: ConvertWith(Of TSrc, TDst)(IConverter(Of TSrc, TDst), TSrc)
-  fullName: Yarhl.FileFormat.Format.ConvertWith<TSrc, TDst>(Yarhl.FileFormat.IConverter<TSrc, TDst>, TSrc)
-  fullName.vb: Yarhl.FileFormat.Format.ConvertWith(Of TSrc, TDst)(Yarhl.FileFormat.IConverter(Of TSrc, TDst), TSrc)
-  nameWithType: Format.ConvertWith<TSrc, TDst>(IConverter<TSrc, TDst>, TSrc)
-  nameWithType.vb: Format.ConvertWith(Of TSrc, TDst)(IConverter(Of TSrc, TDst), TSrc)
-- uid: Yarhl.FileFormat.Format.ConvertWith``3
-  name: ConvertWith<TConv, TSrc, TDst>()
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertWith__3
-  commentId: M:Yarhl.FileFormat.Format.ConvertWith``3
-  name.vb: ConvertWith(Of TConv, TSrc, TDst)()
-  fullName: Yarhl.FileFormat.Format.ConvertWith<TConv, TSrc, TDst>()
-  fullName.vb: Yarhl.FileFormat.Format.ConvertWith(Of TConv, TSrc, TDst)()
-  nameWithType: Format.ConvertWith<TConv, TSrc, TDst>()
-  nameWithType.vb: Format.ConvertWith(Of TConv, TSrc, TDst)()
-- uid: Yarhl.FileFormat.Format.ConvertWith``3(``1)
-  name: ConvertWith<TConv, TSrc, TDst>(TSrc)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_ConvertWith__3___1_
-  commentId: M:Yarhl.FileFormat.Format.ConvertWith``3(``1)
-  name.vb: ConvertWith(Of TConv, TSrc, TDst)(TSrc)
-  fullName: Yarhl.FileFormat.Format.ConvertWith<TConv, TSrc, TDst>(TSrc)
-  fullName.vb: Yarhl.FileFormat.Format.ConvertWith(Of TConv, TSrc, TDst)(TSrc)
-  nameWithType: Format.ConvertWith<TConv, TSrc, TDst>(TSrc)
-  nameWithType.vb: Format.ConvertWith(Of TConv, TSrc, TDst)(TSrc)
-- uid: Yarhl.FileFormat.Format.Dispose
-  name: Dispose()
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_Dispose
-  commentId: M:Yarhl.FileFormat.Format.Dispose
-  fullName: Yarhl.FileFormat.Format.Dispose()
-  nameWithType: Format.Dispose()
-- uid: Yarhl.FileFormat.Format.Dispose(System.Boolean)
-  name: Dispose(Boolean)
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_Dispose_System_Boolean_
-  commentId: M:Yarhl.FileFormat.Format.Dispose(System.Boolean)
-  fullName: Yarhl.FileFormat.Format.Dispose(System.Boolean)
-  nameWithType: Format.Dispose(Boolean)
-- uid: Yarhl.FileFormat.Format.Dispose*
-  name: Dispose
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_Dispose_
-  commentId: Overload:Yarhl.FileFormat.Format.Dispose
-  isSpec: "True"
-  fullName: Yarhl.FileFormat.Format.Dispose
-  nameWithType: Format.Dispose
-- uid: Yarhl.FileFormat.Format.Disposed
-  name: Disposed
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_Disposed
-  commentId: P:Yarhl.FileFormat.Format.Disposed
-  fullName: Yarhl.FileFormat.Format.Disposed
-  nameWithType: Format.Disposed
-- uid: Yarhl.FileFormat.Format.Disposed*
-  name: Disposed
-  href: api/Yarhl.FileFormat.Format.html#Yarhl_FileFormat_Format_Disposed_
-  commentId: Overload:Yarhl.FileFormat.Format.Disposed
-  isSpec: "True"
-  fullName: Yarhl.FileFormat.Format.Disposed
-  nameWithType: Format.Disposed
+  fullName: Yarhl.FileFormat.ConvertFormat.With
+  nameWithType: ConvertFormat.With
+- uid: Yarhl.FileFormat.ConvertFormat.With``1(System.Object)
+  name: With<TConv>(Object)
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_With__1_System_Object_
+  commentId: M:Yarhl.FileFormat.ConvertFormat.With``1(System.Object)
+  name.vb: With(Of TConv)(Object)
+  fullName: Yarhl.FileFormat.ConvertFormat.With<TConv>(System.Object)
+  fullName.vb: Yarhl.FileFormat.ConvertFormat.With(Of TConv)(System.Object)
+  nameWithType: ConvertFormat.With<TConv>(Object)
+  nameWithType.vb: ConvertFormat.With(Of TConv)(Object)
+- uid: Yarhl.FileFormat.ConvertFormat.With``2(``1,System.Object)
+  name: With<TConv, TParam>(TParam, Object)
+  href: api/Yarhl.FileFormat.ConvertFormat.html#Yarhl_FileFormat_ConvertFormat_With__2___1_System_Object_
+  commentId: M:Yarhl.FileFormat.ConvertFormat.With``2(``1,System.Object)
+  name.vb: With(Of TConv, TParam)(TParam, Object)
+  fullName: Yarhl.FileFormat.ConvertFormat.With<TConv, TParam>(TParam, System.Object)
+  fullName.vb: Yarhl.FileFormat.ConvertFormat.With(Of TConv, TParam)(TParam, System.Object)
+  nameWithType: ConvertFormat.With<TConv, TParam>(TParam, Object)
+  nameWithType.vb: ConvertFormat.With(Of TConv, TParam)(TParam, Object)
 - uid: Yarhl.FileFormat.FormatMetadata
   name: FormatMetadata
   href: api/Yarhl.FileFormat.FormatMetadata.html
@@ -420,6 +283,38 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileFormat.IExportMetadata.Type
   nameWithType: IExportMetadata.Type
+- uid: Yarhl.FileFormat.IFormat
+  name: IFormat
+  href: api/Yarhl.FileFormat.IFormat.html
+  commentId: T:Yarhl.FileFormat.IFormat
+  fullName: Yarhl.FileFormat.IFormat
+  nameWithType: IFormat
+- uid: Yarhl.FileFormat.IInitializer`1
+  name: IInitializer<T>
+  href: api/Yarhl.FileFormat.IInitializer-1.html
+  commentId: T:Yarhl.FileFormat.IInitializer`1
+  name.vb: IInitializer(Of T)
+  fullName: Yarhl.FileFormat.IInitializer<T>
+  fullName.vb: Yarhl.FileFormat.IInitializer(Of T)
+  nameWithType: IInitializer<T>
+  nameWithType.vb: IInitializer(Of T)
+- uid: Yarhl.FileFormat.IInitializer`1.Initialize(`0)
+  name: Initialize(T)
+  href: api/Yarhl.FileFormat.IInitializer-1.html#Yarhl_FileFormat_IInitializer_1_Initialize__0_
+  commentId: M:Yarhl.FileFormat.IInitializer`1.Initialize(`0)
+  fullName: Yarhl.FileFormat.IInitializer<T>.Initialize(T)
+  fullName.vb: Yarhl.FileFormat.IInitializer(Of T).Initialize(T)
+  nameWithType: IInitializer<T>.Initialize(T)
+  nameWithType.vb: IInitializer(Of T).Initialize(T)
+- uid: Yarhl.FileFormat.IInitializer`1.Initialize*
+  name: Initialize
+  href: api/Yarhl.FileFormat.IInitializer-1.html#Yarhl_FileFormat_IInitializer_1_Initialize_
+  commentId: Overload:Yarhl.FileFormat.IInitializer`1.Initialize
+  isSpec: "True"
+  fullName: Yarhl.FileFormat.IInitializer<T>.Initialize
+  fullName.vb: Yarhl.FileFormat.IInitializer(Of T).Initialize
+  nameWithType: IInitializer<T>.Initialize
+  nameWithType.vb: IInitializer(Of T).Initialize
 - uid: Yarhl.FileSystem
   name: Yarhl.FileSystem
   href: api/Yarhl.FileSystem.html
@@ -588,14 +483,39 @@ references:
   fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).Path
   nameWithType: NavigableNode<T>.Path
   nameWithType.vb: NavigableNode(Of T).Path
-- uid: Yarhl.FileSystem.NavigableNode`1.RemoveChildren
-  name: RemoveChildren()
-  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_RemoveChildren
-  commentId: M:Yarhl.FileSystem.NavigableNode`1.RemoveChildren
-  fullName: Yarhl.FileSystem.NavigableNode<T>.RemoveChildren()
-  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).RemoveChildren()
-  nameWithType: NavigableNode<T>.RemoveChildren()
-  nameWithType.vb: NavigableNode(Of T).RemoveChildren()
+- uid: Yarhl.FileSystem.NavigableNode`1.Remove(`0)
+  name: Remove(T)
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_Remove__0_
+  commentId: M:Yarhl.FileSystem.NavigableNode`1.Remove(`0)
+  fullName: Yarhl.FileSystem.NavigableNode<T>.Remove(T)
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).Remove(T)
+  nameWithType: NavigableNode<T>.Remove(T)
+  nameWithType.vb: NavigableNode(Of T).Remove(T)
+- uid: Yarhl.FileSystem.NavigableNode`1.Remove(System.String)
+  name: Remove(String)
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_Remove_System_String_
+  commentId: M:Yarhl.FileSystem.NavigableNode`1.Remove(System.String)
+  fullName: Yarhl.FileSystem.NavigableNode<T>.Remove(System.String)
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).Remove(System.String)
+  nameWithType: NavigableNode<T>.Remove(String)
+  nameWithType.vb: NavigableNode(Of T).Remove(String)
+- uid: Yarhl.FileSystem.NavigableNode`1.Remove*
+  name: Remove
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_Remove_
+  commentId: Overload:Yarhl.FileSystem.NavigableNode`1.Remove
+  isSpec: "True"
+  fullName: Yarhl.FileSystem.NavigableNode<T>.Remove
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).Remove
+  nameWithType: NavigableNode<T>.Remove
+  nameWithType.vb: NavigableNode(Of T).Remove
+- uid: Yarhl.FileSystem.NavigableNode`1.RemoveChildren(System.Boolean)
+  name: RemoveChildren(Boolean)
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_RemoveChildren_System_Boolean_
+  commentId: M:Yarhl.FileSystem.NavigableNode`1.RemoveChildren(System.Boolean)
+  fullName: Yarhl.FileSystem.NavigableNode<T>.RemoveChildren(System.Boolean)
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).RemoveChildren(System.Boolean)
+  nameWithType: NavigableNode<T>.RemoveChildren(Boolean)
+  nameWithType.vb: NavigableNode(Of T).RemoveChildren(Boolean)
 - uid: Yarhl.FileSystem.NavigableNode`1.RemoveChildren*
   name: RemoveChildren
   href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_RemoveChildren_
@@ -605,6 +525,41 @@ references:
   fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).RemoveChildren
   nameWithType: NavigableNode<T>.RemoveChildren
   nameWithType.vb: NavigableNode(Of T).RemoveChildren
+- uid: Yarhl.FileSystem.NavigableNode`1.SortChildren(System.Boolean)
+  name: SortChildren(Boolean)
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_SortChildren_System_Boolean_
+  commentId: M:Yarhl.FileSystem.NavigableNode`1.SortChildren(System.Boolean)
+  fullName: Yarhl.FileSystem.NavigableNode<T>.SortChildren(System.Boolean)
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).SortChildren(System.Boolean)
+  nameWithType: NavigableNode<T>.SortChildren(Boolean)
+  nameWithType.vb: NavigableNode(Of T).SortChildren(Boolean)
+- uid: Yarhl.FileSystem.NavigableNode`1.SortChildren(System.Collections.Generic.IComparer{`0},System.Boolean)
+  name: SortChildren(IComparer<T>, Boolean)
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_SortChildren_System_Collections_Generic_IComparer__0__System_Boolean_
+  commentId: M:Yarhl.FileSystem.NavigableNode`1.SortChildren(System.Collections.Generic.IComparer{`0},System.Boolean)
+  name.vb: SortChildren(IComparer(Of T), Boolean)
+  fullName: Yarhl.FileSystem.NavigableNode<T>.SortChildren(System.Collections.Generic.IComparer<T>, System.Boolean)
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).SortChildren(System.Collections.Generic.IComparer(Of T), System.Boolean)
+  nameWithType: NavigableNode<T>.SortChildren(IComparer<T>, Boolean)
+  nameWithType.vb: NavigableNode(Of T).SortChildren(IComparer(Of T), Boolean)
+- uid: Yarhl.FileSystem.NavigableNode`1.SortChildren(System.Comparison{`0},System.Boolean)
+  name: SortChildren(Comparison<T>, Boolean)
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_SortChildren_System_Comparison__0__System_Boolean_
+  commentId: M:Yarhl.FileSystem.NavigableNode`1.SortChildren(System.Comparison{`0},System.Boolean)
+  name.vb: SortChildren(Comparison(Of T), Boolean)
+  fullName: Yarhl.FileSystem.NavigableNode<T>.SortChildren(System.Comparison<T>, System.Boolean)
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).SortChildren(System.Comparison(Of T), System.Boolean)
+  nameWithType: NavigableNode<T>.SortChildren(Comparison<T>, Boolean)
+  nameWithType.vb: NavigableNode(Of T).SortChildren(Comparison(Of T), Boolean)
+- uid: Yarhl.FileSystem.NavigableNode`1.SortChildren*
+  name: SortChildren
+  href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_SortChildren_
+  commentId: Overload:Yarhl.FileSystem.NavigableNode`1.SortChildren
+  isSpec: "True"
+  fullName: Yarhl.FileSystem.NavigableNode<T>.SortChildren
+  fullName.vb: Yarhl.FileSystem.NavigableNode(Of T).SortChildren
+  nameWithType: NavigableNode<T>.SortChildren
+  nameWithType.vb: NavigableNode(Of T).SortChildren
 - uid: Yarhl.FileSystem.NavigableNode`1.Tags
   name: Tags
   href: api/Yarhl.FileSystem.NavigableNode-1.html#Yarhl_FileSystem_NavigableNode_1_Tags
@@ -735,12 +690,12 @@ references:
   commentId: M:Yarhl.FileSystem.Node.#ctor(System.String)
   fullName: Yarhl.FileSystem.Node.Node(System.String)
   nameWithType: Node.Node(String)
-- uid: Yarhl.FileSystem.Node.#ctor(System.String,Yarhl.FileFormat.Format)
-  name: Node(String, Format)
-  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node__ctor_System_String_Yarhl_FileFormat_Format_
-  commentId: M:Yarhl.FileSystem.Node.#ctor(System.String,Yarhl.FileFormat.Format)
-  fullName: Yarhl.FileSystem.Node.Node(System.String, Yarhl.FileFormat.Format)
-  nameWithType: Node.Node(String, Format)
+- uid: Yarhl.FileSystem.Node.#ctor(System.String,Yarhl.FileFormat.IFormat)
+  name: Node(String, IFormat)
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node__ctor_System_String_Yarhl_FileFormat_IFormat_
+  commentId: M:Yarhl.FileSystem.Node.#ctor(System.String,Yarhl.FileFormat.IFormat)
+  fullName: Yarhl.FileSystem.Node.Node(System.String, Yarhl.FileFormat.IFormat)
+  nameWithType: Node.Node(String, IFormat)
 - uid: Yarhl.FileSystem.Node.#ctor*
   name: Node
   href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node__ctor_
@@ -748,6 +703,19 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.Node.Node
   nameWithType: Node.Node
+- uid: Yarhl.FileSystem.Node.ChangeFormat(Yarhl.FileFormat.IFormat,System.Boolean)
+  name: ChangeFormat(IFormat, Boolean)
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_ChangeFormat_Yarhl_FileFormat_IFormat_System_Boolean_
+  commentId: M:Yarhl.FileSystem.Node.ChangeFormat(Yarhl.FileFormat.IFormat,System.Boolean)
+  fullName: Yarhl.FileSystem.Node.ChangeFormat(Yarhl.FileFormat.IFormat, System.Boolean)
+  nameWithType: Node.ChangeFormat(IFormat, Boolean)
+- uid: Yarhl.FileSystem.Node.ChangeFormat*
+  name: ChangeFormat
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_ChangeFormat_
+  commentId: Overload:Yarhl.FileSystem.Node.ChangeFormat
+  isSpec: "True"
+  fullName: Yarhl.FileSystem.Node.ChangeFormat
+  nameWithType: Node.ChangeFormat
 - uid: Yarhl.FileSystem.Node.Dispose(System.Boolean)
   name: Dispose(Boolean)
   href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_Dispose_System_Boolean_
@@ -816,46 +784,68 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.Node.Stream
   nameWithType: Node.Stream
-- uid: Yarhl.FileSystem.Node.Transform(System.Type,System.Object)
-  name: Transform(Type, Object)
-  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_Transform_System_Type_System_Object_
-  commentId: M:Yarhl.FileSystem.Node.Transform(System.Type,System.Object)
-  fullName: Yarhl.FileSystem.Node.Transform(System.Type, System.Object)
-  nameWithType: Node.Transform(Type, Object)
-- uid: Yarhl.FileSystem.Node.Transform*
-  name: Transform
-  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_Transform_
-  commentId: Overload:Yarhl.FileSystem.Node.Transform
+- uid: Yarhl.FileSystem.Node.TransformTo(System.Type)
+  name: TransformTo(Type)
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformTo_System_Type_
+  commentId: M:Yarhl.FileSystem.Node.TransformTo(System.Type)
+  fullName: Yarhl.FileSystem.Node.TransformTo(System.Type)
+  nameWithType: Node.TransformTo(Type)
+- uid: Yarhl.FileSystem.Node.TransformTo*
+  name: TransformTo
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformTo_
+  commentId: Overload:Yarhl.FileSystem.Node.TransformTo
   isSpec: "True"
-  fullName: Yarhl.FileSystem.Node.Transform
-  nameWithType: Node.Transform
-- uid: Yarhl.FileSystem.Node.Transform``1
-  name: Transform<T>()
-  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_Transform__1
-  commentId: M:Yarhl.FileSystem.Node.Transform``1
-  name.vb: Transform(Of T)()
-  fullName: Yarhl.FileSystem.Node.Transform<T>()
-  fullName.vb: Yarhl.FileSystem.Node.Transform(Of T)()
-  nameWithType: Node.Transform<T>()
-  nameWithType.vb: Node.Transform(Of T)()
-- uid: Yarhl.FileSystem.Node.Transform``2(Yarhl.FileFormat.IConverter{``0,``1})
-  name: Transform<TSrc, TDst>(IConverter<TSrc, TDst>)
-  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_Transform__2_Yarhl_FileFormat_IConverter___0___1__
-  commentId: M:Yarhl.FileSystem.Node.Transform``2(Yarhl.FileFormat.IConverter{``0,``1})
-  name.vb: Transform(Of TSrc, TDst)(IConverter(Of TSrc, TDst))
-  fullName: Yarhl.FileSystem.Node.Transform<TSrc, TDst>(Yarhl.FileFormat.IConverter<TSrc, TDst>)
-  fullName.vb: Yarhl.FileSystem.Node.Transform(Of TSrc, TDst)(Yarhl.FileFormat.IConverter(Of TSrc, TDst))
-  nameWithType: Node.Transform<TSrc, TDst>(IConverter<TSrc, TDst>)
-  nameWithType.vb: Node.Transform(Of TSrc, TDst)(IConverter(Of TSrc, TDst))
-- uid: Yarhl.FileSystem.Node.Transform``3
-  name: Transform<TConv, TSrc, TDst>()
-  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_Transform__3
-  commentId: M:Yarhl.FileSystem.Node.Transform``3
-  name.vb: Transform(Of TConv, TSrc, TDst)()
-  fullName: Yarhl.FileSystem.Node.Transform<TConv, TSrc, TDst>()
-  fullName.vb: Yarhl.FileSystem.Node.Transform(Of TConv, TSrc, TDst)()
-  nameWithType: Node.Transform<TConv, TSrc, TDst>()
-  nameWithType.vb: Node.Transform(Of TConv, TSrc, TDst)()
+  fullName: Yarhl.FileSystem.Node.TransformTo
+  nameWithType: Node.TransformTo
+- uid: Yarhl.FileSystem.Node.TransformTo``1
+  name: TransformTo<TDst>()
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformTo__1
+  commentId: M:Yarhl.FileSystem.Node.TransformTo``1
+  name.vb: TransformTo(Of TDst)()
+  fullName: Yarhl.FileSystem.Node.TransformTo<TDst>()
+  fullName.vb: Yarhl.FileSystem.Node.TransformTo(Of TDst)()
+  nameWithType: Node.TransformTo<TDst>()
+  nameWithType.vb: Node.TransformTo(Of TDst)()
+- uid: Yarhl.FileSystem.Node.TransformWith(System.Type)
+  name: TransformWith(Type)
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformWith_System_Type_
+  commentId: M:Yarhl.FileSystem.Node.TransformWith(System.Type)
+  fullName: Yarhl.FileSystem.Node.TransformWith(System.Type)
+  nameWithType: Node.TransformWith(Type)
+- uid: Yarhl.FileSystem.Node.TransformWith*
+  name: TransformWith
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformWith_
+  commentId: Overload:Yarhl.FileSystem.Node.TransformWith
+  isSpec: "True"
+  fullName: Yarhl.FileSystem.Node.TransformWith
+  nameWithType: Node.TransformWith
+- uid: Yarhl.FileSystem.Node.TransformWith``1
+  name: TransformWith<TConv>()
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformWith__1
+  commentId: M:Yarhl.FileSystem.Node.TransformWith``1
+  name.vb: TransformWith(Of TConv)()
+  fullName: Yarhl.FileSystem.Node.TransformWith<TConv>()
+  fullName.vb: Yarhl.FileSystem.Node.TransformWith(Of TConv)()
+  nameWithType: Node.TransformWith<TConv>()
+  nameWithType.vb: Node.TransformWith(Of TConv)()
+- uid: Yarhl.FileSystem.Node.TransformWith``2(``1)
+  name: TransformWith<TConv, TParam>(TParam)
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformWith__2___1_
+  commentId: M:Yarhl.FileSystem.Node.TransformWith``2(``1)
+  name.vb: TransformWith(Of TConv, TParam)(TParam)
+  fullName: Yarhl.FileSystem.Node.TransformWith<TConv, TParam>(TParam)
+  fullName.vb: Yarhl.FileSystem.Node.TransformWith(Of TConv, TParam)(TParam)
+  nameWithType: Node.TransformWith<TConv, TParam>(TParam)
+  nameWithType.vb: Node.TransformWith(Of TConv, TParam)(TParam)
+- uid: Yarhl.FileSystem.Node.TransformWith``2(Yarhl.FileFormat.IConverter{``0,``1})
+  name: TransformWith<TSrc, TDst>(IConverter<TSrc, TDst>)
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node_TransformWith__2_Yarhl_FileFormat_IConverter___0___1__
+  commentId: M:Yarhl.FileSystem.Node.TransformWith``2(Yarhl.FileFormat.IConverter{``0,``1})
+  name.vb: TransformWith(Of TSrc, TDst)(IConverter(Of TSrc, TDst))
+  fullName: Yarhl.FileSystem.Node.TransformWith<TSrc, TDst>(Yarhl.FileFormat.IConverter<TSrc, TDst>)
+  fullName.vb: Yarhl.FileSystem.Node.TransformWith(Of TSrc, TDst)(Yarhl.FileFormat.IConverter(Of TSrc, TDst))
+  nameWithType: Node.TransformWith<TSrc, TDst>(IConverter<TSrc, TDst>)
+  nameWithType.vb: Node.TransformWith(Of TSrc, TDst)(IConverter(Of TSrc, TDst))
 - uid: Yarhl.FileSystem.NodeContainerFormat
   name: NodeContainerFormat
   href: api/Yarhl.FileSystem.NodeContainerFormat.html
@@ -875,6 +865,12 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeContainerFormat.NodeContainerFormat
   nameWithType: NodeContainerFormat.NodeContainerFormat
+- uid: Yarhl.FileSystem.NodeContainerFormat.Dispose
+  name: Dispose()
+  href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_Dispose
+  commentId: M:Yarhl.FileSystem.NodeContainerFormat.Dispose
+  fullName: Yarhl.FileSystem.NodeContainerFormat.Dispose()
+  nameWithType: NodeContainerFormat.Dispose()
 - uid: Yarhl.FileSystem.NodeContainerFormat.Dispose(System.Boolean)
   name: Dispose(Boolean)
   href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_Dispose_System_Boolean_
@@ -888,12 +884,25 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeContainerFormat.Dispose
   nameWithType: NodeContainerFormat.Dispose
-- uid: Yarhl.FileSystem.NodeContainerFormat.MoveChildrenTo(Yarhl.FileSystem.Node)
-  name: MoveChildrenTo(Node)
-  href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_MoveChildrenTo_Yarhl_FileSystem_Node_
-  commentId: M:Yarhl.FileSystem.NodeContainerFormat.MoveChildrenTo(Yarhl.FileSystem.Node)
-  fullName: Yarhl.FileSystem.NodeContainerFormat.MoveChildrenTo(Yarhl.FileSystem.Node)
-  nameWithType: NodeContainerFormat.MoveChildrenTo(Node)
+- uid: Yarhl.FileSystem.NodeContainerFormat.Disposed
+  name: Disposed
+  href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_Disposed
+  commentId: P:Yarhl.FileSystem.NodeContainerFormat.Disposed
+  fullName: Yarhl.FileSystem.NodeContainerFormat.Disposed
+  nameWithType: NodeContainerFormat.Disposed
+- uid: Yarhl.FileSystem.NodeContainerFormat.Disposed*
+  name: Disposed
+  href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_Disposed_
+  commentId: Overload:Yarhl.FileSystem.NodeContainerFormat.Disposed
+  isSpec: "True"
+  fullName: Yarhl.FileSystem.NodeContainerFormat.Disposed
+  nameWithType: NodeContainerFormat.Disposed
+- uid: Yarhl.FileSystem.NodeContainerFormat.MoveChildrenTo(Yarhl.FileSystem.Node,System.Boolean)
+  name: MoveChildrenTo(Node, Boolean)
+  href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_MoveChildrenTo_Yarhl_FileSystem_Node_System_Boolean_
+  commentId: M:Yarhl.FileSystem.NodeContainerFormat.MoveChildrenTo(Yarhl.FileSystem.Node,System.Boolean)
+  fullName: Yarhl.FileSystem.NodeContainerFormat.MoveChildrenTo(Yarhl.FileSystem.Node, System.Boolean)
+  nameWithType: NodeContainerFormat.MoveChildrenTo(Node, Boolean)
 - uid: Yarhl.FileSystem.NodeContainerFormat.MoveChildrenTo*
   name: MoveChildrenTo
   href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_MoveChildrenTo_
@@ -997,6 +1006,19 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeFactory.FromMemory
   nameWithType: NodeFactory.FromMemory
+- uid: Yarhl.FileSystem.NodeFactory.FromSubstream(System.String,Yarhl.IO.DataStream,System.Int64,System.Int64)
+  name: FromSubstream(String, DataStream, Int64, Int64)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromSubstream_System_String_Yarhl_IO_DataStream_System_Int64_System_Int64_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromSubstream(System.String,Yarhl.IO.DataStream,System.Int64,System.Int64)
+  fullName: Yarhl.FileSystem.NodeFactory.FromSubstream(System.String, Yarhl.IO.DataStream, System.Int64, System.Int64)
+  nameWithType: NodeFactory.FromSubstream(String, DataStream, Int64, Int64)
+- uid: Yarhl.FileSystem.NodeFactory.FromSubstream*
+  name: FromSubstream
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromSubstream_
+  commentId: Overload:Yarhl.FileSystem.NodeFactory.FromSubstream
+  isSpec: "True"
+  fullName: Yarhl.FileSystem.NodeFactory.FromSubstream
+  nameWithType: NodeFactory.FromSubstream
 - uid: Yarhl.FileSystem.NodeSystem
   name: NodeSystem
   href: api/Yarhl.FileSystem.NodeSystem.html
@@ -1022,6 +1044,82 @@ references:
   commentId: N:Yarhl.IO
   fullName: Yarhl.IO
   nameWithType: Yarhl.IO
+- uid: Yarhl.IO.BinaryFormat
+  name: BinaryFormat
+  href: api/Yarhl.IO.BinaryFormat.html
+  commentId: T:Yarhl.IO.BinaryFormat
+  fullName: Yarhl.IO.BinaryFormat
+  nameWithType: BinaryFormat
+- uid: Yarhl.IO.BinaryFormat.#ctor
+  name: BinaryFormat()
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor
+  commentId: M:Yarhl.IO.BinaryFormat.#ctor
+  fullName: Yarhl.IO.BinaryFormat.BinaryFormat()
+  nameWithType: BinaryFormat.BinaryFormat()
+- uid: Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream)
+  name: BinaryFormat(DataStream)
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_
+  commentId: M:Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream)
+  fullName: Yarhl.IO.BinaryFormat.BinaryFormat(Yarhl.IO.DataStream)
+  nameWithType: BinaryFormat.BinaryFormat(DataStream)
+- uid: Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
+  name: BinaryFormat(DataStream, Int64, Int64)
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_System_Int64_System_Int64_
+  commentId: M:Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
+  fullName: Yarhl.IO.BinaryFormat.BinaryFormat(Yarhl.IO.DataStream, System.Int64, System.Int64)
+  nameWithType: BinaryFormat.BinaryFormat(DataStream, Int64, Int64)
+- uid: Yarhl.IO.BinaryFormat.#ctor*
+  name: BinaryFormat
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_
+  commentId: Overload:Yarhl.IO.BinaryFormat.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.BinaryFormat.BinaryFormat
+  nameWithType: BinaryFormat.BinaryFormat
+- uid: Yarhl.IO.BinaryFormat.Dispose
+  name: Dispose()
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Dispose
+  commentId: M:Yarhl.IO.BinaryFormat.Dispose
+  fullName: Yarhl.IO.BinaryFormat.Dispose()
+  nameWithType: BinaryFormat.Dispose()
+- uid: Yarhl.IO.BinaryFormat.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Dispose_System_Boolean_
+  commentId: M:Yarhl.IO.BinaryFormat.Dispose(System.Boolean)
+  fullName: Yarhl.IO.BinaryFormat.Dispose(System.Boolean)
+  nameWithType: BinaryFormat.Dispose(Boolean)
+- uid: Yarhl.IO.BinaryFormat.Dispose*
+  name: Dispose
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Dispose_
+  commentId: Overload:Yarhl.IO.BinaryFormat.Dispose
+  isSpec: "True"
+  fullName: Yarhl.IO.BinaryFormat.Dispose
+  nameWithType: BinaryFormat.Dispose
+- uid: Yarhl.IO.BinaryFormat.Disposed
+  name: Disposed
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Disposed
+  commentId: P:Yarhl.IO.BinaryFormat.Disposed
+  fullName: Yarhl.IO.BinaryFormat.Disposed
+  nameWithType: BinaryFormat.Disposed
+- uid: Yarhl.IO.BinaryFormat.Disposed*
+  name: Disposed
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Disposed_
+  commentId: Overload:Yarhl.IO.BinaryFormat.Disposed
+  isSpec: "True"
+  fullName: Yarhl.IO.BinaryFormat.Disposed
+  nameWithType: BinaryFormat.Disposed
+- uid: Yarhl.IO.BinaryFormat.Stream
+  name: Stream
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Stream
+  commentId: P:Yarhl.IO.BinaryFormat.Stream
+  fullName: Yarhl.IO.BinaryFormat.Stream
+  nameWithType: BinaryFormat.Stream
+- uid: Yarhl.IO.BinaryFormat.Stream*
+  name: Stream
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Stream_
+  commentId: Overload:Yarhl.IO.BinaryFormat.Stream
+  isSpec: "True"
+  fullName: Yarhl.IO.BinaryFormat.Stream
+  nameWithType: BinaryFormat.Stream
 - uid: Yarhl.IO.DataReader
   name: DataReader
   href: api/Yarhl.IO.DataReader.html
@@ -1213,19 +1311,6 @@ references:
   isSpec: "True"
   fullName: Yarhl.IO.DataReader.ReadInt64
   nameWithType: DataReader.ReadInt64
-- uid: Yarhl.IO.DataReader.ReadPadding(System.Int32,System.Boolean)
-  name: ReadPadding(Int32, Boolean)
-  href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_ReadPadding_System_Int32_System_Boolean_
-  commentId: M:Yarhl.IO.DataReader.ReadPadding(System.Int32,System.Boolean)
-  fullName: Yarhl.IO.DataReader.ReadPadding(System.Int32, System.Boolean)
-  nameWithType: DataReader.ReadPadding(Int32, Boolean)
-- uid: Yarhl.IO.DataReader.ReadPadding*
-  name: ReadPadding
-  href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_ReadPadding_
-  commentId: Overload:Yarhl.IO.DataReader.ReadPadding
-  isSpec: "True"
-  fullName: Yarhl.IO.DataReader.ReadPadding
-  nameWithType: DataReader.ReadPadding
 - uid: Yarhl.IO.DataReader.ReadSByte
   name: ReadSByte()
   href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_ReadSByte
@@ -1277,6 +1362,19 @@ references:
   isSpec: "True"
   fullName: Yarhl.IO.DataReader.ReadString
   nameWithType: DataReader.ReadString
+- uid: Yarhl.IO.DataReader.ReadStringToToken(System.String,System.Text.Encoding)
+  name: ReadStringToToken(String, Encoding)
+  href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_ReadStringToToken_System_String_System_Text_Encoding_
+  commentId: M:Yarhl.IO.DataReader.ReadStringToToken(System.String,System.Text.Encoding)
+  fullName: Yarhl.IO.DataReader.ReadStringToToken(System.String, System.Text.Encoding)
+  nameWithType: DataReader.ReadStringToToken(String, Encoding)
+- uid: Yarhl.IO.DataReader.ReadStringToToken*
+  name: ReadStringToToken
+  href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_ReadStringToToken_
+  commentId: Overload:Yarhl.IO.DataReader.ReadStringToToken
+  isSpec: "True"
+  fullName: Yarhl.IO.DataReader.ReadStringToToken
+  nameWithType: DataReader.ReadStringToToken
 - uid: Yarhl.IO.DataReader.ReadUInt16
   name: ReadUInt16()
   href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_ReadUInt16
@@ -1316,6 +1414,19 @@ references:
   isSpec: "True"
   fullName: Yarhl.IO.DataReader.ReadUInt64
   nameWithType: DataReader.ReadUInt64
+- uid: Yarhl.IO.DataReader.SkipPadding(System.Int32)
+  name: SkipPadding(Int32)
+  href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_SkipPadding_System_Int32_
+  commentId: M:Yarhl.IO.DataReader.SkipPadding(System.Int32)
+  fullName: Yarhl.IO.DataReader.SkipPadding(System.Int32)
+  nameWithType: DataReader.SkipPadding(Int32)
+- uid: Yarhl.IO.DataReader.SkipPadding*
+  name: SkipPadding
+  href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_SkipPadding_
+  commentId: Overload:Yarhl.IO.DataReader.SkipPadding
+  isSpec: "True"
+  fullName: Yarhl.IO.DataReader.SkipPadding
+  nameWithType: DataReader.SkipPadding
 - uid: Yarhl.IO.DataReader.Stream
   name: Stream
   href: api/Yarhl.IO.DataReader.html#Yarhl_IO_DataReader_Stream
@@ -1341,36 +1452,24 @@ references:
   commentId: M:Yarhl.IO.DataStream.#ctor
   fullName: Yarhl.IO.DataStream.DataStream()
   nameWithType: DataStream.DataStream()
-- uid: Yarhl.IO.DataStream.#ctor(System.IO.Stream)
-  name: DataStream(Stream)
-  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_System_IO_Stream_
-  commentId: M:Yarhl.IO.DataStream.#ctor(System.IO.Stream)
-  fullName: Yarhl.IO.DataStream.DataStream(System.IO.Stream)
-  nameWithType: DataStream.DataStream(Stream)
-- uid: Yarhl.IO.DataStream.#ctor(System.IO.Stream,System.Int64,System.Int64)
-  name: DataStream(Stream, Int64, Int64)
-  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_System_IO_Stream_System_Int64_System_Int64_
-  commentId: M:Yarhl.IO.DataStream.#ctor(System.IO.Stream,System.Int64,System.Int64)
-  fullName: Yarhl.IO.DataStream.DataStream(System.IO.Stream, System.Int64, System.Int64)
-  nameWithType: DataStream.DataStream(Stream, Int64, Int64)
-- uid: Yarhl.IO.DataStream.#ctor(System.String,System.Int64,System.Int64,Yarhl.IO.FileOpenMode)
-  name: DataStream(String, Int64, Int64, FileOpenMode)
-  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_System_String_System_Int64_System_Int64_Yarhl_IO_FileOpenMode_
-  commentId: M:Yarhl.IO.DataStream.#ctor(System.String,System.Int64,System.Int64,Yarhl.IO.FileOpenMode)
-  fullName: Yarhl.IO.DataStream.DataStream(System.String, System.Int64, System.Int64, Yarhl.IO.FileOpenMode)
-  nameWithType: DataStream.DataStream(String, Int64, Int64, FileOpenMode)
-- uid: Yarhl.IO.DataStream.#ctor(System.String,Yarhl.IO.FileOpenMode)
-  name: DataStream(String, FileOpenMode)
-  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_System_String_Yarhl_IO_FileOpenMode_
-  commentId: M:Yarhl.IO.DataStream.#ctor(System.String,Yarhl.IO.FileOpenMode)
-  fullName: Yarhl.IO.DataStream.DataStream(System.String, Yarhl.IO.FileOpenMode)
-  nameWithType: DataStream.DataStream(String, FileOpenMode)
 - uid: Yarhl.IO.DataStream.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
   name: DataStream(DataStream, Int64, Int64)
   href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_Yarhl_IO_DataStream_System_Int64_System_Int64_
   commentId: M:Yarhl.IO.DataStream.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
   fullName: Yarhl.IO.DataStream.DataStream(Yarhl.IO.DataStream, System.Int64, System.Int64)
   nameWithType: DataStream.DataStream(DataStream, Int64, Int64)
+- uid: Yarhl.IO.DataStream.#ctor(Yarhl.IO.IStream)
+  name: DataStream(IStream)
+  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_Yarhl_IO_IStream_
+  commentId: M:Yarhl.IO.DataStream.#ctor(Yarhl.IO.IStream)
+  fullName: Yarhl.IO.DataStream.DataStream(Yarhl.IO.IStream)
+  nameWithType: DataStream.DataStream(IStream)
+- uid: Yarhl.IO.DataStream.#ctor(Yarhl.IO.IStream,System.Int64,System.Int64,System.Boolean)
+  name: DataStream(IStream, Int64, Int64, Boolean)
+  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_Yarhl_IO_IStream_System_Int64_System_Int64_System_Boolean_
+  commentId: M:Yarhl.IO.DataStream.#ctor(Yarhl.IO.IStream,System.Int64,System.Int64,System.Boolean)
+  fullName: Yarhl.IO.DataStream.DataStream(Yarhl.IO.IStream, System.Int64, System.Int64, System.Boolean)
+  nameWithType: DataStream.DataStream(IStream, Int64, Int64, Boolean)
 - uid: Yarhl.IO.DataStream.#ctor*
   name: DataStream
   href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream__ctor_
@@ -1685,6 +1784,92 @@ references:
   isSpec: "True"
   fullName: Yarhl.IO.DataStream.WriteTo
   nameWithType: DataStream.WriteTo
+- uid: Yarhl.IO.DataStreamFactory
+  name: DataStreamFactory
+  href: api/Yarhl.IO.DataStreamFactory.html
+  commentId: T:Yarhl.IO.DataStreamFactory
+  fullName: Yarhl.IO.DataStreamFactory
+  nameWithType: DataStreamFactory
+- uid: Yarhl.IO.DataStreamFactory.FromArray(System.Byte[],System.Int32,System.Int32)
+  name: FromArray(Byte[], Int32, Int32)
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromArray_System_Byte___System_Int32_System_Int32_
+  commentId: M:Yarhl.IO.DataStreamFactory.FromArray(System.Byte[],System.Int32,System.Int32)
+  name.vb: FromArray(Byte(), Int32, Int32)
+  fullName: Yarhl.IO.DataStreamFactory.FromArray(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Yarhl.IO.DataStreamFactory.FromArray(System.Byte(), System.Int32, System.Int32)
+  nameWithType: DataStreamFactory.FromArray(Byte[], Int32, Int32)
+  nameWithType.vb: DataStreamFactory.FromArray(Byte(), Int32, Int32)
+- uid: Yarhl.IO.DataStreamFactory.FromArray*
+  name: FromArray
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromArray_
+  commentId: Overload:Yarhl.IO.DataStreamFactory.FromArray
+  isSpec: "True"
+  fullName: Yarhl.IO.DataStreamFactory.FromArray
+  nameWithType: DataStreamFactory.FromArray
+- uid: Yarhl.IO.DataStreamFactory.FromFile(System.String,Yarhl.IO.FileOpenMode)
+  name: FromFile(String, FileOpenMode)
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromFile_System_String_Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.IO.DataStreamFactory.FromFile(System.String,Yarhl.IO.FileOpenMode)
+  fullName: Yarhl.IO.DataStreamFactory.FromFile(System.String, Yarhl.IO.FileOpenMode)
+  nameWithType: DataStreamFactory.FromFile(String, FileOpenMode)
+- uid: Yarhl.IO.DataStreamFactory.FromFile(System.String,Yarhl.IO.FileOpenMode,System.Int64,System.Int64)
+  name: FromFile(String, FileOpenMode, Int64, Int64)
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromFile_System_String_Yarhl_IO_FileOpenMode_System_Int64_System_Int64_
+  commentId: M:Yarhl.IO.DataStreamFactory.FromFile(System.String,Yarhl.IO.FileOpenMode,System.Int64,System.Int64)
+  fullName: Yarhl.IO.DataStreamFactory.FromFile(System.String, Yarhl.IO.FileOpenMode, System.Int64, System.Int64)
+  nameWithType: DataStreamFactory.FromFile(String, FileOpenMode, Int64, Int64)
+- uid: Yarhl.IO.DataStreamFactory.FromFile*
+  name: FromFile
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromFile_
+  commentId: Overload:Yarhl.IO.DataStreamFactory.FromFile
+  isSpec: "True"
+  fullName: Yarhl.IO.DataStreamFactory.FromFile
+  nameWithType: DataStreamFactory.FromFile
+- uid: Yarhl.IO.DataStreamFactory.FromMemory
+  name: FromMemory()
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromMemory
+  commentId: M:Yarhl.IO.DataStreamFactory.FromMemory
+  fullName: Yarhl.IO.DataStreamFactory.FromMemory()
+  nameWithType: DataStreamFactory.FromMemory()
+- uid: Yarhl.IO.DataStreamFactory.FromMemory*
+  name: FromMemory
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromMemory_
+  commentId: Overload:Yarhl.IO.DataStreamFactory.FromMemory
+  isSpec: "True"
+  fullName: Yarhl.IO.DataStreamFactory.FromMemory
+  nameWithType: DataStreamFactory.FromMemory
+- uid: Yarhl.IO.DataStreamFactory.FromStream(System.IO.Stream)
+  name: FromStream(Stream)
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromStream_System_IO_Stream_
+  commentId: M:Yarhl.IO.DataStreamFactory.FromStream(System.IO.Stream)
+  fullName: Yarhl.IO.DataStreamFactory.FromStream(System.IO.Stream)
+  nameWithType: DataStreamFactory.FromStream(Stream)
+- uid: Yarhl.IO.DataStreamFactory.FromStream(System.IO.Stream,System.Int64,System.Int64)
+  name: FromStream(Stream, Int64, Int64)
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromStream_System_IO_Stream_System_Int64_System_Int64_
+  commentId: M:Yarhl.IO.DataStreamFactory.FromStream(System.IO.Stream,System.Int64,System.Int64)
+  fullName: Yarhl.IO.DataStreamFactory.FromStream(System.IO.Stream, System.Int64, System.Int64)
+  nameWithType: DataStreamFactory.FromStream(Stream, Int64, Int64)
+- uid: Yarhl.IO.DataStreamFactory.FromStream*
+  name: FromStream
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromStream_
+  commentId: Overload:Yarhl.IO.DataStreamFactory.FromStream
+  isSpec: "True"
+  fullName: Yarhl.IO.DataStreamFactory.FromStream
+  nameWithType: DataStreamFactory.FromStream
+- uid: Yarhl.IO.DataStreamFactory.FromStreamKeepingOwnership(System.IO.Stream,System.Int64,System.Int64)
+  name: FromStreamKeepingOwnership(Stream, Int64, Int64)
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromStreamKeepingOwnership_System_IO_Stream_System_Int64_System_Int64_
+  commentId: M:Yarhl.IO.DataStreamFactory.FromStreamKeepingOwnership(System.IO.Stream,System.Int64,System.Int64)
+  fullName: Yarhl.IO.DataStreamFactory.FromStreamKeepingOwnership(System.IO.Stream, System.Int64, System.Int64)
+  nameWithType: DataStreamFactory.FromStreamKeepingOwnership(Stream, Int64, Int64)
+- uid: Yarhl.IO.DataStreamFactory.FromStreamKeepingOwnership*
+  name: FromStreamKeepingOwnership
+  href: api/Yarhl.IO.DataStreamFactory.html#Yarhl_IO_DataStreamFactory_FromStreamKeepingOwnership_
+  commentId: Overload:Yarhl.IO.DataStreamFactory.FromStreamKeepingOwnership
+  isSpec: "True"
+  fullName: Yarhl.IO.DataStreamFactory.FromStreamKeepingOwnership
+  nameWithType: DataStreamFactory.FromStreamKeepingOwnership
 - uid: Yarhl.IO.DataWriter
   name: DataWriter
   href: api/Yarhl.IO.DataWriter.html
@@ -1874,12 +2059,12 @@ references:
   fullName.vb: Yarhl.IO.DataWriter.WriteOfType(Of T)(T)
   nameWithType: DataWriter.WriteOfType<T>(T)
   nameWithType.vb: DataWriter.WriteOfType(Of T)(T)
-- uid: Yarhl.IO.DataWriter.WritePadding(System.Byte,System.Int32,System.Boolean)
-  name: WritePadding(Byte, Int32, Boolean)
-  href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_WritePadding_System_Byte_System_Int32_System_Boolean_
-  commentId: M:Yarhl.IO.DataWriter.WritePadding(System.Byte,System.Int32,System.Boolean)
-  fullName: Yarhl.IO.DataWriter.WritePadding(System.Byte, System.Int32, System.Boolean)
-  nameWithType: DataWriter.WritePadding(Byte, Int32, Boolean)
+- uid: Yarhl.IO.DataWriter.WritePadding(System.Byte,System.Int32)
+  name: WritePadding(Byte, Int32)
+  href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_WritePadding_System_Byte_System_Int32_
+  commentId: M:Yarhl.IO.DataWriter.WritePadding(System.Byte,System.Int32)
+  fullName: Yarhl.IO.DataWriter.WritePadding(System.Byte, System.Int32)
+  nameWithType: DataWriter.WritePadding(Byte, Int32)
 - uid: Yarhl.IO.DataWriter.WritePadding*
   name: WritePadding
   href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_WritePadding_
@@ -1961,6 +2146,154 @@ references:
   commentId: F:Yarhl.IO.FileOpenMode.Write
   fullName: Yarhl.IO.FileOpenMode.Write
   nameWithType: FileOpenMode.Write
+- uid: Yarhl.IO.IBinary
+  name: IBinary
+  href: api/Yarhl.IO.IBinary.html
+  commentId: T:Yarhl.IO.IBinary
+  fullName: Yarhl.IO.IBinary
+  nameWithType: IBinary
+- uid: Yarhl.IO.IBinary.Stream
+  name: Stream
+  href: api/Yarhl.IO.IBinary.html#Yarhl_IO_IBinary_Stream
+  commentId: P:Yarhl.IO.IBinary.Stream
+  fullName: Yarhl.IO.IBinary.Stream
+  nameWithType: IBinary.Stream
+- uid: Yarhl.IO.IBinary.Stream*
+  name: Stream
+  href: api/Yarhl.IO.IBinary.html#Yarhl_IO_IBinary_Stream_
+  commentId: Overload:Yarhl.IO.IBinary.Stream
+  isSpec: "True"
+  fullName: Yarhl.IO.IBinary.Stream
+  nameWithType: IBinary.Stream
+- uid: Yarhl.IO.IStream
+  name: IStream
+  href: api/Yarhl.IO.IStream.html
+  commentId: T:Yarhl.IO.IStream
+  fullName: Yarhl.IO.IStream
+  nameWithType: IStream
+- uid: Yarhl.IO.IStream.Disposed
+  name: Disposed
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Disposed
+  commentId: P:Yarhl.IO.IStream.Disposed
+  fullName: Yarhl.IO.IStream.Disposed
+  nameWithType: IStream.Disposed
+- uid: Yarhl.IO.IStream.Disposed*
+  name: Disposed
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Disposed_
+  commentId: Overload:Yarhl.IO.IStream.Disposed
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.Disposed
+  nameWithType: IStream.Disposed
+- uid: Yarhl.IO.IStream.Length
+  name: Length
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Length
+  commentId: P:Yarhl.IO.IStream.Length
+  fullName: Yarhl.IO.IStream.Length
+  nameWithType: IStream.Length
+- uid: Yarhl.IO.IStream.Length*
+  name: Length
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Length_
+  commentId: Overload:Yarhl.IO.IStream.Length
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.Length
+  nameWithType: IStream.Length
+- uid: Yarhl.IO.IStream.LockObj
+  name: LockObj
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_LockObj
+  commentId: P:Yarhl.IO.IStream.LockObj
+  fullName: Yarhl.IO.IStream.LockObj
+  nameWithType: IStream.LockObj
+- uid: Yarhl.IO.IStream.LockObj*
+  name: LockObj
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_LockObj_
+  commentId: Overload:Yarhl.IO.IStream.LockObj
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.LockObj
+  nameWithType: IStream.LockObj
+- uid: Yarhl.IO.IStream.Position
+  name: Position
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Position
+  commentId: P:Yarhl.IO.IStream.Position
+  fullName: Yarhl.IO.IStream.Position
+  nameWithType: IStream.Position
+- uid: Yarhl.IO.IStream.Position*
+  name: Position
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Position_
+  commentId: Overload:Yarhl.IO.IStream.Position
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.Position
+  nameWithType: IStream.Position
+- uid: Yarhl.IO.IStream.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:Yarhl.IO.IStream.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: Yarhl.IO.IStream.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Yarhl.IO.IStream.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: IStream.Read(Byte[], Int32, Int32)
+  nameWithType.vb: IStream.Read(Byte(), Int32, Int32)
+- uid: Yarhl.IO.IStream.Read*
+  name: Read
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Read_
+  commentId: Overload:Yarhl.IO.IStream.Read
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.Read
+  nameWithType: IStream.Read
+- uid: Yarhl.IO.IStream.ReadByte
+  name: ReadByte()
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_ReadByte
+  commentId: M:Yarhl.IO.IStream.ReadByte
+  fullName: Yarhl.IO.IStream.ReadByte()
+  nameWithType: IStream.ReadByte()
+- uid: Yarhl.IO.IStream.ReadByte*
+  name: ReadByte
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_ReadByte_
+  commentId: Overload:Yarhl.IO.IStream.ReadByte
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.ReadByte
+  nameWithType: IStream.ReadByte
+- uid: Yarhl.IO.IStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_SetLength_System_Int64_
+  commentId: M:Yarhl.IO.IStream.SetLength(System.Int64)
+  fullName: Yarhl.IO.IStream.SetLength(System.Int64)
+  nameWithType: IStream.SetLength(Int64)
+- uid: Yarhl.IO.IStream.SetLength*
+  name: SetLength
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_SetLength_
+  commentId: Overload:Yarhl.IO.IStream.SetLength
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.SetLength
+  nameWithType: IStream.SetLength
+- uid: Yarhl.IO.IStream.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:Yarhl.IO.IStream.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: Yarhl.IO.IStream.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Yarhl.IO.IStream.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: IStream.Write(Byte[], Int32, Int32)
+  nameWithType.vb: IStream.Write(Byte(), Int32, Int32)
+- uid: Yarhl.IO.IStream.Write*
+  name: Write
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_Write_
+  commentId: Overload:Yarhl.IO.IStream.Write
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.Write
+  nameWithType: IStream.Write
+- uid: Yarhl.IO.IStream.WriteByte(System.Byte)
+  name: WriteByte(Byte)
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_WriteByte_System_Byte_
+  commentId: M:Yarhl.IO.IStream.WriteByte(System.Byte)
+  fullName: Yarhl.IO.IStream.WriteByte(System.Byte)
+  nameWithType: IStream.WriteByte(Byte)
+- uid: Yarhl.IO.IStream.WriteByte*
+  name: WriteByte
+  href: api/Yarhl.IO.IStream.html#Yarhl_IO_IStream_WriteByte_
+  commentId: Overload:Yarhl.IO.IStream.WriteByte
+  isSpec: "True"
+  fullName: Yarhl.IO.IStream.WriteByte
+  nameWithType: IStream.WriteByte
 - uid: Yarhl.IO.NumericExtension
   name: NumericExtension
   href: api/Yarhl.IO.NumericExtension.html
@@ -2034,6 +2367,327 @@ references:
   commentId: F:Yarhl.IO.SeekMode.Start
   fullName: Yarhl.IO.SeekMode.Start
   nameWithType: SeekMode.Start
+- uid: Yarhl.IO.StreamFormat
+  name: Yarhl.IO.StreamFormat
+  href: api/Yarhl.IO.StreamFormat.html
+  commentId: N:Yarhl.IO.StreamFormat
+  fullName: Yarhl.IO.StreamFormat
+  nameWithType: Yarhl.IO.StreamFormat
+- uid: Yarhl.IO.StreamFormat.LazyFileStream
+  name: LazyFileStream
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html
+  commentId: T:Yarhl.IO.StreamFormat.LazyFileStream
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream
+  nameWithType: LazyFileStream
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.#ctor(System.String,Yarhl.IO.FileOpenMode)
+  name: LazyFileStream(String, FileOpenMode)
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream__ctor_System_String_Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.IO.StreamFormat.LazyFileStream.#ctor(System.String,Yarhl.IO.FileOpenMode)
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.LazyFileStream(System.String, Yarhl.IO.FileOpenMode)
+  nameWithType: LazyFileStream.LazyFileStream(String, FileOpenMode)
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.#ctor*
+  name: LazyFileStream
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream__ctor_
+  commentId: Overload:Yarhl.IO.StreamFormat.LazyFileStream.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.LazyFileStream
+  nameWithType: LazyFileStream.LazyFileStream
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.Length
+  name: Length
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_Length
+  commentId: P:Yarhl.IO.StreamFormat.LazyFileStream.Length
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.Length
+  nameWithType: LazyFileStream.Length
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.Length*
+  name: Length
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_Length_
+  commentId: Overload:Yarhl.IO.StreamFormat.LazyFileStream.Length
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.Length
+  nameWithType: LazyFileStream.Length
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:Yarhl.IO.StreamFormat.LazyFileStream.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Yarhl.IO.StreamFormat.LazyFileStream.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: LazyFileStream.Read(Byte[], Int32, Int32)
+  nameWithType.vb: LazyFileStream.Read(Byte(), Int32, Int32)
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.Read*
+  name: Read
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_Read_
+  commentId: Overload:Yarhl.IO.StreamFormat.LazyFileStream.Read
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.Read
+  nameWithType: LazyFileStream.Read
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.ReadByte
+  name: ReadByte()
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_ReadByte
+  commentId: M:Yarhl.IO.StreamFormat.LazyFileStream.ReadByte
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.ReadByte()
+  nameWithType: LazyFileStream.ReadByte()
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.ReadByte*
+  name: ReadByte
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_ReadByte_
+  commentId: Overload:Yarhl.IO.StreamFormat.LazyFileStream.ReadByte
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.ReadByte
+  nameWithType: LazyFileStream.ReadByte
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_SetLength_System_Int64_
+  commentId: M:Yarhl.IO.StreamFormat.LazyFileStream.SetLength(System.Int64)
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.SetLength(System.Int64)
+  nameWithType: LazyFileStream.SetLength(Int64)
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.SetLength*
+  name: SetLength
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_SetLength_
+  commentId: Overload:Yarhl.IO.StreamFormat.LazyFileStream.SetLength
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.SetLength
+  nameWithType: LazyFileStream.SetLength
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:Yarhl.IO.StreamFormat.LazyFileStream.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Yarhl.IO.StreamFormat.LazyFileStream.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: LazyFileStream.Write(Byte[], Int32, Int32)
+  nameWithType.vb: LazyFileStream.Write(Byte(), Int32, Int32)
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.Write*
+  name: Write
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_Write_
+  commentId: Overload:Yarhl.IO.StreamFormat.LazyFileStream.Write
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.Write
+  nameWithType: LazyFileStream.Write
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.WriteByte(System.Byte)
+  name: WriteByte(Byte)
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_WriteByte_System_Byte_
+  commentId: M:Yarhl.IO.StreamFormat.LazyFileStream.WriteByte(System.Byte)
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.WriteByte(System.Byte)
+  nameWithType: LazyFileStream.WriteByte(Byte)
+- uid: Yarhl.IO.StreamFormat.LazyFileStream.WriteByte*
+  name: WriteByte
+  href: api/Yarhl.IO.StreamFormat.LazyFileStream.html#Yarhl_IO_StreamFormat_LazyFileStream_WriteByte_
+  commentId: Overload:Yarhl.IO.StreamFormat.LazyFileStream.WriteByte
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.LazyFileStream.WriteByte
+  nameWithType: LazyFileStream.WriteByte
+- uid: Yarhl.IO.StreamFormat.RecyclableMemoryStream
+  name: RecyclableMemoryStream
+  href: api/Yarhl.IO.StreamFormat.RecyclableMemoryStream.html
+  commentId: T:Yarhl.IO.StreamFormat.RecyclableMemoryStream
+  fullName: Yarhl.IO.StreamFormat.RecyclableMemoryStream
+  nameWithType: RecyclableMemoryStream
+- uid: Yarhl.IO.StreamFormat.RecyclableMemoryStream.#ctor
+  name: RecyclableMemoryStream()
+  href: api/Yarhl.IO.StreamFormat.RecyclableMemoryStream.html#Yarhl_IO_StreamFormat_RecyclableMemoryStream__ctor
+  commentId: M:Yarhl.IO.StreamFormat.RecyclableMemoryStream.#ctor
+  fullName: Yarhl.IO.StreamFormat.RecyclableMemoryStream.RecyclableMemoryStream()
+  nameWithType: RecyclableMemoryStream.RecyclableMemoryStream()
+- uid: Yarhl.IO.StreamFormat.RecyclableMemoryStream.#ctor*
+  name: RecyclableMemoryStream
+  href: api/Yarhl.IO.StreamFormat.RecyclableMemoryStream.html#Yarhl_IO_StreamFormat_RecyclableMemoryStream__ctor_
+  commentId: Overload:Yarhl.IO.StreamFormat.RecyclableMemoryStream.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.RecyclableMemoryStream.RecyclableMemoryStream
+  nameWithType: RecyclableMemoryStream.RecyclableMemoryStream
+- uid: Yarhl.IO.StreamFormat.RecyclableMemoryStream.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/Yarhl.IO.StreamFormat.RecyclableMemoryStream.html#Yarhl_IO_StreamFormat_RecyclableMemoryStream_SetLength_System_Int64_
+  commentId: M:Yarhl.IO.StreamFormat.RecyclableMemoryStream.SetLength(System.Int64)
+  fullName: Yarhl.IO.StreamFormat.RecyclableMemoryStream.SetLength(System.Int64)
+  nameWithType: RecyclableMemoryStream.SetLength(Int64)
+- uid: Yarhl.IO.StreamFormat.RecyclableMemoryStream.SetLength*
+  name: SetLength
+  href: api/Yarhl.IO.StreamFormat.RecyclableMemoryStream.html#Yarhl_IO_StreamFormat_RecyclableMemoryStream_SetLength_
+  commentId: Overload:Yarhl.IO.StreamFormat.RecyclableMemoryStream.SetLength
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.RecyclableMemoryStream.SetLength
+  nameWithType: RecyclableMemoryStream.SetLength
+- uid: Yarhl.IO.StreamFormat.StreamWrapper
+  name: StreamWrapper
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html
+  commentId: T:Yarhl.IO.StreamFormat.StreamWrapper
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper
+  nameWithType: StreamWrapper
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.#ctor
+  name: StreamWrapper()
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper__ctor
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.#ctor
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.StreamWrapper()
+  nameWithType: StreamWrapper.StreamWrapper()
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.#ctor(System.IO.Stream)
+  name: StreamWrapper(Stream)
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper__ctor_System_IO_Stream_
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.#ctor(System.IO.Stream)
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.StreamWrapper(System.IO.Stream)
+  nameWithType: StreamWrapper.StreamWrapper(Stream)
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.#ctor*
+  name: StreamWrapper
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper__ctor_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.StreamWrapper
+  nameWithType: StreamWrapper.StreamWrapper
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.BaseStream
+  name: BaseStream
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_BaseStream
+  commentId: P:Yarhl.IO.StreamFormat.StreamWrapper.BaseStream
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.BaseStream
+  nameWithType: StreamWrapper.BaseStream
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.BaseStream*
+  name: BaseStream
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_BaseStream_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.BaseStream
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.BaseStream
+  nameWithType: StreamWrapper.BaseStream
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Dispose
+  name: Dispose()
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Dispose
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.Dispose
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Dispose()
+  nameWithType: StreamWrapper.Dispose()
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Dispose_System_Boolean_
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.Dispose(System.Boolean)
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Dispose(System.Boolean)
+  nameWithType: StreamWrapper.Dispose(Boolean)
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Dispose*
+  name: Dispose
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Dispose_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.Dispose
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Dispose
+  nameWithType: StreamWrapper.Dispose
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Disposed
+  name: Disposed
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Disposed
+  commentId: P:Yarhl.IO.StreamFormat.StreamWrapper.Disposed
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Disposed
+  nameWithType: StreamWrapper.Disposed
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Disposed*
+  name: Disposed
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Disposed_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.Disposed
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Disposed
+  nameWithType: StreamWrapper.Disposed
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Length
+  name: Length
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Length
+  commentId: P:Yarhl.IO.StreamFormat.StreamWrapper.Length
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Length
+  nameWithType: StreamWrapper.Length
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Length*
+  name: Length
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Length_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.Length
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Length
+  nameWithType: StreamWrapper.Length
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.LockObj
+  name: LockObj
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_LockObj
+  commentId: P:Yarhl.IO.StreamFormat.StreamWrapper.LockObj
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.LockObj
+  nameWithType: StreamWrapper.LockObj
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.LockObj*
+  name: LockObj
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_LockObj_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.LockObj
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.LockObj
+  nameWithType: StreamWrapper.LockObj
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Position
+  name: Position
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Position
+  commentId: P:Yarhl.IO.StreamFormat.StreamWrapper.Position
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Position
+  nameWithType: StreamWrapper.Position
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Position*
+  name: Position
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Position_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.Position
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Position
+  nameWithType: StreamWrapper.Position
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Read(System.Byte[],System.Int32,System.Int32)
+  name: Read(Byte[], Int32, Int32)
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Read_System_Byte___System_Int32_System_Int32_
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.Read(System.Byte[],System.Int32,System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Read(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Yarhl.IO.StreamFormat.StreamWrapper.Read(System.Byte(), System.Int32, System.Int32)
+  nameWithType: StreamWrapper.Read(Byte[], Int32, Int32)
+  nameWithType.vb: StreamWrapper.Read(Byte(), Int32, Int32)
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Read*
+  name: Read
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Read_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.Read
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Read
+  nameWithType: StreamWrapper.Read
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.ReadByte
+  name: ReadByte()
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_ReadByte
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.ReadByte
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.ReadByte()
+  nameWithType: StreamWrapper.ReadByte()
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.ReadByte*
+  name: ReadByte
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_ReadByte_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.ReadByte
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.ReadByte
+  nameWithType: StreamWrapper.ReadByte
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.SetLength(System.Int64)
+  name: SetLength(Int64)
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_SetLength_System_Int64_
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.SetLength(System.Int64)
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.SetLength(System.Int64)
+  nameWithType: StreamWrapper.SetLength(Int64)
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.SetLength*
+  name: SetLength
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_SetLength_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.SetLength
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.SetLength
+  nameWithType: StreamWrapper.SetLength
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Write(System.Byte[],System.Int32,System.Int32)
+  name: Write(Byte[], Int32, Int32)
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Write_System_Byte___System_Int32_System_Int32_
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.Write(System.Byte[],System.Int32,System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Write(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Yarhl.IO.StreamFormat.StreamWrapper.Write(System.Byte(), System.Int32, System.Int32)
+  nameWithType: StreamWrapper.Write(Byte[], Int32, Int32)
+  nameWithType.vb: StreamWrapper.Write(Byte(), Int32, Int32)
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.Write*
+  name: Write
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_Write_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.Write
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.Write
+  nameWithType: StreamWrapper.Write
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.WriteByte(System.Byte)
+  name: WriteByte(Byte)
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_WriteByte_System_Byte_
+  commentId: M:Yarhl.IO.StreamFormat.StreamWrapper.WriteByte(System.Byte)
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.WriteByte(System.Byte)
+  nameWithType: StreamWrapper.WriteByte(Byte)
+- uid: Yarhl.IO.StreamFormat.StreamWrapper.WriteByte*
+  name: WriteByte
+  href: api/Yarhl.IO.StreamFormat.StreamWrapper.html#Yarhl_IO_StreamFormat_StreamWrapper_WriteByte_
+  commentId: Overload:Yarhl.IO.StreamFormat.StreamWrapper.WriteByte
+  isSpec: "True"
+  fullName: Yarhl.IO.StreamFormat.StreamWrapper.WriteByte
+  nameWithType: StreamWrapper.WriteByte
 - uid: Yarhl.IO.TextReader
   name: TextReader
   href: api/Yarhl.IO.TextReader.html
@@ -2046,6 +2700,12 @@ references:
   commentId: M:Yarhl.IO.TextReader.#ctor(Yarhl.IO.DataStream)
   fullName: Yarhl.IO.TextReader.TextReader(Yarhl.IO.DataStream)
   nameWithType: TextReader.TextReader(DataStream)
+- uid: Yarhl.IO.TextReader.#ctor(Yarhl.IO.DataStream,System.String)
+  name: TextReader(DataStream, String)
+  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader__ctor_Yarhl_IO_DataStream_System_String_
+  commentId: M:Yarhl.IO.TextReader.#ctor(Yarhl.IO.DataStream,System.String)
+  fullName: Yarhl.IO.TextReader.TextReader(Yarhl.IO.DataStream, System.String)
+  nameWithType: TextReader.TextReader(DataStream, String)
 - uid: Yarhl.IO.TextReader.#ctor(Yarhl.IO.DataStream,System.Text.Encoding)
   name: TextReader(DataStream, Encoding)
   href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader__ctor_Yarhl_IO_DataStream_System_Text_Encoding_
@@ -2226,6 +2886,12 @@ references:
   commentId: M:Yarhl.IO.TextWriter.#ctor(Yarhl.IO.DataStream)
   fullName: Yarhl.IO.TextWriter.TextWriter(Yarhl.IO.DataStream)
   nameWithType: TextWriter.TextWriter(DataStream)
+- uid: Yarhl.IO.TextWriter.#ctor(Yarhl.IO.DataStream,System.String)
+  name: TextWriter(DataStream, String)
+  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter__ctor_Yarhl_IO_DataStream_System_String_
+  commentId: M:Yarhl.IO.TextWriter.#ctor(Yarhl.IO.DataStream,System.String)
+  fullName: Yarhl.IO.TextWriter.TextWriter(Yarhl.IO.DataStream, System.String)
+  nameWithType: TextWriter.TextWriter(DataStream, String)
 - uid: Yarhl.IO.TextWriter.#ctor(Yarhl.IO.DataStream,System.Text.Encoding)
   name: TextWriter(DataStream, Encoding)
   href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter__ctor_Yarhl_IO_DataStream_System_Text_Encoding_
@@ -2375,6 +3041,25 @@ references:
   commentId: N:Yarhl.Media.Text
   fullName: Yarhl.Media.Text
   nameWithType: Yarhl.Media.Text
+- uid: Yarhl.Media.Text.Binary2Po
+  name: Binary2Po
+  href: api/Yarhl.Media.Text.Binary2Po.html
+  commentId: T:Yarhl.Media.Text.Binary2Po
+  fullName: Yarhl.Media.Text.Binary2Po
+  nameWithType: Binary2Po
+- uid: Yarhl.Media.Text.Binary2Po.Convert(Yarhl.IO.IBinary)
+  name: Convert(IBinary)
+  href: api/Yarhl.Media.Text.Binary2Po.html#Yarhl_Media_Text_Binary2Po_Convert_Yarhl_IO_IBinary_
+  commentId: M:Yarhl.Media.Text.Binary2Po.Convert(Yarhl.IO.IBinary)
+  fullName: Yarhl.Media.Text.Binary2Po.Convert(Yarhl.IO.IBinary)
+  nameWithType: Binary2Po.Convert(IBinary)
+- uid: Yarhl.Media.Text.Binary2Po.Convert*
+  name: Convert
+  href: api/Yarhl.Media.Text.Binary2Po.html#Yarhl_Media_Text_Binary2Po_Convert_
+  commentId: Overload:Yarhl.Media.Text.Binary2Po.Convert
+  isSpec: "True"
+  fullName: Yarhl.Media.Text.Binary2Po.Convert
+  nameWithType: Binary2Po.Convert
 - uid: Yarhl.Media.Text.Encodings
   name: Yarhl.Media.Text.Encodings
   href: api/Yarhl.Media.Text.Encodings.html
@@ -2387,18 +3072,18 @@ references:
   commentId: T:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding
   fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding
   nameWithType: EscapeOutRangeEncoding
+- uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(Encoding)
+  name: EscapeOutRangeEncoding(Encoding)
+  href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_Encoding_
+  commentId: M:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(Encoding)
+  fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.EscapeOutRangeEncoding(Encoding)
+  nameWithType: EscapeOutRangeEncoding.EscapeOutRangeEncoding(Encoding)
 - uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.String)
   name: EscapeOutRangeEncoding(String)
   href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_System_String_
   commentId: M:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.String)
   fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.EscapeOutRangeEncoding(System.String)
   nameWithType: EscapeOutRangeEncoding.EscapeOutRangeEncoding(String)
-- uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.Text.Encoding)
-  name: EscapeOutRangeEncoding(Encoding)
-  href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_System_Text_Encoding_
-  commentId: M:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.Text.Encoding)
-  fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.EscapeOutRangeEncoding(System.Text.Encoding)
-  nameWithType: EscapeOutRangeEncoding.EscapeOutRangeEncoding(Encoding)
 - uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor*
   name: EscapeOutRangeEncoding
   href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_
@@ -2534,11 +3219,11 @@ references:
   commentId: M:Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor
   fullName: Yarhl.Media.Text.Encodings.EucJpEncoding.EucJpEncoding()
   nameWithType: EucJpEncoding.EucJpEncoding()
-- uid: Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(System.Text.DecoderFallback,System.Text.EncoderFallback)
+- uid: Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(DecoderFallback,EncoderFallback)
   name: EucJpEncoding(DecoderFallback, EncoderFallback)
-  href: api/Yarhl.Media.Text.Encodings.EucJpEncoding.html#Yarhl_Media_Text_Encodings_EucJpEncoding__ctor_System_Text_DecoderFallback_System_Text_EncoderFallback_
-  commentId: M:Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(System.Text.DecoderFallback,System.Text.EncoderFallback)
-  fullName: Yarhl.Media.Text.Encodings.EucJpEncoding.EucJpEncoding(System.Text.DecoderFallback, System.Text.EncoderFallback)
+  href: api/Yarhl.Media.Text.Encodings.EucJpEncoding.html#Yarhl_Media_Text_Encodings_EucJpEncoding__ctor_DecoderFallback_EncoderFallback_
+  commentId: M:Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(DecoderFallback,EncoderFallback)
+  fullName: Yarhl.Media.Text.Encodings.EucJpEncoding.EucJpEncoding(DecoderFallback, EncoderFallback)
   nameWithType: EucJpEncoding.EucJpEncoding(DecoderFallback, EncoderFallback)
 - uid: Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor*
   name: EucJpEncoding
@@ -2688,13 +3373,13 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.Po.Po
   nameWithType: Po.Po
-- uid: Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable{Yarhl.Media.Text.PoEntry})
+- uid: Yarhl.Media.Text.Po.Add(IEnumerable{Yarhl.Media.Text.PoEntry})
   name: Add(IEnumerable<PoEntry>)
-  href: api/Yarhl.Media.Text.Po.html#Yarhl_Media_Text_Po_Add_System_Collections_Generic_IEnumerable_Yarhl_Media_Text_PoEntry__
-  commentId: M:Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable{Yarhl.Media.Text.PoEntry})
+  href: api/Yarhl.Media.Text.Po.html#Yarhl_Media_Text_Po_Add_IEnumerable_Yarhl_Media_Text_PoEntry__
+  commentId: M:Yarhl.Media.Text.Po.Add(IEnumerable{Yarhl.Media.Text.PoEntry})
   name.vb: Add(IEnumerable(Of PoEntry))
-  fullName: Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable<Yarhl.Media.Text.PoEntry>)
-  fullName.vb: Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable(Of Yarhl.Media.Text.PoEntry))
+  fullName: Yarhl.Media.Text.Po.Add(IEnumerable<Yarhl.Media.Text.PoEntry>)
+  fullName.vb: Yarhl.Media.Text.Po.Add(IEnumerable(Of Yarhl.Media.Text.PoEntry))
   nameWithType: Po.Add(IEnumerable<PoEntry>)
   nameWithType.vb: Po.Add(IEnumerable(Of PoEntry))
 - uid: Yarhl.Media.Text.Po.Add(Yarhl.Media.Text.PoEntry)
@@ -2755,12 +3440,6 @@ references:
   commentId: T:Yarhl.Media.Text.Po2Binary
   fullName: Yarhl.Media.Text.Po2Binary
   nameWithType: Po2Binary
-- uid: Yarhl.Media.Text.Po2Binary.Convert(Yarhl.FileFormat.BinaryFormat)
-  name: Convert(BinaryFormat)
-  href: api/Yarhl.Media.Text.Po2Binary.html#Yarhl_Media_Text_Po2Binary_Convert_Yarhl_FileFormat_BinaryFormat_
-  commentId: M:Yarhl.Media.Text.Po2Binary.Convert(Yarhl.FileFormat.BinaryFormat)
-  fullName: Yarhl.Media.Text.Po2Binary.Convert(Yarhl.FileFormat.BinaryFormat)
-  nameWithType: Po2Binary.Convert(BinaryFormat)
 - uid: Yarhl.Media.Text.Po2Binary.Convert(Yarhl.Media.Text.Po)
   name: Convert(Po)
   href: api/Yarhl.Media.Text.Po2Binary.html#Yarhl_Media_Text_Po2Binary_Convert_Yarhl_Media_Text_Po_
@@ -3168,19 +3847,32 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.Replacer.Remove
   nameWithType: Replacer.Remove
-- uid: Yarhl.Media.Text.Replacer.Transform(System.String,System.Boolean)
-  name: Transform(String, Boolean)
-  href: api/Yarhl.Media.Text.Replacer.html#Yarhl_Media_Text_Replacer_Transform_System_String_System_Boolean_
-  commentId: M:Yarhl.Media.Text.Replacer.Transform(System.String,System.Boolean)
-  fullName: Yarhl.Media.Text.Replacer.Transform(System.String, System.Boolean)
-  nameWithType: Replacer.Transform(String, Boolean)
-- uid: Yarhl.Media.Text.Replacer.Transform*
-  name: Transform
-  href: api/Yarhl.Media.Text.Replacer.html#Yarhl_Media_Text_Replacer_Transform_
-  commentId: Overload:Yarhl.Media.Text.Replacer.Transform
+- uid: Yarhl.Media.Text.Replacer.TransformBackward(System.String)
+  name: TransformBackward(String)
+  href: api/Yarhl.Media.Text.Replacer.html#Yarhl_Media_Text_Replacer_TransformBackward_System_String_
+  commentId: M:Yarhl.Media.Text.Replacer.TransformBackward(System.String)
+  fullName: Yarhl.Media.Text.Replacer.TransformBackward(System.String)
+  nameWithType: Replacer.TransformBackward(String)
+- uid: Yarhl.Media.Text.Replacer.TransformBackward*
+  name: TransformBackward
+  href: api/Yarhl.Media.Text.Replacer.html#Yarhl_Media_Text_Replacer_TransformBackward_
+  commentId: Overload:Yarhl.Media.Text.Replacer.TransformBackward
   isSpec: "True"
-  fullName: Yarhl.Media.Text.Replacer.Transform
-  nameWithType: Replacer.Transform
+  fullName: Yarhl.Media.Text.Replacer.TransformBackward
+  nameWithType: Replacer.TransformBackward
+- uid: Yarhl.Media.Text.Replacer.TransformForward(System.String)
+  name: TransformForward(String)
+  href: api/Yarhl.Media.Text.Replacer.html#Yarhl_Media_Text_Replacer_TransformForward_System_String_
+  commentId: M:Yarhl.Media.Text.Replacer.TransformForward(System.String)
+  fullName: Yarhl.Media.Text.Replacer.TransformForward(System.String)
+  nameWithType: Replacer.TransformForward(String)
+- uid: Yarhl.Media.Text.Replacer.TransformForward*
+  name: TransformForward
+  href: api/Yarhl.Media.Text.Replacer.html#Yarhl_Media_Text_Replacer_TransformForward_
+  commentId: Overload:Yarhl.Media.Text.Replacer.TransformForward
+  isSpec: "True"
+  fullName: Yarhl.Media.Text.Replacer.TransformForward
+  nameWithType: Replacer.TransformForward
 - uid: Yarhl.Media.Text.ReplacerEntry
   name: ReplacerEntry
   href: api/Yarhl.Media.Text.ReplacerEntry.html
@@ -3303,11 +3995,11 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.XmlExtension.EscapeSpace
   nameWithType: XmlExtension.EscapeSpace
-- uid: Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)
+- uid: Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)
   name: GetIndentedValue(XElement)
-  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_GetIndentedValue_System_Xml_Linq_XElement_
-  commentId: M:Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)
-  fullName: Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)
+  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_GetIndentedValue_XElement_
+  commentId: M:Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)
+  fullName: Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)
   nameWithType: XmlExtension.GetIndentedValue(XElement)
 - uid: Yarhl.Media.Text.XmlExtension.GetIndentedValue*
   name: GetIndentedValue
@@ -3316,11 +4008,11 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.XmlExtension.GetIndentedValue
   nameWithType: XmlExtension.GetIndentedValue
-- uid: Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement,System.String,System.Int32)
+- uid: Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement,System.String,System.Int32)
   name: SetIndentedValue(XElement, String, Int32)
-  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_SetIndentedValue_System_Xml_Linq_XElement_System_String_System_Int32_
-  commentId: M:Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement,System.String,System.Int32)
-  fullName: Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement, System.String, System.Int32)
+  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_SetIndentedValue_XElement_System_String_System_Int32_
+  commentId: M:Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement,System.String,System.Int32)
+  fullName: Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement, System.String, System.Int32)
   nameWithType: XmlExtension.SetIndentedValue(XElement, String, Int32)
 - uid: Yarhl.Media.Text.XmlExtension.SetIndentedValue*
   name: SetIndentedValue

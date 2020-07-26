@@ -4,20 +4,24 @@
     <div class="sidefilter">
       <form class="toc-filter">
         <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
         <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
       </form>
     </div>
     <div class="sidetoc">
       <div class="toc" id="toc">
-
+          
           <ul class="nav level1">
                 <li>
                     <span class="expand-stub"></span>
                     <a>Conceptual</a>
-
+                    
                     <ul class="nav level2">
                           <li>
-                              <a href="../articles/Mastering-Yarhl.html" name="" title="Mastering Yarhl">Mastering Yarhl</a>
+                              <a href="../articles/Yarhl-nutshell.html" name="" title="Yarhl in a nutshell">Yarhl in a nutshell</a>
+                          </li>
+                          <li>
+                              <a href="../articles/Cookbook.html" name="" title="Cookbook">Cookbook</a>
                           </li>
                           <li>
                               <a href="../articles/CONTRIBUTING.html" name="" title="Contributing &amp; C# Coding Standards">Contributing &amp; C# Coding Standards</a>
@@ -26,13 +30,13 @@
                 </li>
                 <li>
                     <span class="expand-stub"></span>
-                    <a>Reference v2</a>
-
+                    <a>Reference</a>
+                    
                     <ul class="nav level2">
                           <li>
                               <span class="expand-stub"></span>
                               <a href="../api/Yarhl.html" name="" title="Yarhl">Yarhl</a>
-
+                              
                               <ul class="nav level3">
                                     <li>
                                         <a href="../api/Yarhl.PluginManager.html" name="" title="PluginManager">PluginManager</a>
@@ -42,16 +46,13 @@
                           <li>
                               <span class="expand-stub"></span>
                               <a href="../api/Yarhl.FileFormat.html" name="" title="Yarhl.FileFormat">Yarhl.FileFormat</a>
-
+                              
                               <ul class="nav level3">
-                                    <li>
-                                        <a href="../api/Yarhl.FileFormat.BinaryFormat.html" name="" title="BinaryFormat">BinaryFormat</a>
-                                    </li>
                                     <li>
                                         <a href="../api/Yarhl.FileFormat.ConverterMetadata.html" name="" title="ConverterMetadata">ConverterMetadata</a>
                                     </li>
                                     <li>
-                                        <a href="../api/Yarhl.FileFormat.Format.html" name="" title="Format">Format</a>
+                                        <a href="../api/Yarhl.FileFormat.ConvertFormat.html" name="" title="ConvertFormat">ConvertFormat</a>
                                     </li>
                                     <li>
                                         <a href="../api/Yarhl.FileFormat.FormatMetadata.html" name="" title="FormatMetadata">FormatMetadata</a>
@@ -65,12 +66,18 @@
                                     <li>
                                         <a href="../api/Yarhl.FileFormat.IExportMetadata.html" name="" title="IExportMetadata">IExportMetadata</a>
                                     </li>
+                                    <li>
+                                        <a href="../api/Yarhl.FileFormat.IFormat.html" name="" title="IFormat">IFormat</a>
+                                    </li>
+                                    <li>
+                                        <a href="../api/Yarhl.FileFormat.IInitializer-1.html" name="" title="IInitializer&lt;T&gt;">IInitializer&lt;T&gt;</a>
+                                    </li>
                               </ul>
                           </li>
                           <li>
                               <span class="expand-stub"></span>
                               <a href="../api/Yarhl.FileSystem.html" name="" title="Yarhl.FileSystem">Yarhl.FileSystem</a>
-
+                              
                               <ul class="nav level3">
                                     <li>
                                         <a href="../api/Yarhl.FileSystem.NavigableNode-1.html" name="" title="NavigableNode&lt;T&gt;">NavigableNode&lt;T&gt;</a>
@@ -101,13 +108,19 @@
                           <li>
                               <span class="expand-stub"></span>
                               <a href="../api/Yarhl.IO.html" name="" title="Yarhl.IO">Yarhl.IO</a>
-
+                              
                               <ul class="nav level3">
+                                    <li>
+                                        <a href="../api/Yarhl.IO.BinaryFormat.html" name="" title="BinaryFormat">BinaryFormat</a>
+                                    </li>
                                     <li>
                                         <a href="../api/Yarhl.IO.DataReader.html" name="" title="DataReader">DataReader</a>
                                     </li>
                                     <li>
                                         <a href="../api/Yarhl.IO.DataStream.html" name="" title="DataStream">DataStream</a>
+                                    </li>
+                                    <li>
+                                        <a href="../api/Yarhl.IO.DataStreamFactory.html" name="" title="DataStreamFactory">DataStreamFactory</a>
                                     </li>
                                     <li>
                                         <a href="../api/Yarhl.IO.DataWriter.html" name="" title="DataWriter">DataWriter</a>
@@ -117,6 +130,12 @@
                                     </li>
                                     <li>
                                         <a href="../api/Yarhl.IO.FileOpenMode.html" name="" title="FileOpenMode">FileOpenMode</a>
+                                    </li>
+                                    <li>
+                                        <a href="../api/Yarhl.IO.IBinary.html" name="" title="IBinary">IBinary</a>
+                                    </li>
+                                    <li>
+                                        <a href="../api/Yarhl.IO.IStream.html" name="" title="IStream">IStream</a>
                                     </li>
                                     <li>
                                         <a href="../api/Yarhl.IO.NumericExtension.html" name="" title="NumericExtension">NumericExtension</a>
@@ -134,9 +153,28 @@
                           </li>
                           <li>
                               <span class="expand-stub"></span>
-                              <a href="../api/Yarhl.Media.Text.html" name="" title="Yarhl.Media.Text">Yarhl.Media.Text</a>
-
+                              <a href="../api/Yarhl.IO.StreamFormat.html" name="" title="Yarhl.IO.StreamFormat">Yarhl.IO.StreamFormat</a>
+                              
                               <ul class="nav level3">
+                                    <li>
+                                        <a href="../api/Yarhl.IO.StreamFormat.LazyFileStream.html" name="" title="LazyFileStream">LazyFileStream</a>
+                                    </li>
+                                    <li>
+                                        <a href="../api/Yarhl.IO.StreamFormat.RecyclableMemoryStream.html" name="" title="RecyclableMemoryStream">RecyclableMemoryStream</a>
+                                    </li>
+                                    <li>
+                                        <a href="../api/Yarhl.IO.StreamFormat.StreamWrapper.html" name="" title="StreamWrapper">StreamWrapper</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="../api/Yarhl.Media.Text.html" name="" title="Yarhl.Media.Text">Yarhl.Media.Text</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="../api/Yarhl.Media.Text.Binary2Po.html" name="" title="Binary2Po">Binary2Po</a>
+                                    </li>
                                     <li>
                                         <a href="../api/Yarhl.Media.Text.Po.html" name="" title="Po">Po</a>
                                     </li>
@@ -163,7 +201,7 @@
                           <li>
                               <span class="expand-stub"></span>
                               <a href="../api/Yarhl.Media.Text.Encodings.html" name="" title="Yarhl.Media.Text.Encodings">Yarhl.Media.Text.Encodings</a>
-
+                              
                               <ul class="nav level3">
                                     <li>
                                         <a href="../api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html" name="" title="EscapeOutRangeEncoding">EscapeOutRangeEncoding</a>
