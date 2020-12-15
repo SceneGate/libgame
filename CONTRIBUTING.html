@@ -8,16 +8,16 @@
     <title>Contributing to Yarhl | SceneGate Yarhl </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Contributing to Yarhl | SceneGate Yarhl ">
-    <meta name="generator" content="docfx 2.51.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
-    
+    <meta property="docfx:rel" content="">
     <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="images/favicon-48.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -44,7 +44,21 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="index.html" title="Home">Home</a>
+                      </li>
+                      <li>
+                          <a href="guides/Yarhl-nutshell.html" title="Guides">Guides</a>
+                      </li>
+                      <li>
+                          <a href="dev/Changelog.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/SceneGate/Yarhl" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -56,22 +70,25 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div class="container body-content">
         
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
           </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
         </div>
-        <div class="article row grid-right">
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CONTRIBUTING">
+            <article class="content wrap" id="_content" data-uid="">
 <h1 id="contributing-to-yarhl">Contributing to Yarhl</h1>
 
 <p>Thanks for taking the time to contribute! ✨</p>
-<p>In this document you will find all the information you need to make sure
-that Yarhl continues to be the high-quality product we want to be!</p>
+<p>In this document you will find all the information you need to make sure that
+Yarhl continues to be the high-quality product we want to be!</p>
 <h2 id="reporting-issues">Reporting issues</h2>
 <h3 id="issues">Issues</h3>
 <p>When reporting a problem, be as specific as possible. Ideally, you should
@@ -79,7 +96,7 @@ provide an small snippet of code that reproduces the issue. Try to provide also
 the following information:</p>
 <ul>
 <li>OS: Linux / Windows / Mac OS</li>
-<li>Runtime: .NET Framework, Mono, .NET Core</li>
+<li>Runtime: .NET Framework, Mono, .NET Core, .NET 5</li>
 <li>Version of Yarhl</li>
 <li>Stacktrace if any</li>
 <li>What's happening and what you expect to happen</li>
@@ -106,7 +123,7 @@ work on that.</li>
 <li>Make the necessary code changes in as many commits as you want. The commit
 message should follow this convention:</li>
 </ol>
-<pre><code>:emoji: Short description #IssueID
+<pre><code class="lang-plain">:emoji: Short description #IssueID
 
 Long description if needed.
 </code></pre>
@@ -128,10 +145,12 @@ commits if needed, the team will approve and merge it.</li>
 <ul>
 <li>It is more important to be correct than to be fast.</li>
 <li>It is more important to be maintainable than to be fast.</li>
-<li>Fast code that is difficult to maintain is likely going to be looked down upon.</li>
+<li>Fast code that is difficult to maintain is likely going to be looked down
+upon.</li>
 </ul>
-<p>And don't miss <a href="https://www.python.org/dev/peps/pep-0020/#id3">The Zen of Python</a>:</p>
-<pre><code>Beautiful is better than ugly.
+<p>And don't miss
+<a href="https://www.python.org/dev/peps/pep-0020/#id3">The Zen of Python</a>:</p>
+<pre><code class="lang-plain">Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Complex is better than complicated.
@@ -167,7 +186,8 @@ your methods. Use a TDD approach.</li>
 <h3 id="style-guidelines">Style Guidelines</h3>
 <h4 id="indentation">Indentation</h4>
 <ul>
-<li>✔️ <strong>DO</strong> use <strong>spaces</strong> with an indentation level of 4 spaces.</li>
+<li>✔️ <strong>DO</strong> use <strong>spaces</strong> with an indentation level of 4
+spaces.</li>
 <li>❌ <strong>DO NOT</strong> use tabs.</li>
 </ul>
 <h4 id="new-lines">New lines</h4>
@@ -180,8 +200,8 @@ new lines after it won't show that line as changed in the diff.</li>
 </ul>
 <h4 id="line-length">Line length</h4>
 <ul>
-<li>✔️ <strong>DO</strong> use a limit of 80 columns. If you need to wrap,
-move to the next line with one extra indentation level.</li>
+<li>✔️ <strong>DO</strong> use a limit of 80 columns. If you need to wrap, move
+to the next line with one extra indentation level.</li>
 <li>✔️ <strong>DO</strong> put all the arguments in a new line if they don't
 fit.</li>
 <li>✔️ <strong>DO</strong> use local variables to make small conditions.</li>
@@ -207,9 +227,9 @@ fit.</li>
 <ul>
 <li>✔️ <strong>DO</strong> define a type (class / struct / enum) per file.</li>
 <li>✔️ <strong>DO</strong> separate methods and properties with new lines.</li>
-<li>✔️ <strong>DO</strong> place the elements in this order:
-private fields, constructors, properties, methods, nested types. Place first
-static fields and order by visibility: public, protected, private.</li>
+<li>✔️ <strong>DO</strong> place the elements in this order: private fields,
+constructors, properties, methods, nested types. Place first static fields and
+order by visibility: public, protected, private.</li>
 </ul>
 <h4 id="spacing-rules">Spacing rules</h4>
 <ul>
@@ -401,7 +421,7 @@ same name.</li>
 <pre><code class="lang-csharp">class Foo
 {
     int bar;
- 
+
     public Foo(int bar)
     {
         this.bar = bar;
@@ -496,12 +516,13 @@ with many operations.</li>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/docs/articles/CONTRIBUTING.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/CONTRIBUTING.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
@@ -522,8 +543,8 @@ with many operations.</li>
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
   </body>
 </html>

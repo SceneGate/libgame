@@ -10,16 +10,16 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class XmlExtension
    | SceneGate Yarhl ">
-    <meta name="generator" content="docfx 2.51.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    <meta property="docfx:tocrel" content="../dev/toc.html">
     
-    
+    <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -37,7 +37,7 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../images/favicon-48.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -46,7 +46,21 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="Home">Home</a>
+                      </li>
+                      <li>
+                          <a href="../guides/Yarhl-nutshell.html" title="Guides">Guides</a>
+                      </li>
+                      <li>
+                          <a href="../dev/Changelog.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/SceneGate/Yarhl" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -58,12 +72,241 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div class="container body-content">
         
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <a href="../dev/Changelog.html" title="Changelog" class="">Changelog</a>
+                    </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">API</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.html" title="Yarhl" class="">Yarhl</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.PluginManager.html" title="PluginManager" class="">PluginManager</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.FileFormat.html" title="Yarhl.FileFormat" class="">Yarhl.FileFormat</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.ConverterMetadata.html" title="ConverterMetadata" class="">ConverterMetadata</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.ConvertFormat.html" title="ConvertFormat" class="">ConvertFormat</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.FormatMetadata.html" title="FormatMetadata" class="">FormatMetadata</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.IConverter.html" title="IConverter" class="">IConverter</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.IConverter-2.html" title="IConverter&lt;TSrc, TDst&gt;" class="">IConverter&lt;TSrc, TDst&gt;</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.IExportMetadata.html" title="IExportMetadata" class="">IExportMetadata</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.IFormat.html" title="IFormat" class="">IFormat</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.IInitializer-1.html" title="IInitializer&lt;T&gt;" class="">IInitializer&lt;T&gt;</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.FileSystem.html" title="Yarhl.FileSystem" class="">Yarhl.FileSystem</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.NavigableNode-1.html" title="NavigableNode&lt;T&gt;" class="">NavigableNode&lt;T&gt;</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.NavigableNodeCollection-1.html" title="NavigableNodeCollection&lt;T&gt;" class="">NavigableNodeCollection&lt;T&gt;</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.NavigationMode.html" title="NavigationMode" class="">NavigationMode</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.Navigator.html" title="Navigator" class="">Navigator</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.Node.html" title="Node" class="">Node</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.NodeContainerFormat.html" title="NodeContainerFormat" class="">NodeContainerFormat</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.NodeFactory.html" title="NodeFactory" class="">NodeFactory</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.FileSystem.NodeSystem.html" title="NodeSystem" class="">NodeSystem</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.IO.html" title="Yarhl.IO" class="">Yarhl.IO</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.BinaryFormat.html" title="BinaryFormat" class="">BinaryFormat</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.DataReader.html" title="DataReader" class="">DataReader</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.DataStream.html" title="DataStream" class="">DataStream</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.DataStreamFactory.html" title="DataStreamFactory" class="">DataStreamFactory</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.DataWriter.html" title="DataWriter" class="">DataWriter</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.EndiannessMode.html" title="EndiannessMode" class="">EndiannessMode</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.FileOpenMode.html" title="FileOpenMode" class="">FileOpenMode</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.IBinary.html" title="IBinary" class="">IBinary</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.IStream.html" title="IStream" class="">IStream</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.NumericExtension.html" title="NumericExtension" class="">NumericExtension</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.SeekMode.html" title="SeekMode" class="">SeekMode</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.TextReader.html" title="TextReader" class="">TextReader</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.TextWriter.html" title="TextWriter" class="">TextWriter</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.html" title="Yarhl.IO.Serialization.Attributes" class="">Yarhl.IO.Serialization.Attributes</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html" title="BinaryBooleanAttribute" class="">BinaryBooleanAttribute</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html" title="BinaryEnumAttribute" class="">BinaryEnumAttribute</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.html" title="BinaryForceEndiannessAttribute" class="">BinaryForceEndiannessAttribute</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.BinaryIgnoreAttribute.html" title="BinaryIgnoreAttribute" class="">BinaryIgnoreAttribute</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.BinaryInt24Attribute.html" title="BinaryInt24Attribute" class="">BinaryInt24Attribute</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html" title="BinaryStringAttribute" class="">BinaryStringAttribute</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.Serialization.Attributes.SerializableAttribute.html" title="SerializableAttribute" class="">SerializableAttribute</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.IO.StreamFormat.html" title="Yarhl.IO.StreamFormat" class="">Yarhl.IO.StreamFormat</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.StreamFormat.LazyFileStream.html" title="LazyFileStream" class="">LazyFileStream</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.StreamFormat.RecyclableMemoryStream.html" title="RecyclableMemoryStream" class="">RecyclableMemoryStream</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.IO.StreamFormat.StreamWrapper.html" title="StreamWrapper" class="">StreamWrapper</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.Media.Text.html" title="Yarhl.Media.Text" class="">Yarhl.Media.Text</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.Binary2Po.html" title="Binary2Po" class="">Binary2Po</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.Po.html" title="Po" class="">Po</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.Po2Binary.html" title="Po2Binary" class="">Po2Binary</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.PoEntry.html" title="PoEntry" class="">PoEntry</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.PoHeader.html" title="PoHeader" class="">PoHeader</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.Replacer.html" title="Replacer" class="">Replacer</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.ReplacerEntry.html" title="ReplacerEntry" class="">ReplacerEntry</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.XmlExtension.html" title="XmlExtension" class="">XmlExtension</a>
+                                </li>
+                              </ul>  </li>
+                          <li class="">
+                            <span class="expand-stub"></span>
+                            <a href="../dev/../api/Yarhl.Media.Text.Encodings.html" title="Yarhl.Media.Text.Encodings" class="">Yarhl.Media.Text.Encodings</a>
+                              
+                              <ul class="nav level3">
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html" title="EscapeOutRangeEncoding" class="">EscapeOutRangeEncoding</a>
+                                </li>
+                                <li class="">
+                                  <a href="../dev/../api/Yarhl.Media.Text.Encodings.EucJpEncoding.html" title="EucJpEncoding" class="">EucJpEncoding</a>
+                                </li>
+                              </ul>  </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
@@ -85,7 +328,7 @@
   <h6><strong>Assembly</strong>: Yarhl.Media.dll</h6>
   <h5 id="Yarhl_Media_Text_XmlExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class XmlExtension : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class XmlExtension</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -157,13 +400,13 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_XmlExtension_GetIndentedValue_XElement_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_XmlExtension_GetIndentedValue_System_Xml_Linq_XElement_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl.Media/Text/XmlExtension.cs/#L84">View Source</a>
   </span>
   <a id="Yarhl_Media_Text_XmlExtension_GetIndentedValue_" data-uid="Yarhl.Media.Text.XmlExtension.GetIndentedValue*"></a>
-  <h4 id="Yarhl_Media_Text_XmlExtension_GetIndentedValue_XElement_" data-uid="Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)">GetIndentedValue(XElement)</h4>
+  <h4 id="Yarhl_Media_Text_XmlExtension_GetIndentedValue_System_Xml_Linq_XElement_" data-uid="Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)">GetIndentedValue(XElement)</h4>
   <div class="markdown level1 summary"><p>Gets the concatenated text to this element removing any indentation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -182,7 +425,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XElement</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.linq.xelement">XElement</a></td>
         <td><span class="parametername">entry</span></td>
         <td><p>XML entry to get text.</p>
 </td>
@@ -207,13 +450,13 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_XmlExtension_SetIndentedValue_XElement_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_XmlExtension_SetIndentedValue_System_Xml_Linq_XElement_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl.Media/Text/XmlExtension.cs/#L49">View Source</a>
   </span>
   <a id="Yarhl_Media_Text_XmlExtension_SetIndentedValue_" data-uid="Yarhl.Media.Text.XmlExtension.SetIndentedValue*"></a>
-  <h4 id="Yarhl_Media_Text_XmlExtension_SetIndentedValue_XElement_System_String_System_Int32_" data-uid="Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement,System.String,System.Int32)">SetIndentedValue(XElement, String, Int32)</h4>
+  <h4 id="Yarhl_Media_Text_XmlExtension_SetIndentedValue_System_Xml_Linq_XElement_System_String_System_Int32_" data-uid="Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement,System.String,System.Int32)">SetIndentedValue(XElement, String, Int32)</h4>
   <div class="markdown level1 summary"><p>Sets the concatenated text to this element indented for human-readibility.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -232,7 +475,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">XElement</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.linq.xelement">XElement</a></td>
         <td><span class="parametername">entry</span></td>
         <td><p>XML entry to set text.</p>
 </td>
@@ -267,7 +510,8 @@
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

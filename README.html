@@ -8,16 +8,16 @@
     <title>Yarhl: Yet Another ROM Hacking Library  | SceneGate Yarhl </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Yarhl: Yet Another ROM Hacking Library  | SceneGate Yarhl ">
-    <meta name="generator" content="docfx 2.51.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
     <link rel="stylesheet" href="styles/docfx.css">
     <link rel="stylesheet" href="styles/main.css">
     <meta property="docfx:navrel" content="toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    
+    <meta property="docfx:rel" content="">
     <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -35,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
+                <img id="logo" class="svg" src="images/favicon-48.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -44,7 +44,21 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="index.html" title="Home">Home</a>
+                      </li>
+                      <li>
+                          <a href="guides/Yarhl-nutshell.html" title="Guides">Guides</a>
+                      </li>
+                      <li>
+                          <a href="dev/Changelog.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/SceneGate/Yarhl" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -56,6 +70,16 @@
           </div>
         </div>
       </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
       <div role="main" class="container body-content hide-when-search">
         <div class="article row grid">
           <div class="col-md-10">
@@ -78,18 +102,20 @@ X.</p>
 <tbody>
 <tr>
 <td><strong>Build &amp; Test</strong></td>
-<td><a href="https://dev.azure.com/SceneGate/Yarhl/_build?definitionId=1&amp;_a=summary&amp;repositoryFilter=1&amp;branchFilter=38"><img src="https://dev.azure.com/SceneGate/Yarhl/_apis/build/status/SceneGate.Yarhl?branchName=develop" alt="Build Status"></a> <img src="https://img.shields.io/azure-devops/tests/SceneGate/Yarhl/1?compact_message" alt="Azure DevOps tests"> <img src="https://img.shields.io/azure-devops/coverage/SceneGate/Yarhl/1" alt="Azure DevOps coverage"></td>
+<td>TODO</td>
 </tr>
 <tr>
 <td><strong>Quality report</strong></td>
-<td><a href="https://bestpractices.coreinfrastructure.org/projects/2919"><img src="https://bestpractices.coreinfrastructure.org/projects/2919/badge" alt="CII Best Practices"></a> <a href="https://lgtm.com/projects/g/SceneGate/Yarhl/alerts/"><img src="https://img.shields.io/lgtm/alerts/g/SceneGate/Yarhl.svg?logo=lgtm&amp;logoWidth=18" alt="Total alerts"></a></td>
+<td><a href="https://bestpractices.coreinfrastructure.org/projects/2919"><img src="https://bestpractices.coreinfrastructure.org/projects/2919/badge" alt="CII Best Practices"></a></td>
 </tr>
 </tbody>
 </table>
 <h2 id="documentation">Documentation</h2>
+<p>Feel free to ask any question in the
+<a href="https://github.com/SceneGate/Yarhl/discussions">project Discussion site!</a>.</p>
 <p>Check our on-line API overview:
 <a href="https://scenegate.github.io/Yarhl/articles/Yarhl-nutshell.html">Yarhl in a nutshell</a>
-and the API documentation
+and the complete API documentation
 <a href="https://scenegate.github.io/Yarhl/api/Yarhl.html">here</a>.</p>
 <h2 id="install">Install</h2>
 <p>Stable releases are available from nuget.org:</p>
@@ -97,22 +123,36 @@ and the API documentation
 <li><a href="https://www.nuget.org/packages/Yarhl">Yarhl</a></li>
 <li><a href="https://www.nuget.org/packages/Yarhl.Media">Yarhl.Media</a></li>
 </ul>
-<p>Alpha releases can be found in this
+<p>The libraries target .NET Standard 2.0. The tests (so the library) runs with the
+supported runtimes:</p>
+<ul>
+<li>.NET 5.0</li>
+<li>.NET Core 3.1</li>
+<li>.NET Framework 4.8 or Mono (latest on CI)</li>
+</ul>
+<p>Preview releases can be found in this
 <a href="https://dev.azure.com/SceneGate/Yarhl/_packaging">Azure DevOps package repository</a>.
-To use an alpha release, create a file <code>nuget.config</code> in the same directory of
+To use a preview release, create a file <code>nuget.config</code> in the same directory of
 your solution (.sln) file with the following content:</p>
 <pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;configuration&gt;
   &lt;packageSources&gt;
-    &lt;add key=&quot;Yarhl-Alpha&quot; value=&quot;https://pkgs.dev.azure.com/SceneGate/Yarhl/_packaging/preview%40Local/nuget/v3/index.json&quot; /&gt;
+    &lt;add key=&quot;Yarhl-Preview&quot; value=&quot;https://pkgs.dev.azure.com/SceneGate/Yarhl/_packaging/preview%40Local/nuget/v3/index.json&quot; /&gt;
   &lt;/packageSources&gt;
 &lt;/configuration&gt;
 </code></pre>
 <h2 id="build">Build</h2>
-<p>Since the unit tests are validated against .NET Core and .NET Framework or Mono
-both runtime must be installed on the machine. Then run:</p>
-<pre><code class="lang-sh">dotnet tool restore
+<p>The project requires to build .NET 5.0 SDK, .NET Core 3.1 runtime and .NET
+Framework 4.8 or latest Mono.</p>
+<p>To build, test and generate artifacts run:</p>
+<pre><code class="lang-sh"># Only required the first time
+dotnet tool restore
+
+# Default target is Stage-Artifacts
 dotnet cake
+</code></pre>
+<p>To just build and test quickly, run:</p>
+<pre><code class="lang-sh">dotnet cake --target=BuildTest
 </code></pre>
 </article>
           </div>
@@ -127,7 +167,8 @@ dotnet cake
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

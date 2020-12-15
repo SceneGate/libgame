@@ -3,7 +3,7 @@ sorted: true
 references:
 - uid: CONTRIBUTING
   name: Contributing to Yarhl
-  href: articles/CONTRIBUTING.html
+  href: guides/Contributing.html
 - uid: README
   name: 'Yarhl: Yet Another ROM Hacking Library '
   href: index.html
@@ -1765,6 +1765,37 @@ references:
   isSpec: "True"
   fullName: Yarhl.IO.DataStream.WriteByte
   nameWithType: DataStream.WriteByte
+- uid: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,System.Int64,System.String)
+  name: WriteSegmentTo(Int64, Int64, String)
+  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_WriteSegmentTo_System_Int64_System_Int64_System_String_
+  commentId: M:Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,System.Int64,System.String)
+  fullName: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64, System.Int64, System.String)
+  nameWithType: DataStream.WriteSegmentTo(Int64, Int64, String)
+- uid: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,System.Int64,Yarhl.IO.DataStream)
+  name: WriteSegmentTo(Int64, Int64, DataStream)
+  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_WriteSegmentTo_System_Int64_System_Int64_Yarhl_IO_DataStream_
+  commentId: M:Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,System.Int64,Yarhl.IO.DataStream)
+  fullName: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64, System.Int64, Yarhl.IO.DataStream)
+  nameWithType: DataStream.WriteSegmentTo(Int64, Int64, DataStream)
+- uid: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,System.String)
+  name: WriteSegmentTo(Int64, String)
+  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_WriteSegmentTo_System_Int64_System_String_
+  commentId: M:Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,System.String)
+  fullName: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64, System.String)
+  nameWithType: DataStream.WriteSegmentTo(Int64, String)
+- uid: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,Yarhl.IO.DataStream)
+  name: WriteSegmentTo(Int64, DataStream)
+  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_WriteSegmentTo_System_Int64_Yarhl_IO_DataStream_
+  commentId: M:Yarhl.IO.DataStream.WriteSegmentTo(System.Int64,Yarhl.IO.DataStream)
+  fullName: Yarhl.IO.DataStream.WriteSegmentTo(System.Int64, Yarhl.IO.DataStream)
+  nameWithType: DataStream.WriteSegmentTo(Int64, DataStream)
+- uid: Yarhl.IO.DataStream.WriteSegmentTo*
+  name: WriteSegmentTo
+  href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_WriteSegmentTo_
+  commentId: Overload:Yarhl.IO.DataStream.WriteSegmentTo
+  isSpec: "True"
+  fullName: Yarhl.IO.DataStream.WriteSegmentTo
+  nameWithType: DataStream.WriteSegmentTo
 - uid: Yarhl.IO.DataStream.WriteTo(System.String)
   name: WriteTo(String)
   href: api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_WriteTo_System_String_
@@ -2006,12 +2037,30 @@ references:
   commentId: M:Yarhl.IO.DataWriter.Write(System.String,System.Int32,System.Boolean,System.Text.Encoding)
   fullName: Yarhl.IO.DataWriter.Write(System.String, System.Int32, System.Boolean, System.Text.Encoding)
   nameWithType: DataWriter.Write(String, Int32, Boolean, Encoding)
+- uid: Yarhl.IO.DataWriter.Write(System.String,System.Int32,System.String,System.Text.Encoding)
+  name: Write(String, Int32, String, Encoding)
+  href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_Write_System_String_System_Int32_System_String_System_Text_Encoding_
+  commentId: M:Yarhl.IO.DataWriter.Write(System.String,System.Int32,System.String,System.Text.Encoding)
+  fullName: Yarhl.IO.DataWriter.Write(System.String, System.Int32, System.String, System.Text.Encoding)
+  nameWithType: DataWriter.Write(String, Int32, String, Encoding)
+- uid: Yarhl.IO.DataWriter.Write(System.String,System.String,System.Text.Encoding,System.Int32)
+  name: Write(String, String, Encoding, Int32)
+  href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_Write_System_String_System_String_System_Text_Encoding_System_Int32_
+  commentId: M:Yarhl.IO.DataWriter.Write(System.String,System.String,System.Text.Encoding,System.Int32)
+  fullName: Yarhl.IO.DataWriter.Write(System.String, System.String, System.Text.Encoding, System.Int32)
+  nameWithType: DataWriter.Write(String, String, Encoding, Int32)
 - uid: Yarhl.IO.DataWriter.Write(System.String,System.Type,System.Boolean,System.Text.Encoding,System.Int32)
   name: Write(String, Type, Boolean, Encoding, Int32)
   href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_Write_System_String_System_Type_System_Boolean_System_Text_Encoding_System_Int32_
   commentId: M:Yarhl.IO.DataWriter.Write(System.String,System.Type,System.Boolean,System.Text.Encoding,System.Int32)
   fullName: Yarhl.IO.DataWriter.Write(System.String, System.Type, System.Boolean, System.Text.Encoding, System.Int32)
   nameWithType: DataWriter.Write(String, Type, Boolean, Encoding, Int32)
+- uid: Yarhl.IO.DataWriter.Write(System.String,System.Type,System.String,System.Text.Encoding,System.Int32)
+  name: Write(String, Type, String, Encoding, Int32)
+  href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_Write_System_String_System_Type_System_String_System_Text_Encoding_System_Int32_
+  commentId: M:Yarhl.IO.DataWriter.Write(System.String,System.Type,System.String,System.Text.Encoding,System.Int32)
+  fullName: Yarhl.IO.DataWriter.Write(System.String, System.Type, System.String, System.Text.Encoding, System.Int32)
+  nameWithType: DataWriter.Write(String, Type, String, Encoding, Int32)
 - uid: Yarhl.IO.DataWriter.Write(System.UInt16)
   name: Write(UInt16)
   href: api/Yarhl.IO.DataWriter.html#Yarhl_IO_DataWriter_Write_System_UInt16_
@@ -2367,6 +2416,262 @@ references:
   commentId: F:Yarhl.IO.SeekMode.Start
   fullName: Yarhl.IO.SeekMode.Start
   nameWithType: SeekMode.Start
+- uid: Yarhl.IO.Serialization.Attributes
+  name: Yarhl.IO.Serialization.Attributes
+  href: api/Yarhl.IO.Serialization.Attributes.html
+  commentId: N:Yarhl.IO.Serialization.Attributes
+  fullName: Yarhl.IO.Serialization.Attributes
+  nameWithType: Yarhl.IO.Serialization.Attributes
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute
+  name: BinaryBooleanAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html
+  commentId: T:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute
+  nameWithType: BinaryBooleanAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.#ctor
+  name: BinaryBooleanAttribute()
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute__ctor
+  commentId: M:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.#ctor
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.BinaryBooleanAttribute()
+  nameWithType: BinaryBooleanAttribute.BinaryBooleanAttribute()
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.#ctor*
+  name: BinaryBooleanAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute__ctor_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.BinaryBooleanAttribute
+  nameWithType: BinaryBooleanAttribute.BinaryBooleanAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.FalseValue
+  name: FalseValue
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_FalseValue
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.FalseValue
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.FalseValue
+  nameWithType: BinaryBooleanAttribute.FalseValue
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.FalseValue*
+  name: FalseValue
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_FalseValue_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.FalseValue
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.FalseValue
+  nameWithType: BinaryBooleanAttribute.FalseValue
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.ReadAs
+  name: ReadAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_ReadAs
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.ReadAs
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.ReadAs
+  nameWithType: BinaryBooleanAttribute.ReadAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.ReadAs*
+  name: ReadAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_ReadAs_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.ReadAs
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.ReadAs
+  nameWithType: BinaryBooleanAttribute.ReadAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.TrueValue
+  name: TrueValue
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_TrueValue
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.TrueValue
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.TrueValue
+  nameWithType: BinaryBooleanAttribute.TrueValue
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.TrueValue*
+  name: TrueValue
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_TrueValue_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.TrueValue
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.TrueValue
+  nameWithType: BinaryBooleanAttribute.TrueValue
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.WriteAs
+  name: WriteAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_WriteAs
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.WriteAs
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.WriteAs
+  nameWithType: BinaryBooleanAttribute.WriteAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.WriteAs*
+  name: WriteAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryBooleanAttribute_WriteAs_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.WriteAs
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryBooleanAttribute.WriteAs
+  nameWithType: BinaryBooleanAttribute.WriteAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute
+  name: BinaryEnumAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html
+  commentId: T:Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute
+  nameWithType: BinaryEnumAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.#ctor
+  name: BinaryEnumAttribute()
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryEnumAttribute__ctor
+  commentId: M:Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.#ctor
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.BinaryEnumAttribute()
+  nameWithType: BinaryEnumAttribute.BinaryEnumAttribute()
+- uid: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.#ctor*
+  name: BinaryEnumAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryEnumAttribute__ctor_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.BinaryEnumAttribute
+  nameWithType: BinaryEnumAttribute.BinaryEnumAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.ReadAs
+  name: ReadAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryEnumAttribute_ReadAs
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.ReadAs
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.ReadAs
+  nameWithType: BinaryEnumAttribute.ReadAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.ReadAs*
+  name: ReadAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryEnumAttribute_ReadAs_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.ReadAs
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.ReadAs
+  nameWithType: BinaryEnumAttribute.ReadAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.WriteAs
+  name: WriteAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryEnumAttribute_WriteAs
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.WriteAs
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.WriteAs
+  nameWithType: BinaryEnumAttribute.WriteAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.WriteAs*
+  name: WriteAs
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryEnumAttribute_WriteAs_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.WriteAs
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryEnumAttribute.WriteAs
+  nameWithType: BinaryEnumAttribute.WriteAs
+- uid: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute
+  name: BinaryForceEndiannessAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.html
+  commentId: T:Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute
+  nameWithType: BinaryForceEndiannessAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.#ctor(Yarhl.IO.EndiannessMode)
+  name: BinaryForceEndiannessAttribute(EndiannessMode)
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryForceEndiannessAttribute__ctor_Yarhl_IO_EndiannessMode_
+  commentId: M:Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.#ctor(Yarhl.IO.EndiannessMode)
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.BinaryForceEndiannessAttribute(Yarhl.IO.EndiannessMode)
+  nameWithType: BinaryForceEndiannessAttribute.BinaryForceEndiannessAttribute(EndiannessMode)
+- uid: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.#ctor*
+  name: BinaryForceEndiannessAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryForceEndiannessAttribute__ctor_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.BinaryForceEndiannessAttribute
+  nameWithType: BinaryForceEndiannessAttribute.BinaryForceEndiannessAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.Mode
+  name: Mode
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryForceEndiannessAttribute_Mode
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.Mode
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.Mode
+  nameWithType: BinaryForceEndiannessAttribute.Mode
+- uid: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.Mode*
+  name: Mode
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryForceEndiannessAttribute_Mode_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.Mode
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryForceEndiannessAttribute.Mode
+  nameWithType: BinaryForceEndiannessAttribute.Mode
+- uid: Yarhl.IO.Serialization.Attributes.BinaryIgnoreAttribute
+  name: BinaryIgnoreAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryIgnoreAttribute.html
+  commentId: T:Yarhl.IO.Serialization.Attributes.BinaryIgnoreAttribute
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryIgnoreAttribute
+  nameWithType: BinaryIgnoreAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryInt24Attribute
+  name: BinaryInt24Attribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryInt24Attribute.html
+  commentId: T:Yarhl.IO.Serialization.Attributes.BinaryInt24Attribute
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryInt24Attribute
+  nameWithType: BinaryInt24Attribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute
+  name: BinaryStringAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html
+  commentId: T:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute
+  nameWithType: BinaryStringAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.#ctor
+  name: BinaryStringAttribute()
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute__ctor
+  commentId: M:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.#ctor
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.BinaryStringAttribute()
+  nameWithType: BinaryStringAttribute.BinaryStringAttribute()
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.#ctor*
+  name: BinaryStringAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute__ctor_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.#ctor
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.BinaryStringAttribute
+  nameWithType: BinaryStringAttribute.BinaryStringAttribute
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.CodePage
+  name: CodePage
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_CodePage
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.CodePage
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.CodePage
+  nameWithType: BinaryStringAttribute.CodePage
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.CodePage*
+  name: CodePage
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_CodePage_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.CodePage
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.CodePage
+  nameWithType: BinaryStringAttribute.CodePage
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.FixedSize
+  name: FixedSize
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_FixedSize
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.FixedSize
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.FixedSize
+  nameWithType: BinaryStringAttribute.FixedSize
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.FixedSize*
+  name: FixedSize
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_FixedSize_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.FixedSize
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.FixedSize
+  nameWithType: BinaryStringAttribute.FixedSize
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.MaxSize
+  name: MaxSize
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_MaxSize
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.MaxSize
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.MaxSize
+  nameWithType: BinaryStringAttribute.MaxSize
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.MaxSize*
+  name: MaxSize
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_MaxSize_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.MaxSize
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.MaxSize
+  nameWithType: BinaryStringAttribute.MaxSize
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.SizeType
+  name: SizeType
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_SizeType
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.SizeType
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.SizeType
+  nameWithType: BinaryStringAttribute.SizeType
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.SizeType*
+  name: SizeType
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_SizeType_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.SizeType
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.SizeType
+  nameWithType: BinaryStringAttribute.SizeType
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.Terminator
+  name: Terminator
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_Terminator
+  commentId: P:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.Terminator
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.Terminator
+  nameWithType: BinaryStringAttribute.Terminator
+- uid: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.Terminator*
+  name: Terminator
+  href: api/Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.html#Yarhl_IO_Serialization_Attributes_BinaryStringAttribute_Terminator_
+  commentId: Overload:Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.Terminator
+  isSpec: "True"
+  fullName: Yarhl.IO.Serialization.Attributes.BinaryStringAttribute.Terminator
+  nameWithType: BinaryStringAttribute.Terminator
+- uid: Yarhl.IO.Serialization.Attributes.SerializableAttribute
+  name: SerializableAttribute
+  href: api/Yarhl.IO.Serialization.Attributes.SerializableAttribute.html
+  commentId: T:Yarhl.IO.Serialization.Attributes.SerializableAttribute
+  fullName: Yarhl.IO.Serialization.Attributes.SerializableAttribute
+  nameWithType: SerializableAttribute
 - uid: Yarhl.IO.StreamFormat
   name: Yarhl.IO.StreamFormat
   href: api/Yarhl.IO.StreamFormat.html
@@ -3072,18 +3377,18 @@ references:
   commentId: T:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding
   fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding
   nameWithType: EscapeOutRangeEncoding
-- uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(Encoding)
-  name: EscapeOutRangeEncoding(Encoding)
-  href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_Encoding_
-  commentId: M:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(Encoding)
-  fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.EscapeOutRangeEncoding(Encoding)
-  nameWithType: EscapeOutRangeEncoding.EscapeOutRangeEncoding(Encoding)
 - uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.String)
   name: EscapeOutRangeEncoding(String)
   href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_System_String_
   commentId: M:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.String)
   fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.EscapeOutRangeEncoding(System.String)
   nameWithType: EscapeOutRangeEncoding.EscapeOutRangeEncoding(String)
+- uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.Text.Encoding)
+  name: EscapeOutRangeEncoding(Encoding)
+  href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_System_Text_Encoding_
+  commentId: M:Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor(System.Text.Encoding)
+  fullName: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.EscapeOutRangeEncoding(System.Text.Encoding)
+  nameWithType: EscapeOutRangeEncoding.EscapeOutRangeEncoding(Encoding)
 - uid: Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.#ctor*
   name: EscapeOutRangeEncoding
   href: api/Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html#Yarhl_Media_Text_Encodings_EscapeOutRangeEncoding__ctor_
@@ -3219,11 +3524,11 @@ references:
   commentId: M:Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor
   fullName: Yarhl.Media.Text.Encodings.EucJpEncoding.EucJpEncoding()
   nameWithType: EucJpEncoding.EucJpEncoding()
-- uid: Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(DecoderFallback,EncoderFallback)
+- uid: Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(System.Text.DecoderFallback,System.Text.EncoderFallback)
   name: EucJpEncoding(DecoderFallback, EncoderFallback)
-  href: api/Yarhl.Media.Text.Encodings.EucJpEncoding.html#Yarhl_Media_Text_Encodings_EucJpEncoding__ctor_DecoderFallback_EncoderFallback_
-  commentId: M:Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(DecoderFallback,EncoderFallback)
-  fullName: Yarhl.Media.Text.Encodings.EucJpEncoding.EucJpEncoding(DecoderFallback, EncoderFallback)
+  href: api/Yarhl.Media.Text.Encodings.EucJpEncoding.html#Yarhl_Media_Text_Encodings_EucJpEncoding__ctor_System_Text_DecoderFallback_System_Text_EncoderFallback_
+  commentId: M:Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor(System.Text.DecoderFallback,System.Text.EncoderFallback)
+  fullName: Yarhl.Media.Text.Encodings.EucJpEncoding.EucJpEncoding(System.Text.DecoderFallback, System.Text.EncoderFallback)
   nameWithType: EucJpEncoding.EucJpEncoding(DecoderFallback, EncoderFallback)
 - uid: Yarhl.Media.Text.Encodings.EucJpEncoding.#ctor*
   name: EucJpEncoding
@@ -3373,13 +3678,13 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.Po.Po
   nameWithType: Po.Po
-- uid: Yarhl.Media.Text.Po.Add(IEnumerable{Yarhl.Media.Text.PoEntry})
+- uid: Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable{Yarhl.Media.Text.PoEntry})
   name: Add(IEnumerable<PoEntry>)
-  href: api/Yarhl.Media.Text.Po.html#Yarhl_Media_Text_Po_Add_IEnumerable_Yarhl_Media_Text_PoEntry__
-  commentId: M:Yarhl.Media.Text.Po.Add(IEnumerable{Yarhl.Media.Text.PoEntry})
+  href: api/Yarhl.Media.Text.Po.html#Yarhl_Media_Text_Po_Add_System_Collections_Generic_IEnumerable_Yarhl_Media_Text_PoEntry__
+  commentId: M:Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable{Yarhl.Media.Text.PoEntry})
   name.vb: Add(IEnumerable(Of PoEntry))
-  fullName: Yarhl.Media.Text.Po.Add(IEnumerable<Yarhl.Media.Text.PoEntry>)
-  fullName.vb: Yarhl.Media.Text.Po.Add(IEnumerable(Of Yarhl.Media.Text.PoEntry))
+  fullName: Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable<Yarhl.Media.Text.PoEntry>)
+  fullName.vb: Yarhl.Media.Text.Po.Add(System.Collections.Generic.IEnumerable(Of Yarhl.Media.Text.PoEntry))
   nameWithType: Po.Add(IEnumerable<PoEntry>)
   nameWithType.vb: Po.Add(IEnumerable(Of PoEntry))
 - uid: Yarhl.Media.Text.Po.Add(Yarhl.Media.Text.PoEntry)
@@ -3995,11 +4300,11 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.XmlExtension.EscapeSpace
   nameWithType: XmlExtension.EscapeSpace
-- uid: Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)
+- uid: Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)
   name: GetIndentedValue(XElement)
-  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_GetIndentedValue_XElement_
-  commentId: M:Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)
-  fullName: Yarhl.Media.Text.XmlExtension.GetIndentedValue(XElement)
+  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_GetIndentedValue_System_Xml_Linq_XElement_
+  commentId: M:Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)
+  fullName: Yarhl.Media.Text.XmlExtension.GetIndentedValue(System.Xml.Linq.XElement)
   nameWithType: XmlExtension.GetIndentedValue(XElement)
 - uid: Yarhl.Media.Text.XmlExtension.GetIndentedValue*
   name: GetIndentedValue
@@ -4008,11 +4313,11 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.XmlExtension.GetIndentedValue
   nameWithType: XmlExtension.GetIndentedValue
-- uid: Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement,System.String,System.Int32)
+- uid: Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement,System.String,System.Int32)
   name: SetIndentedValue(XElement, String, Int32)
-  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_SetIndentedValue_XElement_System_String_System_Int32_
-  commentId: M:Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement,System.String,System.Int32)
-  fullName: Yarhl.Media.Text.XmlExtension.SetIndentedValue(XElement, System.String, System.Int32)
+  href: api/Yarhl.Media.Text.XmlExtension.html#Yarhl_Media_Text_XmlExtension_SetIndentedValue_System_Xml_Linq_XElement_System_String_System_Int32_
+  commentId: M:Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement,System.String,System.Int32)
+  fullName: Yarhl.Media.Text.XmlExtension.SetIndentedValue(System.Xml.Linq.XElement, System.String, System.Int32)
   nameWithType: XmlExtension.SetIndentedValue(XElement, String, Int32)
 - uid: Yarhl.Media.Text.XmlExtension.SetIndentedValue*
   name: SetIndentedValue

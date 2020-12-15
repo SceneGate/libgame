@@ -8,16 +8,16 @@
     <title>Cookbook | SceneGate Yarhl </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Cookbook | SceneGate Yarhl ">
-    <meta name="generator" content="docfx 2.51.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
     <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
     
-    
+    <meta property="docfx:rel" content="../">
     <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -35,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../images/favicon-48.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -44,7 +44,21 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../index.html" title="Home">Home</a>
+                      </li>
+                      <li>
+                          <a href="../guides/Yarhl-nutshell.html" title="Guides">Guides</a>
+                      </li>
+                      <li>
+                          <a href="../dev/Changelog.html" title="API">API</a>
+                      </li>
+                      <li>
+                          <a href="https://github.com/SceneGate/Yarhl" title="GitHub">GitHub</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -56,12 +70,55 @@
           </div>
         </div>
       </header>
-      <div role="main" class="container body-content hide-when-search">
+      <div class="container body-content">
         
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Guides</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Yarhl-nutshell.html" title="Yarhl in a nutshell" class="">Yarhl in a nutshell</a>
+                          </li>
+                          <li class="active">
+                            <a href="Cookbook.html" title="Cookbook" class="active">Cookbook</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a class="">Contributing</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Contributing.html" title="Guidelines" class="">Guidelines</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
@@ -154,12 +211,13 @@ node.Remove(&quot;Child2&quot;);
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/docs/articles/Cookbook.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/docs/guides/Cookbook.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
