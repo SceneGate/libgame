@@ -312,7 +312,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h2 id="vnext-august-30-2020">vNext (August 30, 2020)</h2>
 
-<p>As part of this release we had <a href="https://github.com/SceneGate/Yarhl/milestone/4?closed=1">18 issues</a> closed.
+<p>As part of this release we had <a href="https://github.com/SceneGate/Yarhl/milestone/4?closed=1">19 issues</a> closed.
 Several features and bug improvements in IO like the new cool binary (de)serializer. Use the new build system from PleOps.Cake. Deprecate .NET Framework 4.6.1.</p>
 <p>Special thanks to @Kaplas80, @Megaflan, @Darkmet98 and @pleonex.</p>
 <p><strong>Bugs</strong></p>
@@ -342,14 +342,14 @@ Several features and bug improvements in IO like the new cool binary (de)seriali
 <h2 id="v30-july-26-2020">v3.0 (July 26, 2020)</h2>
 <p>This release focuses in <strong>API user-experience enhancements</strong>. The transform and format API methods and base classes are now easier to understand and use. New convenience methods introduced and factories. Extensibilities in the IO namespace to support advance use cases as we have more applications using Yarhl.</p>
 <p>Special thanks to all the contributors: @Kaplas80, @pleonex and @priverop and to all our users providing great feedback. Especially the guys from TraduSquare.</p>
-<h2 id="new-features">New features</h2>
+<p><strong>Features</strong></p>
 <ul>
 <li>New API to pass parameters to converters: <code>IInitializer&lt;T&gt;</code> (#93 by @pleonex)</li>
 <li>New API <code>DataStreamFactory</code> to create <code>DataStream</code> (#111 by @pleonex)</li>
 <li>New API to keep ownership of underlying streams (#118 by @pleonex)</li>
 <li>New API to create nodes from a part of a stream: <code>NodeFactory.FromSubstream</code> (673ad2d by @pleonex)</li>
 <li>New API to create <code>DataStream</code> from a byte array (9158dea by @pleonex)</li>
-<li>Thread-safe DataStream for sharing an <code>IStream</code> (#129 by @Kaplas)</li>
+<li>Thread-safe DataStream for sharing an <code>IStream</code> (#129 by @Kaplas80)</li>
 <li>Add extensibility to streams with new interface <code>IStream</code> (#109 by @pleonex)</li>
 <li>Lazy open files to avoid hitting maximum file handlers opening a folder (#111 by @pleonex)</li>
 <li>Improve memory and performance by using <code>RecyclableMemoryStream</code> for memory <code>DataStream</code> (#111 by @pleonex)</li>
@@ -359,16 +359,16 @@ Several features and bug improvements in IO like the new cool binary (de)seriali
 <li>New constructor in <code>TextReader</code> and <code>TextWriter</code> with the encoding name (#114 by @pleonex)</li>
 <li>Auto-register additional encodings of .NET Core (#114 by @pleonex)</li>
 <li>New API to sort children (#131 by @Kaplas80)</li>
-<li>New node tags <code>FileInfo</code> and <code>DirectoryInfo</code> in nodes from the <code>NodeFactory</code> (#128 by @Kaplas)</li>
+<li>New node tags <code>FileInfo</code> and <code>DirectoryInfo</code> in nodes from the <code>NodeFactory</code> (#128 by @Kaplas80)</li>
 <li>Optional dispose of nodes when removing children (#130 by @Kaplas80)</li>
-<li>Enhancements to <code>NodeFileContainer.MoveChildrenTo</code> for merging nodes instead of replacing (#130 by @Kaplas)</li>
+<li>Enhancements to <code>NodeFileContainer.MoveChildrenTo</code> for merging nodes instead of replacing (#130 by @Kaplas80)</li>
 <li>Support relative path searches (#99 by @pleonex)</li>
 <li>New API to remove nodes (#100 by @pleonex)</li>
 <li>Prevent adding as a child a parent node (#115 #133 by @pleonex and @Kaplas80)</li>
 <li>New cookbook with small code snippets (#108 by @priverop)</li>
 <li>New <a href="https://bestpractices.coreinfrastructure.org/en/projects/2919">CII Best Practices badge</a> (6e06654 by @pleonex)</li>
 </ul>
-<h2 id="breaking-changes">Breaking changes</h2>
+<p><strong>Breaking changes</strong></p>
 <ul>
 <li>Change license from GPL v3 to <strong>MIT</strong> which is more permissive (#121 by @pleonex)</li>
 <li>Split PO converters. Binary format into PO is a new converter: <code>Binary2Po</code> (#120 by @pleonex)</li>
@@ -383,7 +383,7 @@ Several features and bug improvements in IO like the new cool binary (de)seriali
 <li>Prevent changing length of a substream (#97 by @pleonex)</li>
 <li>Rename <code>Replacer.Transform</code> into <code>TransformForward</code> and <code>TransformBackward</code> (#101 by @pleonex)</li>
 </ul>
-<h2 id="bug-fixes">Bug fixes</h2>
+<p><strong>Bugs</strong></p>
 <ul>
 <li>Fix decoding issues in <code>DataReader.ReadString</code> (#137 by @pleonex)</li>
 <li>Fix writing large files (&gt; 2GB) (#113 by @pleonex)</li>
@@ -395,7 +395,7 @@ Several features and bug improvements in IO like the new cool binary (de)seriali
 <li>Do not dispose when changing to the same format instance (#119 by @pleonex)</li>
 <li>Documentation link and version improvements (#106 and #107 by @priverop)</li>
 </ul>
-<h2 id="other-changes">Other changes</h2>
+<p><strong>Other changes</strong></p>
 <ul>
 <li>Build and ship for .NET Framework 4.6.1 (TFM <code>net461</code>) for applications running in .NET Framework below 4.7.2 (d1588b9 by @pleonex)</li>
 <li>Run tests in latest frameworks: .NET Core 3.1, .NET Framework 4.8 and Mono 6 (#116 #137 by @pleonex)</li>
@@ -408,7 +408,7 @@ Several features and bug improvements in IO like the new cool binary (de)seriali
 <h2 id="v20-january-30-2019">v2.0 (January 30, 2019)</h2>
 <p><strong>New plugin discovery system and build system.</strong></p>
 <p>Special thanks to @priverop for the support, fixes and doc!</p>
-<h2 id="infrastructure">Infrastructure</h2>
+<p><strong>Infrastructure</strong></p>
 <ul>
 <li>New plugin discovery system with MEF 2 to replace Mono.Addin.</li>
 <li>New build system with Cake. Used to build, test, validate and deploy code and documentation. It works in all OS and it's used by the CI too.</li>
@@ -419,7 +419,7 @@ Several features and bug improvements in IO like the new cool binary (de)seriali
 <li>Target .NET Standard 2.0 for the project --&gt; Tested in Mono, .NET Framework and .NET Core</li>
 <li>Fix warnings</li>
 </ul>
-<h2 id="features-and-bug-fixes">Features and bug fixes</h2>
+<p><strong>Features and bug fixes</strong></p>
 <ul>
 <li>Support BOM / Preamble in TextReader and TextWriter (#70)</li>
 <li>Support multilines in Po entry comments (#80)</li>
@@ -430,7 +430,7 @@ Several features and bug improvements in IO like the new cool binary (de)seriali
 <p>It also provides with converters for Po files and better ways to handle Streams and read / write binary and text files.</p>
 <p>This release has been tested in many small programs to edit text, script and image files in game fan-translations.</p>
 <h2 id="v04-june-18-2016">v0.4 (June 18, 2016)</h2>
-<h2 id="first-stable-release">First Stable Release</h2>
+<p><strong>First Stable Release</strong></p>
 <p>It features a full library ready to work with ROM Hacking project. This version has been used in <a href="https://github.com/pleonex/modime">modime</a> for the <a href="https://github.com/pleonex/Ninokuni/tree/spanish">Ninokuni NDS Spanish Translation</a>.</p>
 </article>
           </div>
