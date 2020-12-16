@@ -131,19 +131,23 @@ supported runtimes:</p>
 <li>.NET Framework 4.8 or Mono (latest on CI)</li>
 </ul>
 <p>Preview releases can be found in this
-<a href="https://dev.azure.com/SceneGate/Yarhl/_packaging">Azure DevOps package repository</a>.
+<a href="https://dev.azure.com/SceneGate/SceneGate/_packaging?_a=feed&amp;feed=SceneGate-Preview">Azure DevOps package repository</a>.
 To use a preview release, create a file <code>nuget.config</code> in the same directory of
 your solution (.sln) file with the following content:</p>
 <pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
 &lt;configuration&gt;
   &lt;packageSources&gt;
-    &lt;add key=&quot;Yarhl-Preview&quot; value=&quot;https://pkgs.dev.azure.com/SceneGate/_packaging/SceneGate-Preview/nuget/v3/index.json&quot; /&gt;
+    &lt;add key=&quot;SceneGate-Preview&quot; value=&quot;https://pkgs.dev.azure.com/SceneGate/SceneGate/_packaging/SceneGate-Preview/nuget/v3/index.json&quot; /&gt;
   &lt;/packageSources&gt;
 &lt;/configuration&gt;
 </code></pre>
 <h2 id="build">Build</h2>
 <p>The project requires to build .NET 5.0 SDK, .NET Core 3.1 runtime and .NET
-Framework 4.8 or latest Mono.</p>
+Framework 4.8 or latest Mono. If you open the project with VS Code and you did
+install the
+<a href="https://code.visualstudio.com/docs/remote/containers">VS Code Remote Containers</a>
+extension, you can have an already pre-configured development environment with
+Docker or Podman.</p>
 <p>To build, test and generate artifacts run:</p>
 <pre><code class="lang-sh"># Only required the first time
 dotnet tool restore
