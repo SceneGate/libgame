@@ -343,7 +343,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L33">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L34">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat__ctor_" data-uid="Yarhl.IO.BinaryFormat.#ctor*"></a>
   <h4 id="Yarhl_IO_BinaryFormat__ctor" data-uid="Yarhl.IO.BinaryFormat.#ctor">BinaryFormat()</h4>
@@ -357,19 +357,19 @@ Creates a stream in memory.</p>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor(Yarhl.IO.DataStream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L45">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L46">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat__ctor_" data-uid="Yarhl.IO.BinaryFormat.#ctor*"></a>
-  <h4 id="Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_" data-uid="Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream)">BinaryFormat(DataStream)</h4>
+  <h4 id="Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_" data-uid="Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream)">BinaryFormat(Stream)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Yarhl.IO.BinaryFormat.html">BinaryFormat</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BinaryFormat(DataStream stream)</code></pre>
+    <pre><code class="lang-csharp hljs">public BinaryFormat(Stream stream)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -382,31 +382,29 @@ Creates a stream in memory.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Yarhl.IO.DataStream.html">DataStream</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
         <td><span class="parametername">stream</span></td>
-        <td><p>Binary stream.</p>
+        <td><p>Stream to wrap as a format. It takes over the ownership of the stream.
+You must not dispose it.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This format creates a substream from the provided stream.</p>
-</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_System_Int64_System_Int64_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor(Yarhl.IO.DataStream%2CSystem.Int64%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_System_Int64_System_Int64_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor(System.IO.Stream%2CSystem.Int64%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L62">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L67">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat__ctor_" data-uid="Yarhl.IO.BinaryFormat.#ctor*"></a>
-  <h4 id="Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_System_Int64_System_Int64_" data-uid="Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)">BinaryFormat(DataStream, Int64, Int64)</h4>
+  <h4 id="Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_System_Int64_System_Int64_" data-uid="Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream,System.Int64,System.Int64)">BinaryFormat(Stream, Int64, Int64)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Yarhl.IO.BinaryFormat.html">BinaryFormat</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BinaryFormat(DataStream stream, long offset, long length)</code></pre>
+    <pre><code class="lang-csharp hljs">public BinaryFormat(Stream stream, long offset, long length)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -419,7 +417,7 @@ Creates a stream in memory.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Yarhl.IO.DataStream.html">DataStream</a></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
         <td><span class="parametername">stream</span></td>
         <td><p>Binary stream.</p>
 </td>
@@ -438,8 +436,12 @@ Creates a stream in memory.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_System_Int64_System_Int64__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This format creates a substream from the provided stream.</p>
+  <h5 id="Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_System_Int64_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This format creates an internal <a class="xref" href="Yarhl.IO.DataStream.html">DataStream</a> from the
+provided stream. It will take over the ownership of the stream
+argument, you should not dispose this argument, unless you are
+providing a <a class="xref" href="Yarhl.IO.DataStream.html">DataStream</a> in which case it is safe and
+recommended to dispose it.</p>
 </div>
   <h3 id="properties">Properties
   </h3>
@@ -448,7 +450,7 @@ Creates a stream in memory.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Disposed.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Disposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L86">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L91">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Disposed_" data-uid="Yarhl.IO.BinaryFormat.Disposed*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Disposed" data-uid="Yarhl.IO.BinaryFormat.Disposed">Disposed</h4>
@@ -480,7 +482,7 @@ is disposed.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Stream.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Stream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L77">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L82">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Stream_" data-uid="Yarhl.IO.BinaryFormat.Stream*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Stream" data-uid="Yarhl.IO.BinaryFormat.Stream">Stream</h4>
@@ -513,7 +515,7 @@ is disposed.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Dispose.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L94">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L99">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Dispose_" data-uid="Yarhl.IO.BinaryFormat.Dispose*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Dispose" data-uid="Yarhl.IO.BinaryFormat.Dispose">Dispose()</h4>
@@ -529,7 +531,7 @@ is disposed.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L107">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L112">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Dispose_" data-uid="Yarhl.IO.BinaryFormat.Dispose*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Dispose_System_Boolean_" data-uid="Yarhl.IO.BinaryFormat.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -580,7 +582,7 @@ It happens from Dispose() calls.</p>
                     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L27" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L28" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

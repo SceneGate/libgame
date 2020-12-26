@@ -1006,12 +1006,12 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeFactory.FromMemory
   nameWithType: NodeFactory.FromMemory
-- uid: Yarhl.FileSystem.NodeFactory.FromSubstream(System.String,Yarhl.IO.DataStream,System.Int64,System.Int64)
-  name: FromSubstream(String, DataStream, Int64, Int64)
-  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromSubstream_System_String_Yarhl_IO_DataStream_System_Int64_System_Int64_
-  commentId: M:Yarhl.FileSystem.NodeFactory.FromSubstream(System.String,Yarhl.IO.DataStream,System.Int64,System.Int64)
-  fullName: Yarhl.FileSystem.NodeFactory.FromSubstream(System.String, Yarhl.IO.DataStream, System.Int64, System.Int64)
-  nameWithType: NodeFactory.FromSubstream(String, DataStream, Int64, Int64)
+- uid: Yarhl.FileSystem.NodeFactory.FromSubstream(System.String,System.IO.Stream,System.Int64,System.Int64)
+  name: FromSubstream(String, Stream, Int64, Int64)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromSubstream_System_String_System_IO_Stream_System_Int64_System_Int64_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromSubstream(System.String,System.IO.Stream,System.Int64,System.Int64)
+  fullName: Yarhl.FileSystem.NodeFactory.FromSubstream(System.String, System.IO.Stream, System.Int64, System.Int64)
+  nameWithType: NodeFactory.FromSubstream(String, Stream, Int64, Int64)
 - uid: Yarhl.FileSystem.NodeFactory.FromSubstream*
   name: FromSubstream
   href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromSubstream_
@@ -1056,18 +1056,18 @@ references:
   commentId: M:Yarhl.IO.BinaryFormat.#ctor
   fullName: Yarhl.IO.BinaryFormat.BinaryFormat()
   nameWithType: BinaryFormat.BinaryFormat()
-- uid: Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream)
-  name: BinaryFormat(DataStream)
-  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_
-  commentId: M:Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream)
-  fullName: Yarhl.IO.BinaryFormat.BinaryFormat(Yarhl.IO.DataStream)
-  nameWithType: BinaryFormat.BinaryFormat(DataStream)
-- uid: Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
-  name: BinaryFormat(DataStream, Int64, Int64)
-  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_Yarhl_IO_DataStream_System_Int64_System_Int64_
-  commentId: M:Yarhl.IO.BinaryFormat.#ctor(Yarhl.IO.DataStream,System.Int64,System.Int64)
-  fullName: Yarhl.IO.BinaryFormat.BinaryFormat(Yarhl.IO.DataStream, System.Int64, System.Int64)
-  nameWithType: BinaryFormat.BinaryFormat(DataStream, Int64, Int64)
+- uid: Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream)
+  name: BinaryFormat(Stream)
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_
+  commentId: M:Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream)
+  fullName: Yarhl.IO.BinaryFormat.BinaryFormat(System.IO.Stream)
+  nameWithType: BinaryFormat.BinaryFormat(Stream)
+- uid: Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream,System.Int64,System.Int64)
+  name: BinaryFormat(Stream, Int64, Int64)
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_System_Int64_System_Int64_
+  commentId: M:Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream,System.Int64,System.Int64)
+  fullName: Yarhl.IO.BinaryFormat.BinaryFormat(System.IO.Stream, System.Int64, System.Int64)
+  nameWithType: BinaryFormat.BinaryFormat(Stream, Int64, Int64)
 - uid: Yarhl.IO.BinaryFormat.#ctor*
   name: BinaryFormat
   href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat__ctor_
