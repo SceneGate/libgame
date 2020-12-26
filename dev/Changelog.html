@@ -211,10 +211,10 @@
                                   <a href="../api/Yarhl.IO.SeekMode.html" title="SeekMode" class="">SeekMode</a>
                                 </li>
                                 <li class="">
-                                  <a href="../api/Yarhl.IO.TextReader.html" title="TextReader" class="">TextReader</a>
+                                  <a href="../api/Yarhl.IO.TextDataReader.html" title="TextDataReader" class="">TextDataReader</a>
                                 </li>
                                 <li class="">
-                                  <a href="../api/Yarhl.IO.TextWriter.html" title="TextWriter" class="">TextWriter</a>
+                                  <a href="../api/Yarhl.IO.TextDataWriter.html" title="TextDataWriter" class="">TextDataWriter</a>
                                 </li>
                               </ul>  </li>
                           <li class="">
@@ -312,7 +312,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h2 id="vnext-december-23-2020">vNext (December 23, 2020)</h2>
 
-<p>As part of this release we had <a href="https://github.com/SceneGate/Yarhl/milestone/5?closed=1">3 issues</a> closed.
+<p>As part of this release we had <a href="https://github.com/SceneGate/Yarhl/milestone/5?closed=1">4 issues</a> closed.
 Improvement in the namespace Yarhl.IO with support of Stream!</p>
 <h3 id="breaking-changes">Breaking changes</h3>
 <ul>
@@ -330,13 +330,15 @@ Improvement in the namespace Yarhl.IO with support of Stream!</p>
 </ul>
 </li>
 <li><code>DataStream.ReadByte</code> now returns <code>int</code> instead of <code>byte</code>. This is required to overload <code>Stream</code> function. It returns always byte values except when reaches the end that it returns -1.</li>
+<li>Rename <code>TextReader</code> and <code>TextWriter</code> to <code>TextDataReader</code> and <code>TextDataWriter</code>. This avoids name conflict with System.IO classes.</li>
 <li><code>IStream</code> now requires to implement the <code>Flush</code> method. <code>DataStream.Flush</code> will call it.</li>
 <li>Move <code>DataStream.Length</code> setter to its own method <code>SetLength(long)</code>. This is a required changed by <code>Stream</code>.</li>
 <li>Obsolete <code>SeekMode</code> and any method having this type as argument. Instead use the BCL type <code>System.IO.SeekOrigin</code>.</li>
 <li><code>DataReader</code> and <code>DataWriter</code> now throw <code>NotSupportedException</code> when using an invalid endianness. Before it returned -1 or write in big endianness mode.</li>
 </ul>
-<p><strong>Breaking</strong></p>
+<p><strong>Breakings</strong></p>
 <ul>
+<li><a href="https://github.com/SceneGate/Yarhl/pull/162"><strong>#162</strong></a> Rename TextReader and TextWriter to TextDataReader and TextDataWriter</li>
 <li><a href="https://github.com/SceneGate/Yarhl/pull/161"><strong>#161</strong></a> Implement DataStream inheritance with Stream and support of Readers and Writers with Stream</li>
 </ul>
 <p><strong>Enhancements</strong></p>

@@ -3096,353 +3096,353 @@ references:
   isSpec: "True"
   fullName: Yarhl.IO.StreamFormat.StreamWrapper.WriteByte
   nameWithType: StreamWrapper.WriteByte
-- uid: Yarhl.IO.TextReader
-  name: TextReader
-  href: api/Yarhl.IO.TextReader.html
-  commentId: T:Yarhl.IO.TextReader
-  fullName: Yarhl.IO.TextReader
-  nameWithType: TextReader
-- uid: Yarhl.IO.TextReader.#ctor(System.IO.Stream)
-  name: TextReader(Stream)
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader__ctor_System_IO_Stream_
-  commentId: M:Yarhl.IO.TextReader.#ctor(System.IO.Stream)
-  fullName: Yarhl.IO.TextReader.TextReader(System.IO.Stream)
-  nameWithType: TextReader.TextReader(Stream)
-- uid: Yarhl.IO.TextReader.#ctor(System.IO.Stream,System.String)
-  name: TextReader(Stream, String)
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader__ctor_System_IO_Stream_System_String_
-  commentId: M:Yarhl.IO.TextReader.#ctor(System.IO.Stream,System.String)
-  fullName: Yarhl.IO.TextReader.TextReader(System.IO.Stream, System.String)
-  nameWithType: TextReader.TextReader(Stream, String)
-- uid: Yarhl.IO.TextReader.#ctor(System.IO.Stream,System.Text.Encoding)
-  name: TextReader(Stream, Encoding)
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader__ctor_System_IO_Stream_System_Text_Encoding_
-  commentId: M:Yarhl.IO.TextReader.#ctor(System.IO.Stream,System.Text.Encoding)
-  fullName: Yarhl.IO.TextReader.TextReader(System.IO.Stream, System.Text.Encoding)
-  nameWithType: TextReader.TextReader(Stream, Encoding)
-- uid: Yarhl.IO.TextReader.#ctor*
-  name: TextReader
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader__ctor_
-  commentId: Overload:Yarhl.IO.TextReader.#ctor
+- uid: Yarhl.IO.TextDataReader
+  name: TextDataReader
+  href: api/Yarhl.IO.TextDataReader.html
+  commentId: T:Yarhl.IO.TextDataReader
+  fullName: Yarhl.IO.TextDataReader
+  nameWithType: TextDataReader
+- uid: Yarhl.IO.TextDataReader.#ctor(System.IO.Stream)
+  name: TextDataReader(Stream)
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader__ctor_System_IO_Stream_
+  commentId: M:Yarhl.IO.TextDataReader.#ctor(System.IO.Stream)
+  fullName: Yarhl.IO.TextDataReader.TextDataReader(System.IO.Stream)
+  nameWithType: TextDataReader.TextDataReader(Stream)
+- uid: Yarhl.IO.TextDataReader.#ctor(System.IO.Stream,System.String)
+  name: TextDataReader(Stream, String)
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader__ctor_System_IO_Stream_System_String_
+  commentId: M:Yarhl.IO.TextDataReader.#ctor(System.IO.Stream,System.String)
+  fullName: Yarhl.IO.TextDataReader.TextDataReader(System.IO.Stream, System.String)
+  nameWithType: TextDataReader.TextDataReader(Stream, String)
+- uid: Yarhl.IO.TextDataReader.#ctor(System.IO.Stream,System.Text.Encoding)
+  name: TextDataReader(Stream, Encoding)
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader__ctor_System_IO_Stream_System_Text_Encoding_
+  commentId: M:Yarhl.IO.TextDataReader.#ctor(System.IO.Stream,System.Text.Encoding)
+  fullName: Yarhl.IO.TextDataReader.TextDataReader(System.IO.Stream, System.Text.Encoding)
+  nameWithType: TextDataReader.TextDataReader(Stream, Encoding)
+- uid: Yarhl.IO.TextDataReader.#ctor*
+  name: TextDataReader
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader__ctor_
+  commentId: Overload:Yarhl.IO.TextDataReader.#ctor
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.TextReader
-  nameWithType: TextReader.TextReader
-- uid: Yarhl.IO.TextReader.AutoNewLine
+  fullName: Yarhl.IO.TextDataReader.TextDataReader
+  nameWithType: TextDataReader.TextDataReader
+- uid: Yarhl.IO.TextDataReader.AutoNewLine
   name: AutoNewLine
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_AutoNewLine
-  commentId: P:Yarhl.IO.TextReader.AutoNewLine
-  fullName: Yarhl.IO.TextReader.AutoNewLine
-  nameWithType: TextReader.AutoNewLine
-- uid: Yarhl.IO.TextReader.AutoNewLine*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_AutoNewLine
+  commentId: P:Yarhl.IO.TextDataReader.AutoNewLine
+  fullName: Yarhl.IO.TextDataReader.AutoNewLine
+  nameWithType: TextDataReader.AutoNewLine
+- uid: Yarhl.IO.TextDataReader.AutoNewLine*
   name: AutoNewLine
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_AutoNewLine_
-  commentId: Overload:Yarhl.IO.TextReader.AutoNewLine
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_AutoNewLine_
+  commentId: Overload:Yarhl.IO.TextDataReader.AutoNewLine
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.AutoNewLine
-  nameWithType: TextReader.AutoNewLine
-- uid: Yarhl.IO.TextReader.Encoding
+  fullName: Yarhl.IO.TextDataReader.AutoNewLine
+  nameWithType: TextDataReader.AutoNewLine
+- uid: Yarhl.IO.TextDataReader.Encoding
   name: Encoding
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Encoding
-  commentId: P:Yarhl.IO.TextReader.Encoding
-  fullName: Yarhl.IO.TextReader.Encoding
-  nameWithType: TextReader.Encoding
-- uid: Yarhl.IO.TextReader.Encoding*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Encoding
+  commentId: P:Yarhl.IO.TextDataReader.Encoding
+  fullName: Yarhl.IO.TextDataReader.Encoding
+  nameWithType: TextDataReader.Encoding
+- uid: Yarhl.IO.TextDataReader.Encoding*
   name: Encoding
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Encoding_
-  commentId: Overload:Yarhl.IO.TextReader.Encoding
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Encoding_
+  commentId: Overload:Yarhl.IO.TextDataReader.Encoding
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.Encoding
-  nameWithType: TextReader.Encoding
-- uid: Yarhl.IO.TextReader.NewLine
+  fullName: Yarhl.IO.TextDataReader.Encoding
+  nameWithType: TextDataReader.Encoding
+- uid: Yarhl.IO.TextDataReader.NewLine
   name: NewLine
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_NewLine
-  commentId: P:Yarhl.IO.TextReader.NewLine
-  fullName: Yarhl.IO.TextReader.NewLine
-  nameWithType: TextReader.NewLine
-- uid: Yarhl.IO.TextReader.NewLine*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_NewLine
+  commentId: P:Yarhl.IO.TextDataReader.NewLine
+  fullName: Yarhl.IO.TextDataReader.NewLine
+  nameWithType: TextDataReader.NewLine
+- uid: Yarhl.IO.TextDataReader.NewLine*
   name: NewLine
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_NewLine_
-  commentId: Overload:Yarhl.IO.TextReader.NewLine
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_NewLine_
+  commentId: Overload:Yarhl.IO.TextDataReader.NewLine
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.NewLine
-  nameWithType: TextReader.NewLine
-- uid: Yarhl.IO.TextReader.Peek
+  fullName: Yarhl.IO.TextDataReader.NewLine
+  nameWithType: TextDataReader.NewLine
+- uid: Yarhl.IO.TextDataReader.Peek
   name: Peek()
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Peek
-  commentId: M:Yarhl.IO.TextReader.Peek
-  fullName: Yarhl.IO.TextReader.Peek()
-  nameWithType: TextReader.Peek()
-- uid: Yarhl.IO.TextReader.Peek(System.Int32)
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Peek
+  commentId: M:Yarhl.IO.TextDataReader.Peek
+  fullName: Yarhl.IO.TextDataReader.Peek()
+  nameWithType: TextDataReader.Peek()
+- uid: Yarhl.IO.TextDataReader.Peek(System.Int32)
   name: Peek(Int32)
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Peek_System_Int32_
-  commentId: M:Yarhl.IO.TextReader.Peek(System.Int32)
-  fullName: Yarhl.IO.TextReader.Peek(System.Int32)
-  nameWithType: TextReader.Peek(Int32)
-- uid: Yarhl.IO.TextReader.Peek*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Peek_System_Int32_
+  commentId: M:Yarhl.IO.TextDataReader.Peek(System.Int32)
+  fullName: Yarhl.IO.TextDataReader.Peek(System.Int32)
+  nameWithType: TextDataReader.Peek(Int32)
+- uid: Yarhl.IO.TextDataReader.Peek*
   name: Peek
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Peek_
-  commentId: Overload:Yarhl.IO.TextReader.Peek
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Peek_
+  commentId: Overload:Yarhl.IO.TextDataReader.Peek
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.Peek
-  nameWithType: TextReader.Peek
-- uid: Yarhl.IO.TextReader.PeekLine
+  fullName: Yarhl.IO.TextDataReader.Peek
+  nameWithType: TextDataReader.Peek
+- uid: Yarhl.IO.TextDataReader.PeekLine
   name: PeekLine()
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_PeekLine
-  commentId: M:Yarhl.IO.TextReader.PeekLine
-  fullName: Yarhl.IO.TextReader.PeekLine()
-  nameWithType: TextReader.PeekLine()
-- uid: Yarhl.IO.TextReader.PeekLine*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_PeekLine
+  commentId: M:Yarhl.IO.TextDataReader.PeekLine
+  fullName: Yarhl.IO.TextDataReader.PeekLine()
+  nameWithType: TextDataReader.PeekLine()
+- uid: Yarhl.IO.TextDataReader.PeekLine*
   name: PeekLine
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_PeekLine_
-  commentId: Overload:Yarhl.IO.TextReader.PeekLine
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_PeekLine_
+  commentId: Overload:Yarhl.IO.TextDataReader.PeekLine
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.PeekLine
-  nameWithType: TextReader.PeekLine
-- uid: Yarhl.IO.TextReader.PeekToToken(System.String)
+  fullName: Yarhl.IO.TextDataReader.PeekLine
+  nameWithType: TextDataReader.PeekLine
+- uid: Yarhl.IO.TextDataReader.PeekToToken(System.String)
   name: PeekToToken(String)
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_PeekToToken_System_String_
-  commentId: M:Yarhl.IO.TextReader.PeekToToken(System.String)
-  fullName: Yarhl.IO.TextReader.PeekToToken(System.String)
-  nameWithType: TextReader.PeekToToken(String)
-- uid: Yarhl.IO.TextReader.PeekToToken*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_PeekToToken_System_String_
+  commentId: M:Yarhl.IO.TextDataReader.PeekToToken(System.String)
+  fullName: Yarhl.IO.TextDataReader.PeekToToken(System.String)
+  nameWithType: TextDataReader.PeekToToken(String)
+- uid: Yarhl.IO.TextDataReader.PeekToToken*
   name: PeekToToken
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_PeekToToken_
-  commentId: Overload:Yarhl.IO.TextReader.PeekToToken
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_PeekToToken_
+  commentId: Overload:Yarhl.IO.TextDataReader.PeekToToken
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.PeekToToken
-  nameWithType: TextReader.PeekToToken
-- uid: Yarhl.IO.TextReader.Read
+  fullName: Yarhl.IO.TextDataReader.PeekToToken
+  nameWithType: TextDataReader.PeekToToken
+- uid: Yarhl.IO.TextDataReader.Read
   name: Read()
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Read
-  commentId: M:Yarhl.IO.TextReader.Read
-  fullName: Yarhl.IO.TextReader.Read()
-  nameWithType: TextReader.Read()
-- uid: Yarhl.IO.TextReader.Read(System.Int32)
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Read
+  commentId: M:Yarhl.IO.TextDataReader.Read
+  fullName: Yarhl.IO.TextDataReader.Read()
+  nameWithType: TextDataReader.Read()
+- uid: Yarhl.IO.TextDataReader.Read(System.Int32)
   name: Read(Int32)
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Read_System_Int32_
-  commentId: M:Yarhl.IO.TextReader.Read(System.Int32)
-  fullName: Yarhl.IO.TextReader.Read(System.Int32)
-  nameWithType: TextReader.Read(Int32)
-- uid: Yarhl.IO.TextReader.Read*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Read_System_Int32_
+  commentId: M:Yarhl.IO.TextDataReader.Read(System.Int32)
+  fullName: Yarhl.IO.TextDataReader.Read(System.Int32)
+  nameWithType: TextDataReader.Read(Int32)
+- uid: Yarhl.IO.TextDataReader.Read*
   name: Read
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Read_
-  commentId: Overload:Yarhl.IO.TextReader.Read
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Read_
+  commentId: Overload:Yarhl.IO.TextDataReader.Read
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.Read
-  nameWithType: TextReader.Read
-- uid: Yarhl.IO.TextReader.ReadLine
+  fullName: Yarhl.IO.TextDataReader.Read
+  nameWithType: TextDataReader.Read
+- uid: Yarhl.IO.TextDataReader.ReadLine
   name: ReadLine()
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_ReadLine
-  commentId: M:Yarhl.IO.TextReader.ReadLine
-  fullName: Yarhl.IO.TextReader.ReadLine()
-  nameWithType: TextReader.ReadLine()
-- uid: Yarhl.IO.TextReader.ReadLine*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_ReadLine
+  commentId: M:Yarhl.IO.TextDataReader.ReadLine
+  fullName: Yarhl.IO.TextDataReader.ReadLine()
+  nameWithType: TextDataReader.ReadLine()
+- uid: Yarhl.IO.TextDataReader.ReadLine*
   name: ReadLine
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_ReadLine_
-  commentId: Overload:Yarhl.IO.TextReader.ReadLine
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_ReadLine_
+  commentId: Overload:Yarhl.IO.TextDataReader.ReadLine
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.ReadLine
-  nameWithType: TextReader.ReadLine
-- uid: Yarhl.IO.TextReader.ReadToEnd
+  fullName: Yarhl.IO.TextDataReader.ReadLine
+  nameWithType: TextDataReader.ReadLine
+- uid: Yarhl.IO.TextDataReader.ReadToEnd
   name: ReadToEnd()
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_ReadToEnd
-  commentId: M:Yarhl.IO.TextReader.ReadToEnd
-  fullName: Yarhl.IO.TextReader.ReadToEnd()
-  nameWithType: TextReader.ReadToEnd()
-- uid: Yarhl.IO.TextReader.ReadToEnd*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_ReadToEnd
+  commentId: M:Yarhl.IO.TextDataReader.ReadToEnd
+  fullName: Yarhl.IO.TextDataReader.ReadToEnd()
+  nameWithType: TextDataReader.ReadToEnd()
+- uid: Yarhl.IO.TextDataReader.ReadToEnd*
   name: ReadToEnd
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_ReadToEnd_
-  commentId: Overload:Yarhl.IO.TextReader.ReadToEnd
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_ReadToEnd_
+  commentId: Overload:Yarhl.IO.TextDataReader.ReadToEnd
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.ReadToEnd
-  nameWithType: TextReader.ReadToEnd
-- uid: Yarhl.IO.TextReader.ReadToToken(System.String)
+  fullName: Yarhl.IO.TextDataReader.ReadToEnd
+  nameWithType: TextDataReader.ReadToEnd
+- uid: Yarhl.IO.TextDataReader.ReadToToken(System.String)
   name: ReadToToken(String)
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_ReadToToken_System_String_
-  commentId: M:Yarhl.IO.TextReader.ReadToToken(System.String)
-  fullName: Yarhl.IO.TextReader.ReadToToken(System.String)
-  nameWithType: TextReader.ReadToToken(String)
-- uid: Yarhl.IO.TextReader.ReadToToken*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_ReadToToken_System_String_
+  commentId: M:Yarhl.IO.TextDataReader.ReadToToken(System.String)
+  fullName: Yarhl.IO.TextDataReader.ReadToToken(System.String)
+  nameWithType: TextDataReader.ReadToToken(String)
+- uid: Yarhl.IO.TextDataReader.ReadToToken*
   name: ReadToToken
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_ReadToToken_
-  commentId: Overload:Yarhl.IO.TextReader.ReadToToken
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_ReadToToken_
+  commentId: Overload:Yarhl.IO.TextDataReader.ReadToToken
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.ReadToToken
-  nameWithType: TextReader.ReadToToken
-- uid: Yarhl.IO.TextReader.Stream
+  fullName: Yarhl.IO.TextDataReader.ReadToToken
+  nameWithType: TextDataReader.ReadToToken
+- uid: Yarhl.IO.TextDataReader.Stream
   name: Stream
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Stream
-  commentId: P:Yarhl.IO.TextReader.Stream
-  fullName: Yarhl.IO.TextReader.Stream
-  nameWithType: TextReader.Stream
-- uid: Yarhl.IO.TextReader.Stream*
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Stream
+  commentId: P:Yarhl.IO.TextDataReader.Stream
+  fullName: Yarhl.IO.TextDataReader.Stream
+  nameWithType: TextDataReader.Stream
+- uid: Yarhl.IO.TextDataReader.Stream*
   name: Stream
-  href: api/Yarhl.IO.TextReader.html#Yarhl_IO_TextReader_Stream_
-  commentId: Overload:Yarhl.IO.TextReader.Stream
+  href: api/Yarhl.IO.TextDataReader.html#Yarhl_IO_TextDataReader_Stream_
+  commentId: Overload:Yarhl.IO.TextDataReader.Stream
   isSpec: "True"
-  fullName: Yarhl.IO.TextReader.Stream
-  nameWithType: TextReader.Stream
-- uid: Yarhl.IO.TextWriter
-  name: TextWriter
-  href: api/Yarhl.IO.TextWriter.html
-  commentId: T:Yarhl.IO.TextWriter
-  fullName: Yarhl.IO.TextWriter
-  nameWithType: TextWriter
-- uid: Yarhl.IO.TextWriter.#ctor(System.IO.Stream)
-  name: TextWriter(Stream)
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter__ctor_System_IO_Stream_
-  commentId: M:Yarhl.IO.TextWriter.#ctor(System.IO.Stream)
-  fullName: Yarhl.IO.TextWriter.TextWriter(System.IO.Stream)
-  nameWithType: TextWriter.TextWriter(Stream)
-- uid: Yarhl.IO.TextWriter.#ctor(System.IO.Stream,System.String)
-  name: TextWriter(Stream, String)
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter__ctor_System_IO_Stream_System_String_
-  commentId: M:Yarhl.IO.TextWriter.#ctor(System.IO.Stream,System.String)
-  fullName: Yarhl.IO.TextWriter.TextWriter(System.IO.Stream, System.String)
-  nameWithType: TextWriter.TextWriter(Stream, String)
-- uid: Yarhl.IO.TextWriter.#ctor(System.IO.Stream,System.Text.Encoding)
-  name: TextWriter(Stream, Encoding)
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter__ctor_System_IO_Stream_System_Text_Encoding_
-  commentId: M:Yarhl.IO.TextWriter.#ctor(System.IO.Stream,System.Text.Encoding)
-  fullName: Yarhl.IO.TextWriter.TextWriter(System.IO.Stream, System.Text.Encoding)
-  nameWithType: TextWriter.TextWriter(Stream, Encoding)
-- uid: Yarhl.IO.TextWriter.#ctor*
-  name: TextWriter
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter__ctor_
-  commentId: Overload:Yarhl.IO.TextWriter.#ctor
+  fullName: Yarhl.IO.TextDataReader.Stream
+  nameWithType: TextDataReader.Stream
+- uid: Yarhl.IO.TextDataWriter
+  name: TextDataWriter
+  href: api/Yarhl.IO.TextDataWriter.html
+  commentId: T:Yarhl.IO.TextDataWriter
+  fullName: Yarhl.IO.TextDataWriter
+  nameWithType: TextDataWriter
+- uid: Yarhl.IO.TextDataWriter.#ctor(System.IO.Stream)
+  name: TextDataWriter(Stream)
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter__ctor_System_IO_Stream_
+  commentId: M:Yarhl.IO.TextDataWriter.#ctor(System.IO.Stream)
+  fullName: Yarhl.IO.TextDataWriter.TextDataWriter(System.IO.Stream)
+  nameWithType: TextDataWriter.TextDataWriter(Stream)
+- uid: Yarhl.IO.TextDataWriter.#ctor(System.IO.Stream,System.String)
+  name: TextDataWriter(Stream, String)
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter__ctor_System_IO_Stream_System_String_
+  commentId: M:Yarhl.IO.TextDataWriter.#ctor(System.IO.Stream,System.String)
+  fullName: Yarhl.IO.TextDataWriter.TextDataWriter(System.IO.Stream, System.String)
+  nameWithType: TextDataWriter.TextDataWriter(Stream, String)
+- uid: Yarhl.IO.TextDataWriter.#ctor(System.IO.Stream,System.Text.Encoding)
+  name: TextDataWriter(Stream, Encoding)
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter__ctor_System_IO_Stream_System_Text_Encoding_
+  commentId: M:Yarhl.IO.TextDataWriter.#ctor(System.IO.Stream,System.Text.Encoding)
+  fullName: Yarhl.IO.TextDataWriter.TextDataWriter(System.IO.Stream, System.Text.Encoding)
+  nameWithType: TextDataWriter.TextDataWriter(Stream, Encoding)
+- uid: Yarhl.IO.TextDataWriter.#ctor*
+  name: TextDataWriter
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter__ctor_
+  commentId: Overload:Yarhl.IO.TextDataWriter.#ctor
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.TextWriter
-  nameWithType: TextWriter.TextWriter
-- uid: Yarhl.IO.TextWriter.AutoPreamble
+  fullName: Yarhl.IO.TextDataWriter.TextDataWriter
+  nameWithType: TextDataWriter.TextDataWriter
+- uid: Yarhl.IO.TextDataWriter.AutoPreamble
   name: AutoPreamble
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_AutoPreamble
-  commentId: P:Yarhl.IO.TextWriter.AutoPreamble
-  fullName: Yarhl.IO.TextWriter.AutoPreamble
-  nameWithType: TextWriter.AutoPreamble
-- uid: Yarhl.IO.TextWriter.AutoPreamble*
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_AutoPreamble
+  commentId: P:Yarhl.IO.TextDataWriter.AutoPreamble
+  fullName: Yarhl.IO.TextDataWriter.AutoPreamble
+  nameWithType: TextDataWriter.AutoPreamble
+- uid: Yarhl.IO.TextDataWriter.AutoPreamble*
   name: AutoPreamble
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_AutoPreamble_
-  commentId: Overload:Yarhl.IO.TextWriter.AutoPreamble
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_AutoPreamble_
+  commentId: Overload:Yarhl.IO.TextDataWriter.AutoPreamble
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.AutoPreamble
-  nameWithType: TextWriter.AutoPreamble
-- uid: Yarhl.IO.TextWriter.Encoding
+  fullName: Yarhl.IO.TextDataWriter.AutoPreamble
+  nameWithType: TextDataWriter.AutoPreamble
+- uid: Yarhl.IO.TextDataWriter.Encoding
   name: Encoding
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Encoding
-  commentId: P:Yarhl.IO.TextWriter.Encoding
-  fullName: Yarhl.IO.TextWriter.Encoding
-  nameWithType: TextWriter.Encoding
-- uid: Yarhl.IO.TextWriter.Encoding*
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Encoding
+  commentId: P:Yarhl.IO.TextDataWriter.Encoding
+  fullName: Yarhl.IO.TextDataWriter.Encoding
+  nameWithType: TextDataWriter.Encoding
+- uid: Yarhl.IO.TextDataWriter.Encoding*
   name: Encoding
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Encoding_
-  commentId: Overload:Yarhl.IO.TextWriter.Encoding
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Encoding_
+  commentId: Overload:Yarhl.IO.TextDataWriter.Encoding
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.Encoding
-  nameWithType: TextWriter.Encoding
-- uid: Yarhl.IO.TextWriter.NewLine
+  fullName: Yarhl.IO.TextDataWriter.Encoding
+  nameWithType: TextDataWriter.Encoding
+- uid: Yarhl.IO.TextDataWriter.NewLine
   name: NewLine
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_NewLine
-  commentId: P:Yarhl.IO.TextWriter.NewLine
-  fullName: Yarhl.IO.TextWriter.NewLine
-  nameWithType: TextWriter.NewLine
-- uid: Yarhl.IO.TextWriter.NewLine*
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_NewLine
+  commentId: P:Yarhl.IO.TextDataWriter.NewLine
+  fullName: Yarhl.IO.TextDataWriter.NewLine
+  nameWithType: TextDataWriter.NewLine
+- uid: Yarhl.IO.TextDataWriter.NewLine*
   name: NewLine
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_NewLine_
-  commentId: Overload:Yarhl.IO.TextWriter.NewLine
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_NewLine_
+  commentId: Overload:Yarhl.IO.TextDataWriter.NewLine
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.NewLine
-  nameWithType: TextWriter.NewLine
-- uid: Yarhl.IO.TextWriter.Stream
+  fullName: Yarhl.IO.TextDataWriter.NewLine
+  nameWithType: TextDataWriter.NewLine
+- uid: Yarhl.IO.TextDataWriter.Stream
   name: Stream
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Stream
-  commentId: P:Yarhl.IO.TextWriter.Stream
-  fullName: Yarhl.IO.TextWriter.Stream
-  nameWithType: TextWriter.Stream
-- uid: Yarhl.IO.TextWriter.Stream*
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Stream
+  commentId: P:Yarhl.IO.TextDataWriter.Stream
+  fullName: Yarhl.IO.TextDataWriter.Stream
+  nameWithType: TextDataWriter.Stream
+- uid: Yarhl.IO.TextDataWriter.Stream*
   name: Stream
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Stream_
-  commentId: Overload:Yarhl.IO.TextWriter.Stream
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Stream_
+  commentId: Overload:Yarhl.IO.TextDataWriter.Stream
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.Stream
-  nameWithType: TextWriter.Stream
-- uid: Yarhl.IO.TextWriter.Write(System.Char)
+  fullName: Yarhl.IO.TextDataWriter.Stream
+  nameWithType: TextDataWriter.Stream
+- uid: Yarhl.IO.TextDataWriter.Write(System.Char)
   name: Write(Char)
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Write_System_Char_
-  commentId: M:Yarhl.IO.TextWriter.Write(System.Char)
-  fullName: Yarhl.IO.TextWriter.Write(System.Char)
-  nameWithType: TextWriter.Write(Char)
-- uid: Yarhl.IO.TextWriter.Write(System.Char[])
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Write_System_Char_
+  commentId: M:Yarhl.IO.TextDataWriter.Write(System.Char)
+  fullName: Yarhl.IO.TextDataWriter.Write(System.Char)
+  nameWithType: TextDataWriter.Write(Char)
+- uid: Yarhl.IO.TextDataWriter.Write(System.Char[])
   name: Write(Char[])
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Write_System_Char___
-  commentId: M:Yarhl.IO.TextWriter.Write(System.Char[])
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Write_System_Char___
+  commentId: M:Yarhl.IO.TextDataWriter.Write(System.Char[])
   name.vb: Write(Char())
-  fullName: Yarhl.IO.TextWriter.Write(System.Char[])
-  fullName.vb: Yarhl.IO.TextWriter.Write(System.Char())
-  nameWithType: TextWriter.Write(Char[])
-  nameWithType.vb: TextWriter.Write(Char())
-- uid: Yarhl.IO.TextWriter.Write(System.String)
+  fullName: Yarhl.IO.TextDataWriter.Write(System.Char[])
+  fullName.vb: Yarhl.IO.TextDataWriter.Write(System.Char())
+  nameWithType: TextDataWriter.Write(Char[])
+  nameWithType.vb: TextDataWriter.Write(Char())
+- uid: Yarhl.IO.TextDataWriter.Write(System.String)
   name: Write(String)
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Write_System_String_
-  commentId: M:Yarhl.IO.TextWriter.Write(System.String)
-  fullName: Yarhl.IO.TextWriter.Write(System.String)
-  nameWithType: TextWriter.Write(String)
-- uid: Yarhl.IO.TextWriter.Write(System.String,System.Object[])
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Write_System_String_
+  commentId: M:Yarhl.IO.TextDataWriter.Write(System.String)
+  fullName: Yarhl.IO.TextDataWriter.Write(System.String)
+  nameWithType: TextDataWriter.Write(String)
+- uid: Yarhl.IO.TextDataWriter.Write(System.String,System.Object[])
   name: Write(String, Object[])
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Write_System_String_System_Object___
-  commentId: M:Yarhl.IO.TextWriter.Write(System.String,System.Object[])
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Write_System_String_System_Object___
+  commentId: M:Yarhl.IO.TextDataWriter.Write(System.String,System.Object[])
   name.vb: Write(String, Object())
-  fullName: Yarhl.IO.TextWriter.Write(System.String, System.Object[])
-  fullName.vb: Yarhl.IO.TextWriter.Write(System.String, System.Object())
-  nameWithType: TextWriter.Write(String, Object[])
-  nameWithType.vb: TextWriter.Write(String, Object())
-- uid: Yarhl.IO.TextWriter.Write*
+  fullName: Yarhl.IO.TextDataWriter.Write(System.String, System.Object[])
+  fullName.vb: Yarhl.IO.TextDataWriter.Write(System.String, System.Object())
+  nameWithType: TextDataWriter.Write(String, Object[])
+  nameWithType.vb: TextDataWriter.Write(String, Object())
+- uid: Yarhl.IO.TextDataWriter.Write*
   name: Write
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_Write_
-  commentId: Overload:Yarhl.IO.TextWriter.Write
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_Write_
+  commentId: Overload:Yarhl.IO.TextDataWriter.Write
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.Write
-  nameWithType: TextWriter.Write
-- uid: Yarhl.IO.TextWriter.WriteLine
+  fullName: Yarhl.IO.TextDataWriter.Write
+  nameWithType: TextDataWriter.Write
+- uid: Yarhl.IO.TextDataWriter.WriteLine
   name: WriteLine()
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_WriteLine
-  commentId: M:Yarhl.IO.TextWriter.WriteLine
-  fullName: Yarhl.IO.TextWriter.WriteLine()
-  nameWithType: TextWriter.WriteLine()
-- uid: Yarhl.IO.TextWriter.WriteLine(System.String)
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_WriteLine
+  commentId: M:Yarhl.IO.TextDataWriter.WriteLine
+  fullName: Yarhl.IO.TextDataWriter.WriteLine()
+  nameWithType: TextDataWriter.WriteLine()
+- uid: Yarhl.IO.TextDataWriter.WriteLine(System.String)
   name: WriteLine(String)
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_WriteLine_System_String_
-  commentId: M:Yarhl.IO.TextWriter.WriteLine(System.String)
-  fullName: Yarhl.IO.TextWriter.WriteLine(System.String)
-  nameWithType: TextWriter.WriteLine(String)
-- uid: Yarhl.IO.TextWriter.WriteLine(System.String,System.Object[])
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_WriteLine_System_String_
+  commentId: M:Yarhl.IO.TextDataWriter.WriteLine(System.String)
+  fullName: Yarhl.IO.TextDataWriter.WriteLine(System.String)
+  nameWithType: TextDataWriter.WriteLine(String)
+- uid: Yarhl.IO.TextDataWriter.WriteLine(System.String,System.Object[])
   name: WriteLine(String, Object[])
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_WriteLine_System_String_System_Object___
-  commentId: M:Yarhl.IO.TextWriter.WriteLine(System.String,System.Object[])
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_WriteLine_System_String_System_Object___
+  commentId: M:Yarhl.IO.TextDataWriter.WriteLine(System.String,System.Object[])
   name.vb: WriteLine(String, Object())
-  fullName: Yarhl.IO.TextWriter.WriteLine(System.String, System.Object[])
-  fullName.vb: Yarhl.IO.TextWriter.WriteLine(System.String, System.Object())
-  nameWithType: TextWriter.WriteLine(String, Object[])
-  nameWithType.vb: TextWriter.WriteLine(String, Object())
-- uid: Yarhl.IO.TextWriter.WriteLine*
+  fullName: Yarhl.IO.TextDataWriter.WriteLine(System.String, System.Object[])
+  fullName.vb: Yarhl.IO.TextDataWriter.WriteLine(System.String, System.Object())
+  nameWithType: TextDataWriter.WriteLine(String, Object[])
+  nameWithType.vb: TextDataWriter.WriteLine(String, Object())
+- uid: Yarhl.IO.TextDataWriter.WriteLine*
   name: WriteLine
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_WriteLine_
-  commentId: Overload:Yarhl.IO.TextWriter.WriteLine
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_WriteLine_
+  commentId: Overload:Yarhl.IO.TextDataWriter.WriteLine
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.WriteLine
-  nameWithType: TextWriter.WriteLine
-- uid: Yarhl.IO.TextWriter.WritePreamble
+  fullName: Yarhl.IO.TextDataWriter.WriteLine
+  nameWithType: TextDataWriter.WriteLine
+- uid: Yarhl.IO.TextDataWriter.WritePreamble
   name: WritePreamble()
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_WritePreamble
-  commentId: M:Yarhl.IO.TextWriter.WritePreamble
-  fullName: Yarhl.IO.TextWriter.WritePreamble()
-  nameWithType: TextWriter.WritePreamble()
-- uid: Yarhl.IO.TextWriter.WritePreamble*
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_WritePreamble
+  commentId: M:Yarhl.IO.TextDataWriter.WritePreamble
+  fullName: Yarhl.IO.TextDataWriter.WritePreamble()
+  nameWithType: TextDataWriter.WritePreamble()
+- uid: Yarhl.IO.TextDataWriter.WritePreamble*
   name: WritePreamble
-  href: api/Yarhl.IO.TextWriter.html#Yarhl_IO_TextWriter_WritePreamble_
-  commentId: Overload:Yarhl.IO.TextWriter.WritePreamble
+  href: api/Yarhl.IO.TextDataWriter.html#Yarhl_IO_TextDataWriter_WritePreamble_
+  commentId: Overload:Yarhl.IO.TextDataWriter.WritePreamble
   isSpec: "True"
-  fullName: Yarhl.IO.TextWriter.WritePreamble
-  nameWithType: TextWriter.WritePreamble
+  fullName: Yarhl.IO.TextDataWriter.WritePreamble
+  nameWithType: TextDataWriter.WritePreamble
 - uid: Yarhl.Media.Text
   name: Yarhl.Media.Text
   href: api/Yarhl.Media.Text.html
