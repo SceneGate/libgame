@@ -8,7 +8,7 @@
     <title>Yarhl in a nutshell | SceneGate Yarhl </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Yarhl in a nutshell | SceneGate Yarhl ">
-    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="generator" content="docfx 2.56.6.0">
     
     <link rel="shortcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -155,7 +155,7 @@ offsets and lengths.</p>
 will dispose the <code>Stream</code> too.</p>
 <h4 id="comparison">Comparison</h4>
 <p>The <code>DataStream</code> class provides the
-<a class="xref" href="../api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_Compare_Yarhl_IO_DataStream_"><code>Compare</code></a> method to
+<a class="xref" href="../api/Yarhl.IO.DataStream.html#Yarhl_IO_DataStream_Compare_System_IO_Stream_"><code>Compare</code></a> method to
 check if two streams are identical.</p>
 <h4 id="push-and-pop-positions">Push and pop positions</h4>
 <p>Similar to the terminal commands <code>pushd</code> and <code>popd</code>, our <code>DataStream</code> provides
@@ -250,7 +250,7 @@ remember, only if you are at the beginning of the stream).</p>
 {
     using (var stream = DataStreamFactory.FromFile(path, FileOpenMode.Read)) {
         var reader = new DataReader(stream) {
-            DefaultEncoding = new EscapeOutRangeEnconding(&quot;ascii&quot;),
+            DefaultEncoding = new EscapeOutRangeEncoding(&quot;ascii&quot;),
             Endianness = EndiannessMode.BigEndian,
         };
 
@@ -378,7 +378,7 @@ contains a root folder, also known as <code>Node</code>. So let's see what a <co
 <h2 id="entering-the-virtual-world-nodes">Entering the virtual world: Nodes</h2>
 <p>This is the main feature of Yarhl and the most important one, no doubt, 10/10
 Yarhl users would say so<sup>1</sup>. Yarhl has a virtual file system to handle
-your files while mantaining your computer intact, you can now delete your
+your files while maintaining your computer intact, you can now delete your
 &quot;tests&quot; folder and clean your desktop after-ages.</p>
 <p><sup>1</sup> <small>None of Yarhl users wants to talk with me anymore. This may
 not be 100% accurate.</small></p>
@@ -442,7 +442,7 @@ iterators and finders.</p>
 }
 </code></pre>
 <p>But if you want to iterate over the full tree of nodes, that is, including the
-children of your childrens (like <code>node</code> in the above example), you can use the
+children of your children (like <code>node</code> in the above example), you can use the
 <code>Navigator</code>.</p>
 <pre><code class="lang-csharp">foreach (var node in Navigator.IterateNodes(root)) {
     // Something
