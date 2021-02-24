@@ -955,18 +955,18 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeFactory.CreateContainersForChild
   nameWithType: NodeFactory.CreateContainersForChild
-- uid: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String)
-  name: FromDirectory(String, String)
-  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_
-  commentId: M:Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String)
-  fullName: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.String)
-  nameWithType: NodeFactory.FromDirectory(String, String)
-- uid: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,System.String,System.Boolean)
-  name: FromDirectory(String, String, String, Boolean)
-  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_System_String_System_Boolean_
-  commentId: M:Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,System.String,System.Boolean)
-  fullName: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.String, System.String, System.Boolean)
-  nameWithType: NodeFactory.FromDirectory(String, String, String, Boolean)
+- uid: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,System.String,System.Boolean,Yarhl.IO.FileOpenMode)
+  name: FromDirectory(String, String, String, Boolean, FileOpenMode)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_System_String_System_Boolean_Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,System.String,System.Boolean,Yarhl.IO.FileOpenMode)
+  fullName: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.String, System.String, System.Boolean, Yarhl.IO.FileOpenMode)
+  nameWithType: NodeFactory.FromDirectory(String, String, String, Boolean, FileOpenMode)
+- uid: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,Yarhl.IO.FileOpenMode)
+  name: FromDirectory(String, String, FileOpenMode)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,Yarhl.IO.FileOpenMode)
+  fullName: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.String, Yarhl.IO.FileOpenMode)
+  nameWithType: NodeFactory.FromDirectory(String, String, FileOpenMode)
 - uid: Yarhl.FileSystem.NodeFactory.FromDirectory*
   name: FromDirectory
   href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_
@@ -974,18 +974,18 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeFactory.FromDirectory
   nameWithType: NodeFactory.FromDirectory
-- uid: Yarhl.FileSystem.NodeFactory.FromFile(System.String)
-  name: FromFile(String)
-  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromFile_System_String_
-  commentId: M:Yarhl.FileSystem.NodeFactory.FromFile(System.String)
-  fullName: Yarhl.FileSystem.NodeFactory.FromFile(System.String)
-  nameWithType: NodeFactory.FromFile(String)
-- uid: Yarhl.FileSystem.NodeFactory.FromFile(System.String,System.String)
-  name: FromFile(String, String)
-  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromFile_System_String_System_String_
-  commentId: M:Yarhl.FileSystem.NodeFactory.FromFile(System.String,System.String)
-  fullName: Yarhl.FileSystem.NodeFactory.FromFile(System.String, System.String)
-  nameWithType: NodeFactory.FromFile(String, String)
+- uid: Yarhl.FileSystem.NodeFactory.FromFile(System.String,System.String,Yarhl.IO.FileOpenMode)
+  name: FromFile(String, String, FileOpenMode)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromFile_System_String_System_String_Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromFile(System.String,System.String,Yarhl.IO.FileOpenMode)
+  fullName: Yarhl.FileSystem.NodeFactory.FromFile(System.String, System.String, Yarhl.IO.FileOpenMode)
+  nameWithType: NodeFactory.FromFile(String, String, FileOpenMode)
+- uid: Yarhl.FileSystem.NodeFactory.FromFile(System.String,Yarhl.IO.FileOpenMode)
+  name: FromFile(String, FileOpenMode)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromFile_System_String_Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromFile(System.String,Yarhl.IO.FileOpenMode)
+  fullName: Yarhl.FileSystem.NodeFactory.FromFile(System.String, Yarhl.IO.FileOpenMode)
+  nameWithType: NodeFactory.FromFile(String, FileOpenMode)
 - uid: Yarhl.FileSystem.NodeFactory.FromFile*
   name: FromFile
   href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromFile_
