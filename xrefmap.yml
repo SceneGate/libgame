@@ -955,6 +955,24 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeFactory.CreateContainersForChild
   nameWithType: NodeFactory.CreateContainersForChild
+- uid: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.Func{System.String,System.Boolean},System.String,System.Boolean,Yarhl.IO.FileOpenMode)
+  name: FromDirectory(String, Func<String, Boolean>, String, Boolean, FileOpenMode)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_Func_System_String_System_Boolean__System_String_System_Boolean_Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.Func{System.String,System.Boolean},System.String,System.Boolean,Yarhl.IO.FileOpenMode)
+  name.vb: FromDirectory(String, Func(Of String, Boolean), String, Boolean, FileOpenMode)
+  fullName: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.Func<System.String, System.Boolean>, System.String, System.Boolean, Yarhl.IO.FileOpenMode)
+  fullName.vb: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.Func(Of System.String, System.Boolean), System.String, System.Boolean, Yarhl.IO.FileOpenMode)
+  nameWithType: NodeFactory.FromDirectory(String, Func<String, Boolean>, String, Boolean, FileOpenMode)
+  nameWithType.vb: NodeFactory.FromDirectory(String, Func(Of String, Boolean), String, Boolean, FileOpenMode)
+- uid: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.Func{System.String,System.Boolean},Yarhl.IO.FileOpenMode)
+  name: FromDirectory(String, Func<String, Boolean>, FileOpenMode)
+  href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_Func_System_String_System_Boolean__Yarhl_IO_FileOpenMode_
+  commentId: M:Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.Func{System.String,System.Boolean},Yarhl.IO.FileOpenMode)
+  name.vb: FromDirectory(String, Func(Of String, Boolean), FileOpenMode)
+  fullName: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.Func<System.String, System.Boolean>, Yarhl.IO.FileOpenMode)
+  fullName.vb: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String, System.Func(Of System.String, System.Boolean), Yarhl.IO.FileOpenMode)
+  nameWithType: NodeFactory.FromDirectory(String, Func<String, Boolean>, FileOpenMode)
+  nameWithType.vb: NodeFactory.FromDirectory(String, Func(Of String, Boolean), FileOpenMode)
 - uid: Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,System.String,System.Boolean,Yarhl.IO.FileOpenMode)
   name: FromDirectory(String, String, String, Boolean, FileOpenMode)
   href: api/Yarhl.FileSystem.NodeFactory.html#Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_System_String_System_Boolean_Yarhl_IO_FileOpenMode_

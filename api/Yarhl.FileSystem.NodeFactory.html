@@ -337,7 +337,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_CreateContainer_System_String_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.CreateContainer(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L37">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L38">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_CreateContainer_" data-uid="Yarhl.FileSystem.NodeFactory.CreateContainer*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_CreateContainer_System_String_" data-uid="Yarhl.FileSystem.NodeFactory.CreateContainer(System.String)">CreateContainer(String)</h4>
@@ -387,7 +387,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_CreateContainersForChild_Yarhl_FileSystem_Node_System_String_Yarhl_FileSystem_Node_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.CreateContainersForChild(Yarhl.FileSystem.Node%2CSystem.String%2CYarhl.FileSystem.Node)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L53">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L54">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_CreateContainersForChild_" data-uid="Yarhl.FileSystem.NodeFactory.CreateContainersForChild*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_CreateContainersForChild_Yarhl_FileSystem_Node_System_String_Yarhl_FileSystem_Node_" data-uid="Yarhl.FileSystem.NodeFactory.CreateContainersForChild(Yarhl.FileSystem.Node,System.String,Yarhl.FileSystem.Node)">CreateContainersForChild(Node, String, Node)</h4>
@@ -430,10 +430,146 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_Func_System_String_System_Boolean__System_String_System_Boolean_Yarhl_IO_FileOpenMode_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromDirectory(System.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CSystem.String%2CSystem.Boolean%2CYarhl.IO.FileOpenMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L279">View Source</a>
+  </span>
+  <a id="Yarhl_FileSystem_NodeFactory_FromDirectory_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory*"></a>
+  <h4 id="Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_Func_System_String_System_Boolean__System_String_System_Boolean_Yarhl_IO_FileOpenMode_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.Func{System.String,System.Boolean},System.String,System.Boolean,Yarhl.IO.FileOpenMode)">FromDirectory(String, Func&lt;String, Boolean&gt;, String, Boolean, FileOpenMode)</h4>
+  <div class="markdown level1 summary"><p>Creates a Node containing all the files from the directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Node FromDirectory(string dirPath, Func&lt;string, bool&gt; filter, string nodeName, bool subDirectories = false, FileOpenMode mode = FileOpenMode.ReadWrite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">dirPath</span></td>
+        <td><p>Directory path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>Filter for files in directory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">nodeName</span></td>
+        <td><p>Node name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">subDirectories</span></td>
+        <td><p>If <span class="xref">true</span> it searchs recursively in subdirectories.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Yarhl.IO.FileOpenMode.html">FileOpenMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The mode to open the files.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Yarhl.FileSystem.Node.html">Node</a></td>
+        <td><p>The container node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_Func_System_String_System_Boolean__Yarhl_IO_FileOpenMode_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromDirectory(System.String%2CSystem.Func%7BSystem.String%2CSystem.Boolean%7D%2CYarhl.IO.FileOpenMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L249">View Source</a>
+  </span>
+  <a id="Yarhl_FileSystem_NodeFactory_FromDirectory_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory*"></a>
+  <h4 id="Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_Func_System_String_System_Boolean__Yarhl_IO_FileOpenMode_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.Func{System.String,System.Boolean},Yarhl.IO.FileOpenMode)">FromDirectory(String, Func&lt;String, Boolean&gt;, FileOpenMode)</h4>
+  <div class="markdown level1 summary"><p>Creates a Node containing all the files from the directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Node FromDirectory(string dirPath, Func&lt;string, bool&gt; filter, FileOpenMode mode = FileOpenMode.ReadWrite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">dirPath</span></td>
+        <td><p>Directory path.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">filter</span></td>
+        <td><p>Filter for files in directory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Yarhl.IO.FileOpenMode.html">FileOpenMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The mode to open the files.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Yarhl.FileSystem.Node.html">Node</a></td>
+        <td><p>The container node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_System_String_System_Boolean_Yarhl_IO_FileOpenMode_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromDirectory(System.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CYarhl.IO.FileOpenMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L207">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L212">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_FromDirectory_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_System_String_System_Boolean_Yarhl_IO_FileOpenMode_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,System.String,System.Boolean,Yarhl.IO.FileOpenMode)">FromDirectory(String, String, String, Boolean, FileOpenMode)</h4>
@@ -507,7 +643,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_Yarhl_IO_FileOpenMode_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromDirectory(System.String%2CSystem.String%2CYarhl.IO.FileOpenMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L184">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L185">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_FromDirectory_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_FromDirectory_System_String_System_String_Yarhl_IO_FileOpenMode_" data-uid="Yarhl.FileSystem.NodeFactory.FromDirectory(System.String,System.String,Yarhl.IO.FileOpenMode)">FromDirectory(String, String, FileOpenMode)</h4>
@@ -569,7 +705,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromFile_System_String_System_String_Yarhl_IO_FileOpenMode_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromFile(System.String%2CSystem.String%2CYarhl.IO.FileOpenMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L155">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L156">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_FromFile_" data-uid="Yarhl.FileSystem.NodeFactory.FromFile*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_FromFile_System_String_System_String_Yarhl_IO_FileOpenMode_" data-uid="Yarhl.FileSystem.NodeFactory.FromFile(System.String,System.String,Yarhl.IO.FileOpenMode)">FromFile(String, String, FileOpenMode)</h4>
@@ -631,7 +767,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromFile_System_String_Yarhl_IO_FileOpenMode_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromFile(System.String%2CYarhl.IO.FileOpenMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L139">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L140">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_FromFile_" data-uid="Yarhl.FileSystem.NodeFactory.FromFile*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_FromFile_System_String_Yarhl_IO_FileOpenMode_" data-uid="Yarhl.FileSystem.NodeFactory.FromFile(System.String,Yarhl.IO.FileOpenMode)">FromFile(String, FileOpenMode)</h4>
@@ -687,7 +823,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromMemory_System_String_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromMemory(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L90">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L91">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_FromMemory_" data-uid="Yarhl.FileSystem.NodeFactory.FromMemory*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_FromMemory_System_String_" data-uid="Yarhl.FileSystem.NodeFactory.FromMemory(System.String)">FromMemory(String)</h4>
@@ -737,7 +873,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory_FromSubstream_System_String_System_IO_Stream_System_Int64_System_Int64_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory.FromSubstream(System.String%2CSystem.IO.Stream%2CSystem.Int64%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L116">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L117">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_NodeFactory_FromSubstream_" data-uid="Yarhl.FileSystem.NodeFactory.FromSubstream*"></a>
   <h4 id="Yarhl_FileSystem_NodeFactory_FromSubstream_System_String_System_IO_Stream_System_Int64_System_Int64_" data-uid="Yarhl.FileSystem.NodeFactory.FromSubstream(System.String,System.IO.Stream,System.Int64,System.Int64)">FromSubstream(String, Stream, Int64, Int64)</h4>
@@ -818,7 +954,7 @@ recommended to dispose it.</p>
                     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_NodeFactory.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.NodeFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L30" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/NodeFactory.cs/#L31" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
