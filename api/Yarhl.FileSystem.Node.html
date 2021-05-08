@@ -129,6 +129,9 @@
                                   <a href="../dev/../api/Yarhl.FileFormat.FormatMetadata.html" title="FormatMetadata" class="">FormatMetadata</a>
                                 </li>
                                 <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.ICloneableFormat.html" title="ICloneableFormat" class="">ICloneableFormat</a>
+                                </li>
+                                <li class="">
                                   <a href="../dev/../api/Yarhl.FileFormat.IConverter.html" title="IConverter" class="">IConverter</a>
                                 </li>
                                 <li class="">
@@ -390,7 +393,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node__ctor_System_String_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.%23ctor(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L35">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L36">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node__ctor_" data-uid="Yarhl.FileSystem.Node.#ctor*"></a>
   <h4 id="Yarhl_FileSystem_Node__ctor_System_String_" data-uid="Yarhl.FileSystem.Node.#ctor(System.String)">Node(String)</h4>
@@ -424,7 +427,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node__ctor_System_String_Yarhl_FileFormat_IFormat_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.%23ctor(System.String%2CYarhl.FileFormat.IFormat)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L45">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L46">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node__ctor_" data-uid="Yarhl.FileSystem.Node.#ctor*"></a>
   <h4 id="Yarhl_FileSystem_Node__ctor_System_String_Yarhl_FileFormat_IFormat_" data-uid="Yarhl.FileSystem.Node.#ctor(System.String,Yarhl.FileFormat.IFormat)">Node(String, IFormat)</h4>
@@ -459,6 +462,44 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node__ctor_Yarhl_FileSystem_Node_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.%23ctor(Yarhl.FileSystem.Node)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L62">View Source</a>
+  </span>
+  <a id="Yarhl_FileSystem_Node__ctor_" data-uid="Yarhl.FileSystem.Node.#ctor*"></a>
+  <h4 id="Yarhl_FileSystem_Node__ctor_Yarhl_FileSystem_Node_" data-uid="Yarhl.FileSystem.Node.#ctor(Yarhl.FileSystem.Node)">Node(Node)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Yarhl.FileSystem.Node.html">Node</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Node(Node node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Yarhl.FileSystem.Node.html">Node</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The original node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Yarhl_FileSystem_Node__ctor_Yarhl_FileSystem_Node__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>It makes a copy of the original node.
+    The original format is deep copied. See <a class="xref" href="Yarhl.FileFormat.ICloneableFormat.html">ICloneableFormat</a> for details.</p>
+</div>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
@@ -466,7 +507,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_Format.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.Format%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L55">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L86">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_Format_" data-uid="Yarhl.FileSystem.Node.Format*"></a>
   <h4 id="Yarhl_FileSystem_Node_Format" data-uid="Yarhl.FileSystem.Node.Format">Format</h4>
@@ -498,7 +539,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_IsContainer.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.IsContainer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L77">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L108">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_IsContainer_" data-uid="Yarhl.FileSystem.Node.IsContainer*"></a>
   <h4 id="Yarhl_FileSystem_Node_IsContainer" data-uid="Yarhl.FileSystem.Node.IsContainer">IsContainer</h4>
@@ -531,7 +572,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_Stream.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.Stream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L66">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L97">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_Stream_" data-uid="Yarhl.FileSystem.Node.Stream*"></a>
   <h4 id="Yarhl_FileSystem_Node_Stream" data-uid="Yarhl.FileSystem.Node.Stream">Stream</h4>
@@ -565,7 +606,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_ChangeFormat_Yarhl_FileFormat_IFormat_System_Boolean_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.ChangeFormat(Yarhl.FileFormat.IFormat%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L111">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L142">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_ChangeFormat_" data-uid="Yarhl.FileSystem.Node.ChangeFormat*"></a>
   <h4 id="Yarhl_FileSystem_Node_ChangeFormat_Yarhl_FileFormat_IFormat_System_Boolean_" data-uid="Yarhl.FileSystem.Node.ChangeFormat(Yarhl.FileFormat.IFormat,System.Boolean)">ChangeFormat(IFormat, Boolean)</h4>
@@ -614,7 +655,7 @@ the method is a no-op.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L285">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L316">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_Dispose_" data-uid="Yarhl.FileSystem.Node.Dispose*"></a>
   <h4 id="Yarhl_FileSystem_Node_Dispose_System_Boolean_" data-uid="Yarhl.FileSystem.Node.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -651,7 +692,7 @@ object.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_GetFormatAs__1.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.GetFormatAs%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L86">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L117">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_GetFormatAs_" data-uid="Yarhl.FileSystem.Node.GetFormatAs*"></a>
   <h4 id="Yarhl_FileSystem_Node_GetFormatAs__1" data-uid="Yarhl.FileSystem.Node.GetFormatAs``1">GetFormatAs&lt;T&gt;()</h4>
@@ -700,7 +741,7 @@ object.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_TransformTo_System_Type_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.TransformTo(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L162">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L193">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_TransformTo_" data-uid="Yarhl.FileSystem.Node.TransformTo*"></a>
   <h4 id="Yarhl_FileSystem_Node_TransformTo_System_Type_" data-uid="Yarhl.FileSystem.Node.TransformTo(System.Type)">TransformTo(Type)</h4>
@@ -750,7 +791,7 @@ object.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_TransformTo__1.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.TransformTo%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L142">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L173">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_TransformTo_" data-uid="Yarhl.FileSystem.Node.TransformTo*"></a>
   <h4 id="Yarhl_FileSystem_Node_TransformTo__1" data-uid="Yarhl.FileSystem.Node.TransformTo``1">TransformTo&lt;TDst&gt;()</h4>
@@ -799,7 +840,7 @@ object.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_TransformWith_System_Type_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.TransformWith(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L233">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L264">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_TransformWith_" data-uid="Yarhl.FileSystem.Node.TransformWith*"></a>
   <h4 id="Yarhl_FileSystem_Node_TransformWith_System_Type_" data-uid="Yarhl.FileSystem.Node.TransformWith(System.Type)">TransformWith(Type)</h4>
@@ -849,7 +890,7 @@ object.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_TransformWith__1.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.TransformWith%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L186">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L217">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_TransformWith_" data-uid="Yarhl.FileSystem.Node.TransformWith*"></a>
   <h4 id="Yarhl_FileSystem_Node_TransformWith__1" data-uid="Yarhl.FileSystem.Node.TransformWith``1">TransformWith&lt;TConv&gt;()</h4>
@@ -898,7 +939,7 @@ object.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_TransformWith__2___1_.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.TransformWith%60%602(%60%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L211">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L242">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_TransformWith_" data-uid="Yarhl.FileSystem.Node.TransformWith*"></a>
   <h4 id="Yarhl_FileSystem_Node_TransformWith__2___1_" data-uid="Yarhl.FileSystem.Node.TransformWith``2(``1)">TransformWith&lt;TConv, TParam&gt;(TParam)</h4>
@@ -971,7 +1012,7 @@ initialized with parameters.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node_TransformWith__2_Yarhl_FileFormat_IConverter___0___1__.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node.TransformWith%60%602(Yarhl.FileFormat.IConverter%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L259">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L290">View Source</a>
   </span>
   <a id="Yarhl_FileSystem_Node_TransformWith_" data-uid="Yarhl.FileSystem.Node.TransformWith*"></a>
   <h4 id="Yarhl_FileSystem_Node_TransformWith__2_Yarhl_FileFormat_IConverter___0___1__" data-uid="Yarhl.FileSystem.Node.TransformWith``2(Yarhl.FileFormat.IConverter{``0,``1})">TransformWith&lt;TSrc, TDst&gt;(IConverter&lt;TSrc, TDst&gt;)</h4>
@@ -1053,7 +1094,7 @@ initialized with parameters.</p>
                     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileSystem_Node.md&amp;value=---%0Auid%3A%20Yarhl.FileSystem.Node%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L29" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileSystem/Node.cs/#L30" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

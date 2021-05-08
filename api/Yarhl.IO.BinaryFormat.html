@@ -129,6 +129,9 @@
                                   <a href="../dev/../api/Yarhl.FileFormat.FormatMetadata.html" title="FormatMetadata" class="">FormatMetadata</a>
                                 </li>
                                 <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.ICloneableFormat.html" title="ICloneableFormat" class="">ICloneableFormat</a>
+                                </li>
+                                <li class="">
                                   <a href="../dev/../api/Yarhl.FileFormat.IConverter.html" title="IConverter" class="">IConverter</a>
                                 </li>
                                 <li class="">
@@ -327,14 +330,15 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Yarhl.IO.IBinary.html">IBinary</a></div>
-    <div><a class="xref" href="Yarhl.FileFormat.IFormat.html">IFormat</a></div>
     <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="Yarhl.FileFormat.ICloneableFormat.html">ICloneableFormat</a></div>
+    <div><a class="xref" href="Yarhl.FileFormat.IFormat.html">IFormat</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Yarhl.IO.html">Yarhl.IO</a></h6>
   <h6><strong>Assembly</strong>: Yarhl.dll</h6>
   <h5 id="Yarhl_IO_BinaryFormat_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class BinaryFormat : IBinary, IFormat, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public class BinaryFormat : IBinary, IDisposable, ICloneableFormat, IFormat</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -343,7 +347,7 @@
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L34">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L35">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat__ctor_" data-uid="Yarhl.IO.BinaryFormat.#ctor*"></a>
   <h4 id="Yarhl_IO_BinaryFormat__ctor" data-uid="Yarhl.IO.BinaryFormat.#ctor">BinaryFormat()</h4>
@@ -360,7 +364,7 @@ Creates a stream in memory.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L46">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L47">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat__ctor_" data-uid="Yarhl.IO.BinaryFormat.#ctor*"></a>
   <h4 id="Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_" data-uid="Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream)">BinaryFormat(Stream)</h4>
@@ -395,7 +399,7 @@ You must not dispose it.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_System_Int64_System_Int64_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.%23ctor(System.IO.Stream%2CSystem.Int64%2CSystem.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L67">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L68">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat__ctor_" data-uid="Yarhl.IO.BinaryFormat.#ctor*"></a>
   <h4 id="Yarhl_IO_BinaryFormat__ctor_System_IO_Stream_System_Int64_System_Int64_" data-uid="Yarhl.IO.BinaryFormat.#ctor(System.IO.Stream,System.Int64,System.Int64)">BinaryFormat(Stream, Int64, Int64)</h4>
@@ -450,7 +454,7 @@ recommended to dispose it.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Disposed.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Disposed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L91">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L92">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Disposed_" data-uid="Yarhl.IO.BinaryFormat.Disposed*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Disposed" data-uid="Yarhl.IO.BinaryFormat.Disposed">Disposed</h4>
@@ -482,7 +486,7 @@ is disposed.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Stream.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Stream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L82">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L83">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Stream_" data-uid="Yarhl.IO.BinaryFormat.Stream*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Stream" data-uid="Yarhl.IO.BinaryFormat.Stream">Stream</h4>
@@ -512,10 +516,46 @@ is disposed.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_DeepClone.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.DeepClone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L103">View Source</a>
+  </span>
+  <a id="Yarhl_IO_BinaryFormat_DeepClone_" data-uid="Yarhl.IO.BinaryFormat.DeepClone*"></a>
+  <h4 id="Yarhl_IO_BinaryFormat_DeepClone" data-uid="Yarhl.IO.BinaryFormat.DeepClone">DeepClone()</h4>
+  <div class="markdown level1 summary"><p>Makes a copy of the format stream <strong>into memory</strong>
+and returns a new <a class="xref" href="Yarhl.IO.BinaryFormat.html">BinaryFormat</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual object DeepClone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The cloned <a class="xref" href="Yarhl.IO.BinaryFormat.html">BinaryFormat</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Yarhl_IO_BinaryFormat_DeepClone_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The stream is copied into memory, so it is limited to 2GB size.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Dispose.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L99">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L114">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Dispose_" data-uid="Yarhl.IO.BinaryFormat.Dispose*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Dispose" data-uid="Yarhl.IO.BinaryFormat.Dispose">Dispose()</h4>
@@ -531,7 +571,7 @@ is disposed.</p>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L112">View Source</a>
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L127">View Source</a>
   </span>
   <a id="Yarhl_IO_BinaryFormat_Dispose_" data-uid="Yarhl.IO.BinaryFormat.Dispose*"></a>
   <h4 id="Yarhl_IO_BinaryFormat_Dispose_System_Boolean_" data-uid="Yarhl.IO.BinaryFormat.Dispose(System.Boolean)">Dispose(Boolean)</h4>
@@ -566,10 +606,13 @@ It happens from Dispose() calls.</p>
       <a class="xref" href="Yarhl.IO.IBinary.html">IBinary</a>
   </div>
   <div>
-      <a class="xref" href="Yarhl.FileFormat.IFormat.html">IFormat</a>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
   </div>
   <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+      <a class="xref" href="Yarhl.FileFormat.ICloneableFormat.html">ICloneableFormat</a>
+  </div>
+  <div>
+      <a class="xref" href="Yarhl.FileFormat.IFormat.html">IFormat</a>
   </div>
 </article>
           </div>
@@ -582,7 +625,7 @@ It happens from Dispose() calls.</p>
                     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_IO_BinaryFormat.md&amp;value=---%0Auid%3A%20Yarhl.IO.BinaryFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L28" class="contribution-link">View Source</a>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/IO/BinaryFormat.cs/#L29" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

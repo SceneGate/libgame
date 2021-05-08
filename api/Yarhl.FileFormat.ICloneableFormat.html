@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Yarhl.Media.Text.Encodings
+    <title>Interface ICloneableFormat
    | SceneGate Yarhl </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Yarhl.Media.Text.Encodings
+    <meta name="title" content="Interface ICloneableFormat
    | SceneGate Yarhl ">
     <meta name="generator" content="docfx 2.56.7.0">
     
@@ -314,22 +314,59 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Yarhl.Media.Text.Encodings">
+            <article class="content wrap" id="_content" data-uid="Yarhl.FileFormat.ICloneableFormat">
   
-  <h1 id="Yarhl_Media_Text_Encodings" data-uid="Yarhl.Media.Text.Encodings" class="text-break">Namespace Yarhl.Media.Text.Encodings
+  
+  <h1 id="Yarhl_FileFormat_ICloneableFormat" data-uid="Yarhl.FileFormat.ICloneableFormat" class="text-break">Interface ICloneableFormat
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Cloneable format interface.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <h6><strong>Namespace</strong>: <a class="xref" href="Yarhl.FileFormat.html">Yarhl.FileFormat</a></h6>
+  <h6><strong>Assembly</strong>: Yarhl.dll</h6>
+  <h5 id="Yarhl_FileFormat_ICloneableFormat_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ICloneableFormat : IFormat</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="Yarhl.Media.Text.Encodings.EscapeOutRangeEncoding.html">EscapeOutRangeEncoding</a></h4>
-      <section><p>Provides an encoding for encode and decode symbols out of range of any encoding.</p>
-</section>
-      <h4><a class="xref" href="Yarhl.Media.Text.Encodings.EucJpEncoding.html">EucJpEncoding</a></h4>
-      <section><p>EUC-JP encoding.
-Implemented standard from: <a href="https://encoding.spec.whatwg.org/">https://encoding.spec.whatwg.org/</a>.</p>
-</section>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileFormat_ICloneableFormat_DeepClone.md&amp;value=---%0Auid%3A%20Yarhl.FileFormat.ICloneableFormat.DeepClone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileFormat/ICloneableFormat.cs/#L36">View Source</a>
+  </span>
+  <a id="Yarhl_FileFormat_ICloneableFormat_DeepClone_" data-uid="Yarhl.FileFormat.ICloneableFormat.DeepClone*"></a>
+  <h4 id="Yarhl_FileFormat_ICloneableFormat_DeepClone" data-uid="Yarhl.FileFormat.ICloneableFormat.DeepClone">DeepClone()</h4>
+  <div class="markdown level1 summary"><p>Deep clones a format into a new object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">object DeepClone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The cloned format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Yarhl_FileFormat_ICloneableFormat_DeepClone_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A &apos;deep copy&apos; must create the necessary copies, in the way that
+any change in the original node (or any of it&apos;s member hierarchy) won&apos;t affect
+the cloned node.</p>
+</div>
 </article>
           </div>
           
@@ -337,6 +374,12 @@ Implemented standard from: <a href="https://encoding.spec.whatwg.org/">https://e
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_FileFormat_ICloneableFormat.md&amp;value=---%0Auid%3A%20Yarhl.FileFormat.ICloneableFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl/FileFormat/ICloneableFormat.cs/#L25" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

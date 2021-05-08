@@ -129,6 +129,9 @@
                                   <a href="../dev/../api/Yarhl.FileFormat.FormatMetadata.html" title="FormatMetadata" class="">FormatMetadata</a>
                                 </li>
                                 <li class="">
+                                  <a href="../dev/../api/Yarhl.FileFormat.ICloneableFormat.html" title="ICloneableFormat" class="">ICloneableFormat</a>
+                                </li>
+                                <li class="">
                                   <a href="../dev/../api/Yarhl.FileFormat.IConverter.html" title="IConverter" class="">IConverter</a>
                                 </li>
                                 <li class="">
@@ -326,13 +329,14 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
+    <div><a class="xref" href="Yarhl.FileFormat.ICloneableFormat.html">ICloneableFormat</a></div>
     <div><a class="xref" href="Yarhl.FileFormat.IFormat.html">IFormat</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Yarhl.Media.Text.html">Yarhl.Media.Text</a></h6>
   <h6><strong>Assembly</strong>: Yarhl.Media.dll</h6>
   <h5 id="Yarhl_Media_Text_Po_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Po : IFormat</code></pre>
+    <pre><code class="lang-csharp hljs">public class Po : ICloneableFormat, IFormat</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -524,6 +528,43 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_Po_DeepClone.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.Po.DeepClone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/SceneGate/Yarhl/blob/develop/src/Yarhl.Media/Text/Po.cs/#L138">View Source</a>
+  </span>
+  <a id="Yarhl_Media_Text_Po_DeepClone_" data-uid="Yarhl.Media.Text.Po.DeepClone*"></a>
+  <h4 id="Yarhl_Media_Text_Po_DeepClone" data-uid="Yarhl.Media.Text.Po.DeepClone">DeepClone()</h4>
+  <div class="markdown level1 summary"><p>Deep clones a format into a new object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual object DeepClone()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><p>The cloned format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Yarhl_Media_Text_Po_DeepClone_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A &apos;deep copy&apos; must create the necessary copies, in the way that
+any change in the original node (or any of it&apos;s member hierarchy) won&apos;t affect
+the cloned node.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/SceneGate/Yarhl/new/develop/docs/apidoc/new?filename=Yarhl_Media_Text_Po_FindEntry_System_String_System_String_.md&amp;value=---%0Auid%3A%20Yarhl.Media.Text.Po.FindEntry(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
@@ -579,6 +620,9 @@
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Yarhl.FileFormat.ICloneableFormat.html">ICloneableFormat</a>
+  </div>
   <div>
       <a class="xref" href="Yarhl.FileFormat.IFormat.html">IFormat</a>
   </div>

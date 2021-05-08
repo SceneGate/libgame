@@ -219,6 +219,25 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileFormat.FormatMetadata.Type
   nameWithType: FormatMetadata.Type
+- uid: Yarhl.FileFormat.ICloneableFormat
+  name: ICloneableFormat
+  href: api/Yarhl.FileFormat.ICloneableFormat.html
+  commentId: T:Yarhl.FileFormat.ICloneableFormat
+  fullName: Yarhl.FileFormat.ICloneableFormat
+  nameWithType: ICloneableFormat
+- uid: Yarhl.FileFormat.ICloneableFormat.DeepClone
+  name: DeepClone()
+  href: api/Yarhl.FileFormat.ICloneableFormat.html#Yarhl_FileFormat_ICloneableFormat_DeepClone
+  commentId: M:Yarhl.FileFormat.ICloneableFormat.DeepClone
+  fullName: Yarhl.FileFormat.ICloneableFormat.DeepClone()
+  nameWithType: ICloneableFormat.DeepClone()
+- uid: Yarhl.FileFormat.ICloneableFormat.DeepClone*
+  name: DeepClone
+  href: api/Yarhl.FileFormat.ICloneableFormat.html#Yarhl_FileFormat_ICloneableFormat_DeepClone_
+  commentId: Overload:Yarhl.FileFormat.ICloneableFormat.DeepClone
+  isSpec: "True"
+  fullName: Yarhl.FileFormat.ICloneableFormat.DeepClone
+  nameWithType: ICloneableFormat.DeepClone
 - uid: Yarhl.FileFormat.IConverter
   name: IConverter
   href: api/Yarhl.FileFormat.IConverter.html
@@ -696,6 +715,12 @@ references:
   commentId: M:Yarhl.FileSystem.Node.#ctor(System.String,Yarhl.FileFormat.IFormat)
   fullName: Yarhl.FileSystem.Node.Node(System.String, Yarhl.FileFormat.IFormat)
   nameWithType: Node.Node(String, IFormat)
+- uid: Yarhl.FileSystem.Node.#ctor(Yarhl.FileSystem.Node)
+  name: Node(Node)
+  href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node__ctor_Yarhl_FileSystem_Node_
+  commentId: M:Yarhl.FileSystem.Node.#ctor(Yarhl.FileSystem.Node)
+  fullName: Yarhl.FileSystem.Node.Node(Yarhl.FileSystem.Node)
+  nameWithType: Node.Node(Node)
 - uid: Yarhl.FileSystem.Node.#ctor*
   name: Node
   href: api/Yarhl.FileSystem.Node.html#Yarhl_FileSystem_Node__ctor_
@@ -865,6 +890,19 @@ references:
   isSpec: "True"
   fullName: Yarhl.FileSystem.NodeContainerFormat.NodeContainerFormat
   nameWithType: NodeContainerFormat.NodeContainerFormat
+- uid: Yarhl.FileSystem.NodeContainerFormat.DeepClone
+  name: DeepClone()
+  href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_DeepClone
+  commentId: M:Yarhl.FileSystem.NodeContainerFormat.DeepClone
+  fullName: Yarhl.FileSystem.NodeContainerFormat.DeepClone()
+  nameWithType: NodeContainerFormat.DeepClone()
+- uid: Yarhl.FileSystem.NodeContainerFormat.DeepClone*
+  name: DeepClone
+  href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_DeepClone_
+  commentId: Overload:Yarhl.FileSystem.NodeContainerFormat.DeepClone
+  isSpec: "True"
+  fullName: Yarhl.FileSystem.NodeContainerFormat.DeepClone
+  nameWithType: NodeContainerFormat.DeepClone
 - uid: Yarhl.FileSystem.NodeContainerFormat.Dispose
   name: Dispose()
   href: api/Yarhl.FileSystem.NodeContainerFormat.html#Yarhl_FileSystem_NodeContainerFormat_Dispose
@@ -1093,6 +1131,19 @@ references:
   isSpec: "True"
   fullName: Yarhl.IO.BinaryFormat.BinaryFormat
   nameWithType: BinaryFormat.BinaryFormat
+- uid: Yarhl.IO.BinaryFormat.DeepClone
+  name: DeepClone()
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_DeepClone
+  commentId: M:Yarhl.IO.BinaryFormat.DeepClone
+  fullName: Yarhl.IO.BinaryFormat.DeepClone()
+  nameWithType: BinaryFormat.DeepClone()
+- uid: Yarhl.IO.BinaryFormat.DeepClone*
+  name: DeepClone
+  href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_DeepClone_
+  commentId: Overload:Yarhl.IO.BinaryFormat.DeepClone
+  isSpec: "True"
+  fullName: Yarhl.IO.BinaryFormat.DeepClone
+  nameWithType: BinaryFormat.DeepClone
 - uid: Yarhl.IO.BinaryFormat.Dispose
   name: Dispose()
   href: api/Yarhl.IO.BinaryFormat.html#Yarhl_IO_BinaryFormat_Dispose
@@ -3821,6 +3872,19 @@ references:
   isSpec: "True"
   fullName: Yarhl.Media.Text.Po.Add
   nameWithType: Po.Add
+- uid: Yarhl.Media.Text.Po.DeepClone
+  name: DeepClone()
+  href: api/Yarhl.Media.Text.Po.html#Yarhl_Media_Text_Po_DeepClone
+  commentId: M:Yarhl.Media.Text.Po.DeepClone
+  fullName: Yarhl.Media.Text.Po.DeepClone()
+  nameWithType: Po.DeepClone()
+- uid: Yarhl.Media.Text.Po.DeepClone*
+  name: DeepClone
+  href: api/Yarhl.Media.Text.Po.html#Yarhl_Media_Text_Po_DeepClone_
+  commentId: Overload:Yarhl.Media.Text.Po.DeepClone
+  isSpec: "True"
+  fullName: Yarhl.Media.Text.Po.DeepClone
+  nameWithType: Po.DeepClone
 - uid: Yarhl.Media.Text.Po.Entries
   name: Entries
   href: api/Yarhl.Media.Text.Po.html#Yarhl_Media_Text_Po_Entries
@@ -3897,6 +3961,12 @@ references:
   commentId: M:Yarhl.Media.Text.PoEntry.#ctor(System.String)
   fullName: Yarhl.Media.Text.PoEntry.PoEntry(System.String)
   nameWithType: PoEntry.PoEntry(String)
+- uid: Yarhl.Media.Text.PoEntry.#ctor(Yarhl.Media.Text.PoEntry)
+  name: PoEntry(PoEntry)
+  href: api/Yarhl.Media.Text.PoEntry.html#Yarhl_Media_Text_PoEntry__ctor_Yarhl_Media_Text_PoEntry_
+  commentId: M:Yarhl.Media.Text.PoEntry.#ctor(Yarhl.Media.Text.PoEntry)
+  fullName: Yarhl.Media.Text.PoEntry.PoEntry(Yarhl.Media.Text.PoEntry)
+  nameWithType: PoEntry.PoEntry(PoEntry)
 - uid: Yarhl.Media.Text.PoEntry.#ctor*
   name: PoEntry
   href: api/Yarhl.Media.Text.PoEntry.html#Yarhl_Media_Text_PoEntry__ctor_
@@ -4052,6 +4122,12 @@ references:
   commentId: M:Yarhl.Media.Text.PoHeader.#ctor(System.String,System.String,System.String)
   fullName: Yarhl.Media.Text.PoHeader.PoHeader(System.String, System.String, System.String)
   nameWithType: PoHeader.PoHeader(String, String, String)
+- uid: Yarhl.Media.Text.PoHeader.#ctor(Yarhl.Media.Text.PoHeader)
+  name: PoHeader(PoHeader)
+  href: api/Yarhl.Media.Text.PoHeader.html#Yarhl_Media_Text_PoHeader__ctor_Yarhl_Media_Text_PoHeader_
+  commentId: M:Yarhl.Media.Text.PoHeader.#ctor(Yarhl.Media.Text.PoHeader)
+  fullName: Yarhl.Media.Text.PoHeader.PoHeader(Yarhl.Media.Text.PoHeader)
+  nameWithType: PoHeader.PoHeader(PoHeader)
 - uid: Yarhl.Media.Text.PoHeader.#ctor*
   name: PoHeader
   href: api/Yarhl.Media.Text.PoHeader.html#Yarhl_Media_Text_PoHeader__ctor_
